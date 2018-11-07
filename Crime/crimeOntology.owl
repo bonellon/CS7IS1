@@ -1,0 +1,151 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/nicky/ontologies/2018/10/untitled-ontology-21#"
+     xml:base="http://www.semanticweb.org/nicky/ontologies/2018/10/untitled-ontology-21"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/nicky/ontologies/2018/10/untitled-ontology-21"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/nicky/ontologies/2018/10/untitled-ontology-21#hasCoordinate -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nicky/ontologies/2018/10/untitled-ontology-21#hasCoordinate"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/nicky/ontologies/2018/10/untitled-ontology-21#Attempts_or_threats_to_murder_assaults_harassments_and_related_offences_2016 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nicky/ontologies/2018/10/untitled-ontology-21#Attempts_or_threats_to_murder_assaults_harassments_and_related_offences_2016">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nicky/ontologies/2018/10/untitled-ontology-21#Crime"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nicky/ontologies/2018/10/untitled-ontology-21#Burglary_and_related_offences -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nicky/ontologies/2018/10/untitled-ontology-21#Burglary_and_related_offences">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nicky/ontologies/2018/10/untitled-ontology-21#Crime"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nicky/ontologies/2018/10/untitled-ontology-21#Controlled_drug_offences -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nicky/ontologies/2018/10/untitled-ontology-21#Controlled_drug_offences">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nicky/ontologies/2018/10/untitled-ontology-21#Crime"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nicky/ontologies/2018/10/untitled-ontology-21#Crime -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nicky/ontologies/2018/10/untitled-ontology-21#Crime"/>
+    
+
+
+    <!-- http://www.semanticweb.org/nicky/ontologies/2018/10/untitled-ontology-21#Damage_to_property_and_to_the_environment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nicky/ontologies/2018/10/untitled-ontology-21#Damage_to_property_and_to_the_environment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nicky/ontologies/2018/10/untitled-ontology-21#Crime"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nicky/ontologies/2018/10/untitled-ontology-21#Dangerous_or_negligent_acts -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nicky/ontologies/2018/10/untitled-ontology-21#Dangerous_or_negligent_acts">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nicky/ontologies/2018/10/untitled-ontology-21#Crime"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nicky/ontologies/2018/10/untitled-ontology-21#Fraud_deception_and_related_offences -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nicky/ontologies/2018/10/untitled-ontology-21#Fraud_deception_and_related_offences">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nicky/ontologies/2018/10/untitled-ontology-21#Crime"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nicky/ontologies/2018/10/untitled-ontology-21#Kidnapping_and_related_offences -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nicky/ontologies/2018/10/untitled-ontology-21#Kidnapping_and_related_offences">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nicky/ontologies/2018/10/untitled-ontology-21#Crime"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nicky/ontologies/2018/10/untitled-ontology-21#Offences_against_government_justice_procedures_and_organisation_of_crime -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nicky/ontologies/2018/10/untitled-ontology-21#Offences_against_government_justice_procedures_and_organisation_of_crime">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nicky/ontologies/2018/10/untitled-ontology-21#Crime"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nicky/ontologies/2018/10/untitled-ontology-21#Public_order_and_other_social_code_offences -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nicky/ontologies/2018/10/untitled-ontology-21#Public_order_and_other_social_code_offences">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nicky/ontologies/2018/10/untitled-ontology-21#Crime"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nicky/ontologies/2018/10/untitled-ontology-21#Robbery_extortion_and_hijacking_offences -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nicky/ontologies/2018/10/untitled-ontology-21#Robbery_extortion_and_hijacking_offences">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nicky/ontologies/2018/10/untitled-ontology-21#Crime"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nicky/ontologies/2018/10/untitled-ontology-21#Station -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nicky/ontologies/2018/10/untitled-ontology-21#Station"/>
+    
+
+
+    <!-- http://www.semanticweb.org/nicky/ontologies/2018/10/untitled-ontology-21#Theft_and_related_offences -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nicky/ontologies/2018/10/untitled-ontology-21#Theft_and_related_offences">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nicky/ontologies/2018/10/untitled-ontology-21#Crime"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nicky/ontologies/2018/10/untitled-ontology-21#Weapons_and_Explosives_Offences -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nicky/ontologies/2018/10/untitled-ontology-21#Weapons_and_Explosives_Offences">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nicky/ontologies/2018/10/untitled-ontology-21#Crime"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.6.2018-09-06T00:27:41Z) https://github.com/owlcs/owlapi -->
+
