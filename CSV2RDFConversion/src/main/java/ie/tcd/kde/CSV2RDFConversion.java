@@ -80,7 +80,7 @@ public class CSV2RDFConversion {
 
             writeNewCSV(list);
 
-//            System.out.println(list.size());
+//            System.out.println(list.get(0));
 
         } catch (IOException e) {
             e.printStackTrace();
@@ -100,7 +100,21 @@ public class CSV2RDFConversion {
 
             Set<String> key = list.get(0).keySet();
 
-            String header = StringUtils.join(key, ";");
+
+
+
+//            System.out.println(key);
+
+            String[] headerList = (String[]) key.toArray(new String[key.size()]);
+            for (int i = 0; i < headerList.length; i++) {
+
+                headerList[i] = appendStringToCSV(headerList[i]);
+
+            }
+
+//            Set<String> keyHeader = new HashSet<String>(headerList);
+
+            String header = StringUtils.join(headerList, ",");
 //            System.out.println(header);
 
             fileWriter.write(header);
@@ -112,6 +126,7 @@ public class CSV2RDFConversion {
 //                System.out.println(line);
                 fileWriter.write(line);
                 fileWriter.write(System.getProperty("line.separator"));
+//                break;
             }
 
             fileWriter.close();
@@ -138,11 +153,15 @@ public class CSV2RDFConversion {
     private String getLineFromMap(Map<String, String> someMap, Set<String> keys) {
         List<String> values = new ArrayList<>();
         for (String key : keys) {
-            values.add(someMap.get(key) == null ? " " : someMap.get(key));
+            values.add(someMap.get(key) == null ? " " : appendStringToCSV(someMap.get(key)));
+//            System.out.print("Key : "+ key + " Value : " + values.get(values.size() - 1));
         }
-        return StringUtils.join(values, ";");
+        return StringUtils.join(values, ",");
     }
 
+    private static String appendStringToCSV(String str) {
+        return "\"" + str + "\"";
+    }
     public static void main(String args[]) {
         CSV2RDFConversion csv2RDF = new CSV2RDFConversion();
         csv2RDF.readCSV("garda_stations.csv");
