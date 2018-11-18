@@ -1,0 +1,2896 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:j.0="http://lab.Jena.Kdeg.ie/Ontology1#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <owl:Class rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#Station">
+    <j.0:has_Y>hasY</j.0:has_Y>
+    <j.0:has_X>hasX</j.0:has_X>
+  </owl:Class>
+  <owl:Class rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#Wepons_and_Explosives_Offences">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#Crime"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#Robbery_extortion_and_hijacking_offences">
+    <rdfs:subClassOf rdf:resource="http://lab.Jena.Kdeg.ie/Ontology1#Crime"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#Kidnapping_and_related_offences">
+    <rdfs:subClassOf rdf:resource="http://lab.Jena.Kdeg.ie/Ontology1#Crime"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#Public_order_and_other_social_code_offences">
+    <rdfs:subClassOf rdf:resource="http://lab.Jena.Kdeg.ie/Ontology1#Crime"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#Controlled_drug_offences">
+    <rdfs:subClassOf rdf:resource="http://lab.Jena.Kdeg.ie/Ontology1#Crime"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#County"/>
+  <owl:Class rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#Dangerous_or_negligent_acts">
+    <rdfs:subClassOf rdf:resource="http://lab.Jena.Kdeg.ie/Ontology1#Crime"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#Offences_against_government_justice_procedures_and_organisations_of_crime">
+    <rdfs:subClassOf rdf:resource="http://lab.Jena.Kdeg.ie/Ontology1#Crime"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#Theft_and_related_offences">
+    <rdfs:subClassOf rdf:resource="http://lab.Jena.Kdeg.ie/Ontology1#Crime"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#Damage_to_property_and_to_the_environment">
+    <rdfs:subClassOf rdf:resource="http://lab.Jena.Kdeg.ie/Ontology1#Crime"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#Burglary_and_related_offences">
+    <rdfs:subClassOf rdf:resource="http://lab.Jena.Kdeg.ie/Ontology1#Crime"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#Division"/>
+  <owl:Class rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#Fraud_Deception_and_related_offences">
+    <rdfs:subClassOf rdf:resource="http://lab.Jena.Kdeg.ie/Ontology1#Crime"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#Attemps_or_threats_to_murder_assaults_harassments_and_related_offences">
+    <rdfs:subClassOf rdf:resource="http://lab.Jena.Kdeg.ie/Ontology1#Crime"/>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#has_Y"/>
+  <owl:ObjectProperty rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#has_X"/>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Monasterevin&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;An_Rinn&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Division rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;D.M.R._Northern_Division&quot;"/>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Eyrecourt&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Glenmore&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Baile_an_Fheirtéaraigh&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Skibbereen&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Macroom&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Stradbally_Co_Laois&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Rhode&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Blessington&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Ballingarry&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Kilcock&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Athea&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Sligo&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Kilmallock&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Carbury&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Clonbologue&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Croom&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Bangor_Erris&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Charleville&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Clonmany&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;An_Fál_Carrach&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Dunleer&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Irishtown&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Stuake&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Shinrone&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Borris-In-Ossory&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Rathangan&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Glin&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Indreabhan&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Roscommon&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Ballycullane&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Kilmacrennan&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Dingle&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Golden&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Watercourse_Road&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Burnfoot&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Tramore&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Bansha&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Ardfert&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;An_Maim&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Glenbeigh&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Kinvara&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Ardrahan&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Fitzgibbon_Street&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Loughrea&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Emly&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Innishannon&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Toomevara&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Swinford&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Bridewell_Dublin&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Ballyvaughan&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Henry_Street&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Castleblayney&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Portlaoise&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Murroe&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Kinsale&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Coachford&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Boyle&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Sixmilebridge&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Kilkee&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Tubbercurry&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Ferrybank&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Collon&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Newcastle_West&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Division rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Kildare_Division&quot;"/>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Cappawhite&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Kealkil&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Dublin_Airport&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Maynooth&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Rathmullen&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Castlerea&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Division rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;D.M.R._Southern_Division&quot;"/>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Foxford&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Kilrickle&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Manorhamilton&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Tullamore&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Balla&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Division rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Westmeath&quot;"/>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Dunmanway&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Templederry&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Ballyheigue&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Crookstown&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Rosslare_Strand&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Dungarvan&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Stoneyford&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Carlingford&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Kildorrery&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Portroe&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Longford&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Arva&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Pearse_Street&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Bray&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Scariff&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Letterfrack&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Boherbue&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Castletownbere&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Dundalk&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Crusheen&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Drumshambo&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Tarbert&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Kenmare&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Bruff&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Clogherhead&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Millstreet_Co._Cork&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Ballynacargy&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Duleek&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Dunmore_East&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Tullow&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Carna&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Rochfortbridge&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Timoleague&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Gorey&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Woodford&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Bandon&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Baile_Atha_Bui&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Shercock&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Aglish&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Division rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Cork_North_Division&quot;"/>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Kilmacthomas&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Waterford&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Rathfarnham&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Westport&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Lixnaw&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Kells_Ceanannus_Mor&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Na_Gleannta&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Carrigallen&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Division rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Galway_Division&quot;"/>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Ballyhale&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Bishopstown&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Division rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Cavan/Monaghan_Division&quot;"/>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Carrick-on-Bannow&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Ballinamore&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Castlefin&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Arles&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;New_Ross&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Ard_An_Rátha&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Sneem&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Watergrasshill&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Clane&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Crumlin&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Strokestown&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Ramelton&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Killenaule&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Ronanstown&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Ailt_an_Chorrain&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Littleton&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Trim&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Carnew&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Bruree&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Lucan&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Rathgormack&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Enniscorthy&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Ballinlough&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Newport_Co_Tipperary&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Ballydesmond&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Cavan&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Dolla&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Baile_Bhuirne&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Longwood&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Ballingarry_North&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Division rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Wexford_Division&quot;"/>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Kinnegad&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Ballycroy&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Knock&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Ballingarry_South&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Gaillimh&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Ashford&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Freshford&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Ballymun&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Castleconnell&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Monivea&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Clones&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Hackballscross&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Navan&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Rathkeale&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Wexford&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Clonaslee&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Ballymahon&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Blackrock_Co_Dublin&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Newport_Co_Mayo&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Killaloe&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Crime rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#man1"/>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Shannon&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Buncrana&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Virginia&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Mayorstone_Park&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Blackrock_Co_Louth&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Gleann_na_Muaidhe&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Mullingar&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Kilmainham&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Courtown_Harbour&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;An_Cheathru_Rua&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Daingean&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Ballymacarberry&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Abbeyleix&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Knocknagoshel&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Kilmoganny&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Cloch_na_Ron&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Adare&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Kiltormer&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Slane&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Moville&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Rathvilly&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Summerhill&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Charlestown&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Myshall&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Dun_Laoghaire&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Castlegregory&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Gurranabraher&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Dundrum&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Lifford&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Cabinteely&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Division rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Meath_Division&quot;"/>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Kilworth&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Kiltimagh&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Ballyfermot&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Castlebridge&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Kanturk&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Bonniconlon&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;An_Bun_Beag&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Corofin&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Mullagh&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Dunmore&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Division rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Laois/Offaly_Division&quot;"/>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Newtownmountkennedy&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Newmarket_on_Fergus&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Mooncoin&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Enniscrone&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Ahascragh&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Grange&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Portmagee&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Mullinavat&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Anglesea_Street&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Skreen&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Castledermot&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Drinagh&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Division rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;D.M.R._South_Central_Division&quot;"/>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Collooney&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Milford&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Naas&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Castlebellingham&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Edenderry&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Swords&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Ballineen&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Cong&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Ballindine&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Tulsk&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;An_Clochan_Liath&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Mullinahone&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Malahide&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Bennettsbridge&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Ballylanders&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Ballinhassig&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Delvin&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Division rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;D.M.R._Western_Division&quot;"/>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Drumcollogher&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Killala&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Ardfinnan&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Carndonagh&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Division rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Louth_Division&quot;"/>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Omeath&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Mountbellew&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Ballynoe&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Tallow&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Gort&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Shevry&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Bantry&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Midleton&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Callan&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Moneygall&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Tulla&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Ballyconnell&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;An_Charraig&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Ballivor&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Partry&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Blackwater&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Donegal_Town&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Kill_Co_Waterford&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Bothar_Na_Tra&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Smear&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Thurles&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Kenagh&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Borrisokane&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Division rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Donegal_Division&quot;"/>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Edgeworthstown&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Division rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;D.M.R._Eastern_Division&quot;"/>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Emyvale&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Balbriggan&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Ballyshannon&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Dun_Fionnachaid&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Clogheen&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Moylough&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Castleisland&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Castlecomer&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Patrickswell&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Blarney&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Rathmines&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Drogheda&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Elphin&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Cashel&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Cappoquin&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Oughterard&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Headford&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Goresbridge&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Clondalkin&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Multyfarnham&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Cloghan&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Baltinglass&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Division rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Roscommon/Longford_Division&quot;"/>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Coolaney&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Nobber&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Pettigo&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Donnybrook&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Graiguenamanagh&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Division rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Tipperary_Division&quot;"/>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Ballinagh&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Moate&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Kilkenny&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Dunlavin&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Gurteen&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Killarney&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Wicklow&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Ballyjamesduff&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Buttevant&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Schull&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Clonmel&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Cobh&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Killorglin&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Roxboro_Road&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Division rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Sligo/Leitrim_Division&quot;"/>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Lusk&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Kilmacow&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Division rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Cork_City_Division&quot;"/>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Cappamore&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Glasson&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Rathdowney&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Athlone&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Templetuohy&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Ballydehob&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Mallow&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Banagher&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Dunboyne&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Kilnaleck&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Tralee&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Kildare&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Enfield&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Ballymore&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Borrisoleigh&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Ballygar&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Miltown_Malbay&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Mountjoy&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Laytown&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Division rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;D.M.R._North_Central_Division&quot;"/>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Piltown&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Leamybrien&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Mitchelstown&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Durrus&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Clara&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Lissycasey&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Drimoleague&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Pallasgreen&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Crossmolina&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Cabra&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Ballybofey&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Raheny&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Athenry&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Barraduff&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Howth&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Milford_Co_Cork&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Riverstown&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Kilconnell&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Ballon&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Kilmaine&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Campile&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Bundoran&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Birr&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Rathcoole&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Urlingford&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Carrickmacross&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Clogher&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Portumna&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Ballintra&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Tuam&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Ballymote&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Newbridge&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Shillelagh&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Portarlington&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Clontarf&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Glynn&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Avoca&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Castlebar&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Ballaghderreen&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Lanesboro&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Division rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Cork_West_Division&quot;"/>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Clonark&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Castlemaine&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Keel&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Finglas&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Killimor&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Sundrive_Road&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Greystones&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Cahir&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Cloughjordan&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Kevin_Street&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Dunshaughlin&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Castlepollard&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Frenchpark&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Williamstown&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Louisburgh&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Division rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Waterford_Division&quot;"/>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Crosshaven&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Kilbeggan&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Moyne&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Killucan&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Kilcormac&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Carrigans&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Ballybunion&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Division rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Kerry_Division&quot;"/>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Ennis&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Kilcullen&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Carrick-On-Shannon&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Glengarriff&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Skerries&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Rosslare_Harbour&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Askeaton&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Holycross&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Carlow&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#null">
+    <j.0:has_X>"227969"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"267849"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"173214"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"325432"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"246617"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"315268"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"173048"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"99932"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"312337"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"212252"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"160694"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"210734"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"284134"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"90024"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"169344"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"164470"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"133705"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"270220"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"296047"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"83396"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"105080"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"259649"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"257122"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"253366"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"200368"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"137937"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"256441"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"317602"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"183329"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"158606"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"258413"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"320421"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"147506"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"252106"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"146337"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"318394"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"256323"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"154182"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"194987"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"321594"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"203723"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"204465"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"197430"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"260269"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"315553"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"256987"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"188981"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"153544"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"295959"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"136312"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"197590"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"162853"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"166559"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"315864"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"137517"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"116814"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"153304"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"212773"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"217710"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"191871"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"251615"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"63428"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"175961"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"271484"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"298103"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"227140"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"260492"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"251115.81"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"284542"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"208111"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"125619"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"221329"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"112219"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"186778"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"246014"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"148745"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"152084"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"237379"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"255404"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"290559"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"185281"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"235086"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"85724"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"187416"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"153084"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"141389"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"226076"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"297114"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"182426"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"208349"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"282972"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"191056"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>null</j.0:has_X>
+    <j.0:has_X>"261918"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"120423"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"201022"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"70971"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"261416"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"190668"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"243426"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"166222"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"246529"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"177197"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"289174"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"296565"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"254315"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"139499"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"241366"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"121369"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"173689"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"296930"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"305884"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"78762"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"141415"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"268536"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"151036"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"66684"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"80849"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"270878"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"325516"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"136748"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"207497"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"222234"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"155807"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"163724"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"201089"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"105611"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"191203"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"267755"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"172589.81"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"321556"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"214212"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"226088"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"218933"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"108078"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"195590"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"179125"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"88819"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"196862"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"98743"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"146101"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"137620"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"171966"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"115533"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"201676"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"244930"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"188428"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"240741"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"99396"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"319306"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"156431"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"143273"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"160037"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"240257"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"133851"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"125284"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"247140"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"219379"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"144846"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"145605"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"273149"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"222380"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"307291.36"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"171352"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"112003"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"137877"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"166361"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"181432"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"179049"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"176566"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"89689"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"186608"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"180373"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"199053"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"198005"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"217994"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"86995"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"187242"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"113414"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"271783"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"210611"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"199549"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"308547"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"278477"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"160644"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"150065"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"233393"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"233447"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"182977"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"212888"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"225790"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"316435"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"205130"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"215464"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"93084"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"177122"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"271333"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"317246"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"166332"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"253668"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"324524"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"298794"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"164068"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"231761"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"271646"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"149440"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"273892"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"70539"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"193541"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"161958"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"104606"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"269665"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"137162"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"319729"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"112890"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"80393"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"166216"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"296755"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"170530"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"214130"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"252395"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"213346"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"310308"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"62067"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"262613"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"114758"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"191542"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"232780"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"183447"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"162969"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"245534"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"85880"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"44605"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"177119"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>"246475"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"229891"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"264370"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"307001"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"133945.89"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"260357"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"181940"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"50174"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"297174"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"286795"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"168128"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"301985"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"144996"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"166839"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"35414"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"319065"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"126840"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"140650"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"158428"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"306394"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"218181"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"181975"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"322397"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"261062"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"78502"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"233619"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"100103"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"188110"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"279018"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"96326"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"197742"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"94504"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"301857"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"147966"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"312320"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"266084"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"170705"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"127825"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"322823"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"74046"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"244565"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"314161"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"113519"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"272198"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"318804"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"231549"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"115366"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"165871"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"125604"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"326690"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"208717"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"299931"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"315438"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"124157"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"219322"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"238292"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"246764"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"181278"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"135024.18"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"279276"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"178268"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"188876"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"173032"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"268990"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"288341"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"319821"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"208230"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"67530"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"148948"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"287139"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"316369"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"245640"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"218662"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"176239"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"240263"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"213573"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"92959"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"175977"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"141682"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"184343"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"157313"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"127114"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"284115"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"283951"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"225006"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"313394"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"120137"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"112536"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"309287"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"152309"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"238828"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"83700"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"104724"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"221305"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"291982"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"173899"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"162410"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"170369"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"316208"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"93255"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"123336"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"280291"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"304886"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"254379"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"204473"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"180555"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"264824"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"129444.21"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"127908"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"227500"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"77604"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"181576"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"168040"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"182032"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"287355"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"200990"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"127991"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"277476"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"308900"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"67187"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"178054"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"235093"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"192880"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"169834"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"272594"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"312709"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"199147"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"261040"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"305412"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"260568.78"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"231163"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"267347"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"90600"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"327080"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"205977"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"282592"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"106797"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"220495"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"170664"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"246806"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"119653"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"250449"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"159189"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"309409"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"307145"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"280576"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"285472"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"139354"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"176900"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"296955"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"168033"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"233744"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"200396"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"99791"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"162884"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"158095"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"142691"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"167215"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"205627"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"326982"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"247157"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"91133"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"167393"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"268138"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"173289"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"193238"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"210862"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"227394"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"68822"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"286636"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"211550"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"215897"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"115844"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"321299"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"151737"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"286534"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"113521"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"154798"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"300015"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"134499"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"205478"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"209112"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"155824"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"318215"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"193205"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"191938"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"236778"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"316668"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"228676"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"314987"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"170129"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"324528"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"233387"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"287676"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"161004"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"138040"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"180337"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"328526"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"216935"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"307122"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"159406"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"172205"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"138491"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"185149"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"272145"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"161621"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"225751"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"128220"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"208653"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"75635"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"272408"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"316055"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"123241"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"273189"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"314154"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"176519"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"314186"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"266278"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"161825"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"315223"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"267007"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"197379"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"114657"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"86652"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"145203"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"139630"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"270829"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"221174"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"241968"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"219362"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"112360"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"187380"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"37438"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"304644"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"149217"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"223231"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"194129"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"122090"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"300077"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"92932"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"231128"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"220818"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"88391"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"94027"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"173367"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"98357"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"312702"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"127334"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"181554"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"270533"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"168198"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"226257"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"244196"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"331516"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"131905"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"128542"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"293699"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"313825"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"203184"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"315531"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"213158"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"319756"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"257984"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"263312"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"303209"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"297234"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"255311"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"132750"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"240959"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"112955"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"47419"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"233897"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"193377"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"312754"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"318536"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"329636"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"151957"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"236512"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"212284"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"172579"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"282654"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"211174"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"226079"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"287882"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"181932"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"105707"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"147817"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"160858"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"187091"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"131616"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"99155"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"230848"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"218736"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"305758"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"96228"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"250149"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"168230"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"118916"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"312994"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"112583"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"127242"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"72250"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"302452"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"304337"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"129034"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"303300"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"134243.7"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"277589"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"151259"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"125248"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"267993"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"164612"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"228440"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"296036"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"144570"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"191521"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"306227"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"239610"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"307764"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"172745"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"316180"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"203063"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"282766"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"140757"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"147006"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"301292"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"59567"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+    <j.0:has_X>"323458"^^http://www.w3.org/2001/XMLSchema#double</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Kilkelly&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Hospital_Co_Limerick&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Santry&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Pallaskenry&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Annascaul&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Carraig_Airt&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Oola&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Thomastown&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Dowra&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Na_Cealla_Beaga&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Mountcharles&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Ballybay&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Ballinasloe&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Fermoy&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Convoy&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Kildysart&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Whitegate&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Store_Street&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Caherconlish&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Barnaderg&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Ballyhaunis&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Aran_Mor&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Ballincollig&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Belturbet&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;An_Coirean&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Tallaght&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Rathdrum&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Terenure&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Celbridge&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Templemore&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Glenamaddy&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Letterkenny&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Oylegate&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Gob_an_Choire&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Kinlough&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Kilrush&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Rathcormac_Co_Cork&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Killeshandra&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Hacketstown&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Ballyporeen&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Killeagh&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Roundwood&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Athy&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Bridewell_Cork&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Milltown&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Ros_Muc&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Roscrea&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Blackrock_Co_Cork&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Carrickbyrne&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Borris&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Rathmore_Co_Kerry&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Robertstown&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Carrick-On-Suir&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Passage_West&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Liscarroll&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Cootehill&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Tinahely&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Ennistymon&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Division rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Limerick_Division&quot;"/>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Lisdoonvarna&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Division rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Wicklow_Division&quot;"/>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Coolock&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Lismore&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Glanmire&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Beal_an_Mhuirthead&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Togher&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Sraith_Salach&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Division rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Clare_Division&quot;"/>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Craughwell&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Mohill&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Creggs&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Clifden&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Mountrath&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Tipperary&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Clonakilty&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Division rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Kilkenny/Carlow_Division&quot;"/>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Tarelton&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Kingscourt&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Shankill&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Rockcorry&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Roosky&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Rosscarbery&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Kilmore_Quay&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;An_Craoslach&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Swanlinbar&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Aughrim&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Leixlip&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Duncannon&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Shrule&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;An_Spideal&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Blanchardstown&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Ballycotton&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Carrigaline&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Division rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Westmeath_Division&quot;"/>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Maigh_Cuilinn&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Douglas&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Passage_East&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Kerrykeel&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Drumad&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Newmarket&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Bailieboro&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Ballina&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Enniskerry&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Farranfore&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Muff&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Kinnitty&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Arklow&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Oldcastle&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Raphoe&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Clonroche&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Monaghan&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Athleague&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Garristown&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Keadue&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Ballylinan&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Ballyneety&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Mountmellick&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Abbeyfeale&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Bunclody&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Ballyduff&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Durrow&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Ballinrobe&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Ferns&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Glantaine&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Doneraile&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Kilsheelan&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Claremorris&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Cill_Ronain&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Division rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Mayo_Division&quot;"/>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Taghmon&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Scotstown&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Nenagh&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Kilmeaden&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Mayfield&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Muine_Bheag&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Fethard&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Beal_Atha_an_Ghaorthaidh&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Listowel&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Foynes&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Oulart&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Newtowncunningham&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Baltimore&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Lorrha&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Portlaw&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Blacklion&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Caherciveen&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Ardnacrusha&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Ferbane&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Cloyne&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Castletownroche&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Leach_Seoirse&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Kilbrittain&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Drumlish&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Ashbourne&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Rosses_Point&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Louth&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Taughmaconnell&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Ardmore&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Leitir_Mor&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Granard&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Youghal&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Ardee&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+  <j.0:Station rdf:about="http://lab.Jena.Kdeg.ie/Ontology1#&quot;Carrigtwohill&quot;">
+    <j.0:has_Y>0.0</j.0:has_Y>
+    <j.0:has_X>null</j.0:has_X>
+  </j.0:Station>
+</rdf:RDF>
