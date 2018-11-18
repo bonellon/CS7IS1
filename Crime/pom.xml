@@ -27,6 +27,13 @@
             <artifactId>slf4j-log4j12</artifactId>
             <version>1.7.5</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/com.esri.geometry/esri-geometry-api -->
+        <dependency>
+            <groupId>com.esri.geometry</groupId>
+            <artifactId>esri-geometry-api</artifactId>
+            <version>1.0</version>
+        </dependency>
+
 
     </dependencies>
 </project>

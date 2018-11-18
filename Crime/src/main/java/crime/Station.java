@@ -12,17 +12,26 @@ package crime;
 public class Station {
 
     String Name;
-    String X;
+    Division division;
+    double X;
     double Y;
 
     public Station(){
         
     }
     // Parameter constructor
-    public Station(String name, String x, double y) {
+    public Station(String name, double x, double y) {
         Name = name;
         X = x;
         Y = y;
+    }
+
+    public Division getDivision() {
+        return division;
+    }
+
+    public void setDivision(Division division) {
+        this.division = division;
     }
 
     public String getName() {
@@ -33,11 +42,11 @@ public class Station {
         this.Name = Name;
     }
 
-    public String getX() {
+    public double getX() {
         return X;
     }
 
-    public void setX(String X) {
+    public void setX(double X) {
         this.X = X;
     }
 
