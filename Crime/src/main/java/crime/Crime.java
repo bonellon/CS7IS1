@@ -12,7 +12,7 @@ package crime;
 public class Crime {
 
     String Name;
-    int MuderCount, RobberyCount, GovernmentCount, DangerousCount, DrugCount, 
+    int MurderCount, RobberyCount, GovernmentCount, DangerousCount, DrugCount, 
             PropertyCount, PublicCount, TheftCount, FraudCount, WeponsCount, 
             BurglaryCount, KidnappingCount;
 
@@ -28,12 +28,12 @@ public class Crime {
         this.Name = Name;
     }
 
-    public int getMuderCount() {
-        return MuderCount;
+    public int getMurderCount() {
+        return MurderCount;
     }
 
-    public void setMuderCount(int MuderCount) {
-        this.MuderCount = MuderCount;
+    public void setMurderCount(int MuderCount) {
+        this.MurderCount = MuderCount;
     }
 
     public int getRobberyCount() {

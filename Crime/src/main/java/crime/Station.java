@@ -13,11 +13,20 @@ public class Station {
 
     String Name;
     Division division;
+    Crime crime;
     double X;
     double Y;
 
     public Station(){
         
+    }
+
+    public Crime getCrime() {
+        return crime;
+    }
+
+    public void setCrime(Crime crime) {
+        this.crime = crime;
     }
     // Parameter constructor
     public Station(String name, double x, double y) {

@@ -154,15 +154,15 @@ public class CreateModel {
         Y.setDomain(Location);
         Y.setRange(XSD.xfloat);
 
-        //Location.addSuperClass(ontology.createCardinalityRestriction(null, X, 1));
-        //Location.addSuperClass(ontology.createCardinalityRestriction(null, Y, 1));
         Station.setDisjointWith(Division);
 
         OntProperty hasX = ontology.createObjectProperty(baseNs + "has_X");
         OntProperty hasY = ontology.createObjectProperty(baseNs + "has_Y");
+        OntProperty hasCrime = ontology.createObjectProperty(baseNs + "hasCrime");
 
         Station.addProperty(hasX, "hasX");
         Station.addProperty(hasY, "hasY");
+        Station.addProperty(hasCrime, "hasCrime");
 
         ObjectProperty hasStations = ontology.createObjectProperty(baseNs + "hasStations");
         Division.addProperty(hasStations, "hasStations");
@@ -172,22 +172,63 @@ public class CreateModel {
         County.addProperty(hasDivisions, "hasDivisions");
         hasDivisions.addInverseOf(inCounty);
 
+        ObjectProperty hasMurder = ontology.createObjectProperty(baseNs + "hasMurder");
+        Station.addProperty(hasMurder, "hasMurder");
+        ObjectProperty hasRobbery = ontology.createObjectProperty(baseNs + "hasRobbery");
+        Station.addProperty(hasRobbery, "hasRobbery");
+        ObjectProperty hasGovernment = ontology.createObjectProperty(baseNs + "hasGovernment");
+        Station.addProperty(hasGovernment, "hasGovernment");
+        ObjectProperty hasDangerous = ontology.createObjectProperty(baseNs + "hasDangerous");
+        Station.addProperty(hasDangerous, "hasDangerous");
+        ObjectProperty hasDrug = ontology.createObjectProperty(baseNs + "hasDrug");
+        Station.addProperty(hasDrug, "hasDrug");
+        ObjectProperty hasProperty = ontology.createObjectProperty(baseNs + "hasProperty");
+        Station.addProperty(hasProperty, "hasProperty");
+        ObjectProperty hasPublic = ontology.createObjectProperty(baseNs + "hasPublic");
+        Station.addProperty(hasPublic, "hasPublic");
+        ObjectProperty hasTheft = ontology.createObjectProperty(baseNs + "hasTheft");
+        Station.addProperty(hasTheft, "hasTheft");
+        ObjectProperty hasFraud = ontology.createObjectProperty(baseNs + "hasFraud");
+        Station.addProperty(hasFraud, "hasFraud");
+        ObjectProperty hasWepons = ontology.createObjectProperty(baseNs + "hasWepons");
+        Station.addProperty(hasWepons, "hasWepons");
+        ObjectProperty hasBurglary = ontology.createObjectProperty(baseNs + "hasBurglary");
+        Station.addProperty(hasBurglary, "hasBurglary");
+        ObjectProperty hasKidnapping = ontology.createObjectProperty(baseNs + "hasKidnapping");
+        Station.addProperty(hasKidnapping, "hasKidnapping");
+        
         parser();
-
+        
         Divisions.forEach((division) -> {
             Individual ind = ontology.createIndividual(baseNs + division.Name, Division);
         
+            division.stations.forEach((action) -> {
+                ind.addProperty(hasStations, action.Name);
+            });
         });
 
-        Stations.remove(0);
         Stations.forEach((station) -> {
             Individual ind = ontology.createIndividual(baseNs + station.Name, Station);
             //ind.addProperty(hasX, "" + station.X);
             ind.addProperty(hasY, "" + station.Y);
-            ind.addLiteral(hasX, ontology.createTypedLiteral(1.12, XSDDatatype.XSDnonNegativeInteger));
+            ind.addLiteral(hasX, ontology.createTypedLiteral(station.X, XSDDatatype.XSDnonNegativeInteger));
             System.out.println(station.Name);
             if(station.division != null)
                 ind.addProperty(hasDivisions, station.division.Name);
+            if(station.crime != null){
+                ind.addProperty(hasMurder, ""+station.crime.MurderCount);
+                ind.addProperty(hasRobbery, ""+station.crime.RobberyCount);
+                ind.addProperty(hasGovernment, ""+station.crime.GovernmentCount);
+                ind.addProperty(hasDangerous, ""+station.crime.DangerousCount);
+                ind.addProperty(hasDrug, ""+station.crime.DrugCount);
+                ind.addProperty(hasProperty, ""+station.crime.PropertyCount);
+                ind.addProperty(hasPublic, ""+station.crime.PublicCount);
+                ind.addProperty(hasTheft, ""+station.crime.TheftCount);
+                ind.addProperty(hasFraud, ""+station.crime.FraudCount);
+                ind.addProperty(hasWepons, ""+station.crime.WeponsCount);
+                ind.addProperty(hasBurglary, ""+station.crime.BurglaryCount);
+                ind.addProperty(hasKidnapping, ""+station.crime.KidnappingCount);
+            }
         });
 
         Crimes.forEach((crime) -> {
@@ -337,6 +378,7 @@ public class CreateModel {
             if (!next.getSubject().toString().equals(currentSubject)) {
                 Divisions.add(division);
                 Stations.add(station);
+                station.setCrime(crime);
                 Crimes.add(crime);
                 division = new Division();
                 station = new Station();
@@ -355,6 +397,7 @@ public class CreateModel {
             } else if (nextPredicate.endsWith("#y")) {
                 String object = next.getObject().toString();
                 station.setY(Double.parseDouble(object.split("\"")[1]));
+                division.addStation(station);
             } else if (nextPredicate.endsWith("#Divisions")) {
                 String divisionName = next.getObject().toString().replace(' ', '_');
                 if (!Divisions.contains(divisionName)) {
@@ -365,7 +408,7 @@ public class CreateModel {
             } else {
                 if (nextPredicate.endsWith("Attempts%20or%20threats%20to%20murder%2C%20assaults%2C%20harassments%20and%20related%20offences%202015")) {
                     int counter = Integer.parseInt(next.getObject().toString().split("\"")[1]);
-                    crime.setMuderCount(counter);
+                    crime.setMurderCount(counter);
                 } else if (nextPredicate.endsWith("Burglary%20and%20related%20offences%202015")) {
                     int counter = Integer.parseInt(next.getObject().toString().split("\"")[1]);
                     crime.setBurglaryCount(counter);
