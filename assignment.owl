@@ -23,6 +23,16 @@
      rdfs:range :CountyGA .
 
 
+###  http://www.semanticweb.org/groupb/ontologies/2018/11/assignment.owl#contains
+:contains rdf:type owl:ObjectProperty ;
+          owl:inverseOf :isPartOf ;
+          rdf:type owl:TransitiveProperty ;
+          rdfs:domain :County ,
+                      :Division ;
+          rdfs:range :Division ,
+                     :Station .
+
+
 ###  http://www.semanticweb.org/groupb/ontologies/2018/11/assignment.owl#hasCrime
 :hasCrime rdf:type owl:ObjectProperty ;
           owl:inverseOf :isCrimeOf ;
@@ -30,27 +40,11 @@
           rdfs:range :Crime .
 
 
-###  http://www.semanticweb.org/groupb/ontologies/2018/11/assignment.owl#hasDivision
-:hasDivision rdf:type owl:ObjectProperty ;
-             rdfs:subPropertyOf owl:topObjectProperty ;
-             owl:inverseOf :isDivisionOf ;
-             rdfs:domain :County ;
-             rdfs:range :Division .
-
-
 ###  http://www.semanticweb.org/groupb/ontologies/2018/11/assignment.owl#hasGeometry
 :hasGeometry rdf:type owl:ObjectProperty ;
              rdfs:subPropertyOf owl:topObjectProperty ;
              rdfs:domain :County ;
              rdfs:range :Geometry .
-
-
-###  http://www.semanticweb.org/groupb/ontologies/2018/11/assignment.owl#hasStation
-:hasStation rdf:type owl:ObjectProperty ;
-            rdfs:subPropertyOf owl:topObjectProperty ;
-            owl:inverseOf :isStationOf ;
-            rdfs:domain :Division ;
-            rdfs:range :Station .
 
 
 ###  http://www.semanticweb.org/groupb/ontologies/2018/11/assignment.owl#hasX
@@ -73,18 +67,13 @@
            rdfs:range :Station .
 
 
-###  http://www.semanticweb.org/groupb/ontologies/2018/11/assignment.owl#isDivisionOf
-:isDivisionOf rdf:type owl:ObjectProperty ;
-              rdfs:subPropertyOf owl:topObjectProperty ;
-              rdfs:domain :Division ;
-              rdfs:range :County .
-
-
-###  http://www.semanticweb.org/groupb/ontologies/2018/11/assignment.owl#isStationOf
-:isStationOf rdf:type owl:ObjectProperty ;
-             rdfs:subPropertyOf owl:topObjectProperty ;
-             rdfs:domain :Station ;
-             rdfs:range :Division .
+###  http://www.semanticweb.org/groupb/ontologies/2018/11/assignment.owl#isPartOf
+:isPartOf rdf:type owl:ObjectProperty ,
+                   owl:TransitiveProperty ;
+          rdfs:domain :Division ,
+                      :Station ;
+          rdfs:range :County ,
+                     :Division .
 
 
 #################################################################
@@ -104,11 +93,7 @@
 ###  http://www.semanticweb.org/groupb/ontologies/2018/11/assignment.owl#County
 :County rdf:type owl:Class ;
         rdfs:subClassOf [ rdf:type owl:Restriction ;
-                          owl:onProperty :aka ;
-                          owl:someValuesFrom :CountyGA
-                        ] ,
-                        [ rdf:type owl:Restriction ;
-                          owl:onProperty :hasDivision ;
+                          owl:onProperty :contains ;
                           owl:someValuesFrom :Division
                         ] ,
                         [ rdf:type owl:Restriction ;
@@ -118,7 +103,11 @@
 
 
 ###  http://www.semanticweb.org/groupb/ontologies/2018/11/assignment.owl#CountyGA
-:CountyGA rdf:type owl:Class .
+:CountyGA rdf:type owl:Class ;
+          rdfs:subClassOf [ rdf:type owl:Restriction ;
+                            owl:onProperty :aka ;
+                            owl:someValuesFrom :County
+                          ] .
 
 
 ###  http://www.semanticweb.org/groupb/ontologies/2018/11/assignment.owl#Crime
@@ -138,7 +127,7 @@
 ###  http://www.semanticweb.org/groupb/ontologies/2018/11/assignment.owl#Division
 :Division rdf:type owl:Class ;
           rdfs:subClassOf [ rdf:type owl:Restriction ;
-                            owl:onProperty :hasStation ;
+                            owl:onProperty :contains ;
                             owl:someValuesFrom :Station
                           ] .
 
@@ -229,7 +218,7 @@
 :Carlow rdf:type owl:NamedIndividual ,
                  :County ;
         :aka :Ceatharlach ;
-        :hasDivision <http://www.semanticweb.org/groupb/ontologies/2018/11/assignment.owl#Kilkenny/Carlow_Division> .
+        :contains <http://www.semanticweb.org/groupb/ontologies/2018/11/assignment.owl#Kilkenny/Carlow_Division> .
 
 
 ###  http://www.semanticweb.org/groupb/ontologies/2018/11/assignment.owl#Ceatharlach
@@ -240,7 +229,7 @@
 ###  http://www.semanticweb.org/groupb/ontologies/2018/11/assignment.owl#Kilkenny/Carlow_Division
 <http://www.semanticweb.org/groupb/ontologies/2018/11/assignment.owl#Kilkenny/Carlow_Division> rdf:type owl:NamedIndividual ,
                                                                                                         :Division ;
-                                                                                               :hasStation :Ballon .
+                                                                                               :contains :Ballon .
 
 
 #################################################################
@@ -266,6 +255,7 @@
 
 [ rdf:type owl:AllDisjointClasses ;
   owl:members ( :County
+                :CountyGA
                 :Crime
                 :Division
                 :Geometry
