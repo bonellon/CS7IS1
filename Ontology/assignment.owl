@@ -266,7 +266,6 @@
 
 [ rdf:type owl:AllDisjointClasses ;
   owl:members ( :County
-                :CountyGA
                 :Crime
                 :Division
                 :Geometry
