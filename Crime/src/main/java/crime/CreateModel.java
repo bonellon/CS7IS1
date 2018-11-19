@@ -7,6 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
+
 import org.apache.jena.graph.Triple;
 import org.apache.jena.ontology.Individual;
 import org.apache.jena.ontology.OntClass;
@@ -35,21 +36,12 @@ import org.apache.jena.datatypes.xsd.XSDDatatype;
 import org.apache.jena.ontology.DatatypeProperty;
 import org.apache.jena.ontology.ObjectProperty;
 import org.apache.jena.ontology.SymmetricProperty;
-import org.apache.jena.ontology.TransitiveProperty;
 import org.apache.jena.rdf.model.RDFList;
 import org.apache.jena.vocabulary.XSD;
-import org.geotools.geometry.GeneralDirectPosition;
-import org.geotools.referencing.ReferencingFactoryFinder;
-import org.geotools.referencing.operation.DefaultCoordinateOperationFactory;
-import org.opengis.geometry.DirectPosition;
 import org.opengis.geometry.MismatchedDimensionException;
 import org.opengis.referencing.FactoryException;
-import org.opengis.referencing.crs.CRSAuthorityFactory;
-import org.opengis.referencing.crs.CoordinateReferenceSystem;
-import org.opengis.referencing.operation.CoordinateOperation;
 import org.opengis.referencing.operation.TransformException;
 import uk.me.jstott.jcoord.LatLng;
-import uk.me.jstott.jcoord.OSRef;
 import uk.me.jstott.jcoord.IrishRef;
 
 
@@ -63,7 +55,7 @@ public class CreateModel {
 
     public static String baseNs;
 
-    public static String ontologyName = "CrimeOntology";
+    public static String ontologyName = "CrimeOntology.owl";
 
     public static OntModel ontology;
 
@@ -154,13 +146,7 @@ public class CreateModel {
         Crime.addSubClass(Kidnapping);
 
 //
-        OntClass Location = ontology.createClass(baseNs + "Location");
-        DatatypeProperty X = ontology.createDatatypeProperty(baseNs + "X");
-        DatatypeProperty Y = ontology.createDatatypeProperty(baseNs + "Y");
-        X.setDomain(Location);
-        X.setRange(XSD.xfloat);
-        Y.setDomain(Location);
-        Y.setRange(XSD.xfloat);
+        OntClass Severity = ontology.createClass(baseNs + "Severity");
 
         Station.setDisjointWith(Division);
 
