@@ -29,6 +29,8 @@ import org.apache.jena.vocabulary.RDFS;
 import org.apache.log4j.BasicConfigurator;
 import com.esri.core.geometry.*;
 import java.util.Comparator;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import org.apache.jena.datatypes.xsd.XSDDatatype;
 import org.apache.jena.ontology.DatatypeProperty;
 import org.apache.jena.ontology.ObjectProperty;
@@ -36,6 +38,22 @@ import org.apache.jena.ontology.SymmetricProperty;
 import org.apache.jena.ontology.TransitiveProperty;
 import org.apache.jena.rdf.model.RDFList;
 import org.apache.jena.vocabulary.XSD;
+import org.geotools.geometry.GeneralDirectPosition;
+import org.geotools.referencing.ReferencingFactoryFinder;
+import org.geotools.referencing.operation.DefaultCoordinateOperationFactory;
+import org.opengis.geometry.DirectPosition;
+import org.opengis.geometry.MismatchedDimensionException;
+import org.opengis.referencing.FactoryException;
+import org.opengis.referencing.crs.CRSAuthorityFactory;
+import org.opengis.referencing.crs.CoordinateReferenceSystem;
+import org.opengis.referencing.operation.CoordinateOperation;
+import org.opengis.referencing.operation.TransformException;
+import uk.me.jstott.jcoord.LatLng;
+import uk.me.jstott.jcoord.OSRef;
+import uk.me.jstott.jcoord.IrishRef;
+
+
+
 
 public class CreateModel {
 
@@ -62,22 +80,12 @@ public class CreateModel {
 //County
         OntClass County = ontology.createClass(baseNs + "County");
         DatatypeProperty area = ontology.createDatatypeProperty(baseNs + "area");
-        area.addLabel("area", null);
-        area.addComment("Define area of a county", null);
         area.setDomain(County);
         area.setRange(XSD.xfloat);
 
         SymmetricProperty adjacentTo = ontology.createSymmetricProperty(baseNs + "adjacentTo");
-        adjacentTo.addLabel("adjacentTo", null);
-        adjacentTo.addComment("List other counties that is geographically touch with current county", null);
         adjacentTo.setDomain(County);
         adjacentTo.setRange(County);
-
-        TransitiveProperty biggerThan = ontology.createTransitiveProperty(baseNs + "biggerThan");
-        biggerThan.addLabel("biggerThan", null);
-        biggerThan.addComment("List other counties that current county's area is bigger than", null);
-        biggerThan.setDomain(County);
-        biggerThan.setRange(County);
 
 //Division 
         OntClass Division = ontology.createClass(baseNs + "Division");
@@ -166,7 +174,11 @@ public class CreateModel {
 
         ObjectProperty hasStations = ontology.createObjectProperty(baseNs + "hasStations");
         Division.addProperty(hasStations, "hasStations");
+        County.addProperty(hasStations, "hasStations");
         hasStations.addInverseOf(inDivision);
+        hasStations.setDomain(Division);
+        hasStations.setDomain(County);
+        hasStations.setRange(Station);
 
         ObjectProperty hasDivisions = ontology.createObjectProperty(baseNs + "hasDivisions");
         County.addProperty(hasDivisions, "hasDivisions");
@@ -196,43 +208,18 @@ public class CreateModel {
         Station.addProperty(hasBurglary, "hasBurglary");
         ObjectProperty hasKidnapping = ontology.createObjectProperty(baseNs + "hasKidnapping");
         Station.addProperty(hasKidnapping, "hasKidnapping");
-        
+
         parser();
-        
+
         Divisions.forEach((division) -> {
             Individual ind = ontology.createIndividual(baseNs + division.Name, Division);
-        
+
             division.stations.forEach((action) -> {
                 ind.addProperty(hasStations, action.Name);
             });
         });
 
-        Stations.forEach((station) -> {
-            Individual ind = ontology.createIndividual(baseNs + station.Name, Station);
-            //ind.addProperty(hasX, "" + station.X);
-            ind.addProperty(hasY, "" + station.Y);
-            ind.addLiteral(hasX, ontology.createTypedLiteral(station.X, XSDDatatype.XSDnonNegativeInteger));
-            System.out.println(station.Name);
-            if(station.division != null)
-                ind.addProperty(hasDivisions, station.division.Name);
-            if(station.crime != null){
-                ind.addProperty(hasMurder, ""+station.crime.MurderCount);
-                ind.addProperty(hasRobbery, ""+station.crime.RobberyCount);
-                ind.addProperty(hasGovernment, ""+station.crime.GovernmentCount);
-                ind.addProperty(hasDangerous, ""+station.crime.DangerousCount);
-                ind.addProperty(hasDrug, ""+station.crime.DrugCount);
-                ind.addProperty(hasProperty, ""+station.crime.PropertyCount);
-                ind.addProperty(hasPublic, ""+station.crime.PublicCount);
-                ind.addProperty(hasTheft, ""+station.crime.TheftCount);
-                ind.addProperty(hasFraud, ""+station.crime.FraudCount);
-                ind.addProperty(hasWepons, ""+station.crime.WeponsCount);
-                ind.addProperty(hasBurglary, ""+station.crime.BurglaryCount);
-                ind.addProperty(hasKidnapping, ""+station.crime.KidnappingCount);
-            }
-        });
-
         Crimes.forEach((crime) -> {
-            System.out.println(crime);
         });
         System.out.println("Done!");
 
@@ -300,7 +287,7 @@ public class CreateModel {
             aCounty.addLabel((String) info.get(0), null);
             aCounty.addLabel((String) info.get(1), "en");
             aCounty.addLabel((String) info.get(2), "ga");
-            //aCounty.addLiteral(area, (float)info.get(4));
+            aCounty.addLiteral(area, (float) info.get(4));
 
             countyIndiList.add(aCounty);
         }
@@ -315,7 +302,7 @@ public class CreateModel {
                 }
                 Individual otherCountyIndi = countyIndiList.get(i);
                 if (i > curIdx) {
-                    countyIndi.addProperty(biggerThan, otherCountyIndi);
+                    //countyIndi.addProperty(biggerThan, otherCountyIndi);
                 }
                 Geometry otherGeometry = (Geometry) countyList.get(i).get(3);
                 // TODO: Intersection not all correct, for instance, dublin
@@ -325,6 +312,55 @@ public class CreateModel {
                 }
             }
         }
+
+        Stations.forEach((station) -> {
+            Individual ind = ontology.createIndividual(baseNs + station.Name, Station);
+            //ind.addProperty(hasX, "" + station.X);
+            ind.addProperty(hasY, "" + station.Y);
+            ind.addLiteral(hasX, ontology.createTypedLiteral(station.X, XSDDatatype.XSDnonNegativeInteger));
+            if (station.division != null) {
+                ind.addProperty(hasDivisions, station.division.Name);
+            }
+            if (station.crime != null) {
+                ind.addProperty(hasMurder, "" + station.crime.MurderCount);
+                ind.addProperty(hasRobbery, "" + station.crime.RobberyCount);
+                ind.addProperty(hasGovernment, "" + station.crime.GovernmentCount);
+                ind.addProperty(hasDangerous, "" + station.crime.DangerousCount);
+                ind.addProperty(hasDrug, "" + station.crime.DrugCount);
+                ind.addProperty(hasProperty, "" + station.crime.PropertyCount);
+                ind.addProperty(hasPublic, "" + station.crime.PublicCount);
+                ind.addProperty(hasTheft, "" + station.crime.TheftCount);
+                ind.addProperty(hasFraud, "" + station.crime.FraudCount);
+                ind.addProperty(hasWepons, "" + station.crime.WeponsCount);
+                ind.addProperty(hasBurglary, "" + station.crime.BurglaryCount);
+                ind.addProperty(hasKidnapping, "" + station.crime.KidnappingCount);
+            }
+
+            for (int i = 0; i < countyList.size(); i++) {
+                ArrayList<Object> countyInfo = countyList.get(i);
+                Geometry geometry = (Geometry) countyInfo.get(3);
+                
+                Point point = null;
+                try {
+                    point = convertToLatLong(station.X, station.Y);
+                } catch (FactoryException ex) {
+                    Logger.getLogger(CreateModel.class.getName()).log(Level.SEVERE, null, ex);
+                } catch (MismatchedDimensionException ex) {
+                    Logger.getLogger(CreateModel.class.getName()).log(Level.SEVERE, null, ex);
+                } catch (TransformException ex) {
+                    Logger.getLogger(CreateModel.class.getName()).log(Level.SEVERE, null, ex);
+                }
+                
+                System.out.println(point.getX()+" "+point.getY());
+                System.out.println(geometry.calculateArea2D()+"\n");
+                OperatorWithin within = OperatorWithin.local();
+                if (within.execute(point, geometry, SpatialReference.create("WGS84"), null)) {
+                    System.out.println("WITHIN!!!!!!");
+                    //ind.addProperty(inCounty, countyIndiList.get(i));
+                    countyIndiList.get(i).addProperty(hasStations, ind);
+                }
+            }
+        });
 
         try {
             writeToFile(ontologyName);
@@ -393,10 +429,10 @@ public class CreateModel {
                 station.setName(next.getObject().toString().replace(' ', '_'));
             } else if (nextPredicate.endsWith("#x")) {
                 String object = next.getObject().toString();
-                station.setX(Double.parseDouble(object.split("\"")[1]));
+                station.setX(Float.parseFloat((object.split("\"")[1])));
             } else if (nextPredicate.endsWith("#y")) {
                 String object = next.getObject().toString();
-                station.setY(Double.parseDouble(object.split("\"")[1]));
+                station.setY(Float.parseFloat(object.split("\"")[1]));
                 division.addStation(station);
             } else if (nextPredicate.endsWith("#Divisions")) {
                 String divisionName = next.getObject().toString().replace(' ', '_');
@@ -448,6 +484,27 @@ public class CreateModel {
             // Do something with each triple
 
         }
+    }
+    
+    private static Point convertToLatLong(float easting, float northing) throws FactoryException, MismatchedDimensionException, TransformException {
+//        CRSAuthorityFactory crsFac = ReferencingFactoryFinder.getCRSAuthorityFactory("EPSG", null);
+//
+//        CoordinateReferenceSystem wgs84crs = crsFac.createCoordinateReferenceSystem("EPSG:27700");
+//
+//        CoordinateOperation op = new DefaultCoordinateOperationFactory().createOperation(osgbCrs, wgs84crs);
+//
+//        DirectPosition eastNorth = new GeneralDirectPosition(easting, northing);
+//        DirectPosition latLng = op.getMathTransform().transform(eastNorth, eastNorth);
+//
+//        double latitude = latLng.getOrdinate(0);
+//        double longitude = latLng.getOrdinate(1);
+//        
+        IrishRef irish = new IrishRef(easting, northing);
+        LatLng latLng = irish.toLatLng();
+        latLng.toWGS84();
+        
+        Point p = new Point(latLng.getLongitude(), latLng.getLatitude());
+        return p;
     }
 
     public static void writeToFile(String filename)

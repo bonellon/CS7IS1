@@ -14,8 +14,8 @@ public class Station {
     String Name;
     Division division;
     Crime crime;
-    double X;
-    double Y;
+    float X;
+    float Y;
 
     public Station(){
         
@@ -29,7 +29,7 @@ public class Station {
         this.crime = crime;
     }
     // Parameter constructor
-    public Station(String name, double x, double y) {
+    public Station(String name, float x, float y) {
         Name = name;
         X = x;
         Y = y;
@@ -55,7 +55,7 @@ public class Station {
         return X;
     }
 
-    public void setX(double X) {
+    public void setX(float X) {
         this.X = X;
     }
 
@@ -63,7 +63,7 @@ public class Station {
         return Y;
     }
 
-    public void setY(double Y) {
+    public void setY(float Y) {
         this.Y = Y;
     }
     
