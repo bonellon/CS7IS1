@@ -255,6 +255,14 @@ public class CreateModel {
         hasDivisions.setRange(Division);
         hasDivisions.addInverseOf(inCounty);
 
+//        ObjectProperty isStationIn = ontology.createObjectProperty(baseNs + "isStationIn");
+//        Station.addProperty(isStationIn, "isStationIn");
+//        isStationIn.setLabel("isStationIn", null);
+//        isStationIn.setComment("Station's division", null);
+//        isStationIn.setDomain(Station);
+//        isStationIn.setRange(Division);
+        
+        
         ObjectProperty hasMurder = ontology.createObjectProperty(baseNs + "hasMurder");
         Station.addProperty(hasMurder, "hasMurder");
         hasMurder.setLabel("hasMurder", null);
@@ -449,7 +457,7 @@ public class CreateModel {
             ind.addProperty(hasY, "" + station.Y);
             ind.addLiteral(hasX, ontology.createTypedLiteral(station.X, XSDDatatype.XSDnonNegativeInteger));
             if (station.division != null) {
-                ind.addProperty(hasDivisions, station.division.Name);
+                ind.addProperty(inDivision, station.division.Name);
             }
             if (station.crime != null) {
                 ind.addProperty(hasMurder, "" + station.crime.MurderCount);
