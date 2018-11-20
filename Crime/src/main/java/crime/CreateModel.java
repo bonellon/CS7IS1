@@ -35,17 +35,16 @@ import java.util.logging.Logger;
 import org.apache.jena.datatypes.xsd.XSDDatatype;
 import org.apache.jena.ontology.DatatypeProperty;
 import org.apache.jena.ontology.ObjectProperty;
+import org.apache.jena.ontology.Ontology;
 import org.apache.jena.ontology.SymmetricProperty;
 import org.apache.jena.rdf.model.RDFList;
+import org.apache.jena.vocabulary.DCTerms;
 import org.apache.jena.vocabulary.XSD;
 import org.opengis.geometry.MismatchedDimensionException;
 import org.opengis.referencing.FactoryException;
 import org.opengis.referencing.operation.TransformException;
 import uk.me.jstott.jcoord.LatLng;
 import uk.me.jstott.jcoord.IrishRef;
-
-
-
 
 public class CreateModel {
 
@@ -68,54 +67,119 @@ public class CreateModel {
         baseNs = ontologiesBase + ontologyName + "#";
         ontology = ModelFactory.createOntologyModel(OntModelSpec.OWL_MEM);
         BasicConfigurator.configure();
+        Ontology ont = ontology.createOntology(baseNs);
+        ont.addComment("List of all Crimes per Garda Station in Ireland - 2015", null);
+        ont.addProperty(DCTerms.creator, "Nicholas Bonello");
+        ont.addProperty(DCTerms.contributor, "Anirban");
+        ont.addProperty(DCTerms.contributor, "Tomin");
+        ont.addProperty(DCTerms.contributor, "Neeraj");
+        ont.addProperty(DCTerms.contributor, "Lovish");
 
 //County
         OntClass County = ontology.createClass(baseNs + "County");
+        County.setLabel("County", null);
+        County.setComment("County information", null);
+
         DatatypeProperty area = ontology.createDatatypeProperty(baseNs + "area");
         area.setDomain(County);
         area.setRange(XSD.xfloat);
+        area.setLabel("area", null);
+        area.setComment("County Area", null);
 
         SymmetricProperty adjacentTo = ontology.createSymmetricProperty(baseNs + "adjacentTo");
         adjacentTo.setDomain(County);
         adjacentTo.setRange(County);
+        adjacentTo.setLabel("adjacentTo", null);
+        adjacentTo.setComment("Adject to list of counties", null);
 
 //Division 
         OntClass Division = ontology.createClass(baseNs + "Division");
+        Division.setLabel("Division", null);
+        Division.setComment("Division information", null);
+
         DatatypeProperty divisionName = ontology.createDatatypeProperty(baseNs + "DivisionName");
         divisionName.setDomain(Division);
         divisionName.setRange(XSD.xstring);
+        divisionName.setLabel("divisionName", null);
+        divisionName.setComment("divisionName", null);
 
         DatatypeProperty inCounty = ontology.createDatatypeProperty(baseNs + "inCounty");
         inCounty.setDomain(Division);
         inCounty.setRange(County);
+        inCounty.setLabel("inCounty", null);
+        inCounty.setComment("County location per division", null);
 //Station
 
         OntClass Station = ontology.createClass(baseNs + "Station");
+        Station.setLabel("Station", null);
+        Station.setComment("Station information", null);
+
         DatatypeProperty stationId = ontology.createDatatypeProperty(baseNs + "StationId");
         stationId.setDomain(Station);
         stationId.setRange(XSD.nonNegativeInteger);
+        stationId.setLabel("stationId", null);
+        stationId.setComment("Station ID", null);
 
         DatatypeProperty stationName = ontology.createDatatypeProperty(baseNs + "StationName");
         stationName.setDomain(Station);
         stationName.setRange(XSD.xstring);
+        stationName.setLabel("stationName", null);
+        stationName.setComment("Station Name", null);
 
         DatatypeProperty inDivision = ontology.createDatatypeProperty(baseNs + "inDivision");
         inDivision.setDomain(Station);
         inDivision.setRange(Division);
+        inDivision.setLabel("inDivision", null);
+        inDivision.setComment("Division information per Station", null);
 
 //Crime        
         OntClass Murder = ontology.createClass(baseNs + "Attemps_or_threats_to_murder_assaults_harassments_and_related_offences");
+        Murder.setLabel("Murder", null);
+        Murder.setComment("Murder crime statistics", null);
+
         OntClass Robbery = ontology.createClass(baseNs + "Robbery_extortion_and_hijacking_offences");
+        Robbery.setLabel("Robbery", null);
+        Robbery.setComment("Robbery crime statistics", null);
+
         OntClass Government = ontology.createClass(baseNs + "Offences_against_government_justice_procedures_and_organisations_of_crime");
+        Government.setLabel("Government", null);
+        Government.setComment("Crimes against government statistics", null);
+
         OntClass Dangerous = ontology.createClass(baseNs + "Dangerous_or_negligent_acts");
+        Dangerous.setLabel("Dangerous", null);
+        Dangerous.setComment("Dangerous act statistics", null);
+
         OntClass Drug = ontology.createClass(baseNs + "Controlled_drug_offences");
+        Drug.setLabel("Drug", null);
+        Drug.setComment("Drug abuse statistics", null);
+
         OntClass Property = ontology.createClass(baseNs + "Damage_to_property_and_to_the_environment");
+        Property.setLabel("Property", null);
+        Property.setComment("Property crime statistics", null);
+
         OntClass Public = ontology.createClass(baseNs + "Public_order_and_other_social_code_offences");
+        Public.setLabel("Public", null);
+        Public.setComment("Public offence statistics", null);
+
         OntClass Theft = ontology.createClass(baseNs + "Theft_and_related_offences");
+        Theft.setLabel("Theft", null);
+        Theft.setComment("Theft crime statistics", null);
+
         OntClass Fraud = ontology.createClass(baseNs + "Fraud_Deception_and_related_offences");
+        Fraud.setLabel("Fraud", null);
+        Fraud.setComment("Fraud statistics", null);
+
         OntClass Wepons = ontology.createClass(baseNs + "Wepons_and_Explosives_Offences");
+        Wepons.setLabel("Wepons", null);
+        Wepons.setComment("Wepon crime statistics", null);
+
         OntClass Burglary = ontology.createClass(baseNs + "Burglary_and_related_offences");
+        Burglary.setLabel("Burglary", null);
+        Burglary.setComment("Burglary statistics", null);
+
         OntClass Kidnapping = ontology.createClass(baseNs + "Kidnapping_and_related_offences");
+        Kidnapping.setLabel("Kidnapping", null);
+        Kidnapping.setComment("Kidnapping statistics", null);
 
         RDFList crimeList = ontology.createList(new RDFNode[]{
             Murder,
@@ -131,6 +195,7 @@ public class CreateModel {
             Kidnapping
         });
         OntClass Crime = ontology.createUnionClass(baseNs + "Crime", crimeList);
+        Crime.setComment("Crime superclass", null);
 
         Crime.addSubClass(Murder);
         Crime.addSubClass(Robbery);
@@ -147,12 +212,26 @@ public class CreateModel {
 
 //
         OntClass Severity = ontology.createClass(baseNs + "Severity");
+        Severity.setLabel("Severity", null);
+        Severity.setComment("", null);
 
         Station.setDisjointWith(Division);
 
         OntProperty hasX = ontology.createObjectProperty(baseNs + "has_X");
+        hasX.setLabel("hasX", null);
+        hasX.setComment("X coordinate information per station", null);
+        hasX.setDomain(Station);
+
         OntProperty hasY = ontology.createObjectProperty(baseNs + "has_Y");
+        hasY.setLabel("hasY", null);
+        hasY.setComment("Y coordinate information per station", null);
+        hasY.setDomain(Station);
+
         OntProperty hasCrime = ontology.createObjectProperty(baseNs + "hasCrime");
+        hasCrime.setLabel("hasCrime", null);
+        hasCrime.setComment("Crime statistics per Station", null);
+        hasCrime.setDomain(Station);
+        hasCrime.setRange(Crime);
 
         Station.addProperty(hasX, "hasX");
         Station.addProperty(hasY, "hasY");
@@ -165,35 +244,100 @@ public class CreateModel {
         hasStations.setDomain(Division);
         hasStations.setDomain(County);
         hasStations.setRange(Station);
+        hasStations.setLabel("hasStations", null);
+        hasStations.setComment("Stations per County/Division", null);
 
         ObjectProperty hasDivisions = ontology.createObjectProperty(baseNs + "hasDivisions");
         County.addProperty(hasDivisions, "hasDivisions");
+        hasDivisions.setLabel("hasDivisions", null);
+        hasDivisions.setComment("Divisions per County", null);
+        hasDivisions.setDomain(County);
+        hasDivisions.setRange(Division);
         hasDivisions.addInverseOf(inCounty);
 
         ObjectProperty hasMurder = ontology.createObjectProperty(baseNs + "hasMurder");
         Station.addProperty(hasMurder, "hasMurder");
+        hasMurder.setLabel("hasMurder", null);
+        hasMurder.setComment("Murder statistics per station", null);
+        hasMurder.setDomain(Crime);
+        hasMurder.setRange(Station);
+
         ObjectProperty hasRobbery = ontology.createObjectProperty(baseNs + "hasRobbery");
         Station.addProperty(hasRobbery, "hasRobbery");
+        hasRobbery.setLabel("hasRobbery", null);
+        hasRobbery.setComment("Robbery statistics per station", null);
+        hasRobbery.setDomain(Crime);
+        hasRobbery.setRange(Station);
+
         ObjectProperty hasGovernment = ontology.createObjectProperty(baseNs + "hasGovernment");
         Station.addProperty(hasGovernment, "hasGovernment");
+        hasGovernment.setLabel("hasGovernment", null);
+        hasGovernment.setComment("Crimes against government statistics per station", null);
+        hasGovernment.setDomain(Crime);
+        hasGovernment.setRange(Station);
+
         ObjectProperty hasDangerous = ontology.createObjectProperty(baseNs + "hasDangerous");
         Station.addProperty(hasDangerous, "hasDangerous");
+        hasDangerous.setLabel("hasDangerous", null);
+        hasDangerous.setComment("Dangerous action statistics per station", null);
+        hasDangerous.setDomain(Crime);
+        hasDangerous.setRange(Station);
+
         ObjectProperty hasDrug = ontology.createObjectProperty(baseNs + "hasDrug");
         Station.addProperty(hasDrug, "hasDrug");
+        hasDrug.setLabel("hasDrug", null);
+        hasDrug.setComment("Drug statistics per station", null);
+        hasDrug.setDomain(Crime);
+        hasDrug.setRange(Station);
+
         ObjectProperty hasProperty = ontology.createObjectProperty(baseNs + "hasProperty");
         Station.addProperty(hasProperty, "hasProperty");
+        hasProperty.setLabel("hasProperty", null);
+        hasProperty.setComment("Property crime statistics per station", null);
+        hasProperty.setDomain(Crime);
+        hasProperty.setRange(Station);
+
         ObjectProperty hasPublic = ontology.createObjectProperty(baseNs + "hasPublic");
         Station.addProperty(hasPublic, "hasPublic");
+        hasPublic.setLabel("hasPublic", null);
+        hasPublic.setComment("Public offence statistics per station", null);
+        hasPublic.setDomain(Crime);
+        hasPublic.setRange(Station);
+
         ObjectProperty hasTheft = ontology.createObjectProperty(baseNs + "hasTheft");
         Station.addProperty(hasTheft, "hasTheft");
+        hasTheft.setLabel("hasTheft", null);
+        hasTheft.setComment("Theft statistics per station", null);
+        hasTheft.setDomain(Crime);
+        hasTheft.setRange(Station);
+
         ObjectProperty hasFraud = ontology.createObjectProperty(baseNs + "hasFraud");
         Station.addProperty(hasFraud, "hasFraud");
+        hasFraud.setLabel("hasFraud", null);
+        hasFraud.setComment("Fraud statistics per station", null);
+        hasFraud.setDomain(Crime);
+        hasFraud.setRange(Station);
+
         ObjectProperty hasWepons = ontology.createObjectProperty(baseNs + "hasWepons");
         Station.addProperty(hasWepons, "hasWepons");
+        hasWepons.setLabel("hasWepons", null);
+        hasWepons.setComment("Wepon statistics per station", null);
+        hasWepons.setDomain(Crime);
+        hasWepons.setRange(Station);
+
         ObjectProperty hasBurglary = ontology.createObjectProperty(baseNs + "hasBurglary");
         Station.addProperty(hasBurglary, "hasBurglary");
+        hasBurglary.setLabel("hasBurglary", null);
+        hasBurglary.setComment("Burglary statistics per station", null);
+        hasBurglary.setDomain(Crime);
+        hasBurglary.setRange(Station);
+
         ObjectProperty hasKidnapping = ontology.createObjectProperty(baseNs + "hasKidnapping");
         Station.addProperty(hasKidnapping, "hasKidnapping");
+        hasKidnapping.setLabel("hasKidnapping", null);
+        hasKidnapping.setComment(" statistics per station", null);
+        hasKidnapping.setDomain(Crime);
+        hasKidnapping.setRange(Station);
 
         parser();
 
@@ -325,7 +469,7 @@ public class CreateModel {
             for (int i = 0; i < countyList.size(); i++) {
                 ArrayList<Object> countyInfo = countyList.get(i);
                 Geometry geometry = (Geometry) countyInfo.get(3);
-                
+
                 Point point = null;
                 try {
                     point = convertToLatLong(station.X, station.Y);
@@ -336,9 +480,9 @@ public class CreateModel {
                 } catch (TransformException ex) {
                     Logger.getLogger(CreateModel.class.getName()).log(Level.SEVERE, null, ex);
                 }
-                
-                System.out.println(point.getX()+" "+point.getY());
-                System.out.println(geometry.calculateArea2D()+"\n");
+
+                System.out.println(point.getX() + " " + point.getY());
+                System.out.println(geometry.calculateArea2D() + "\n");
                 OperatorWithin within = OperatorWithin.local();
                 if (within.execute(point, geometry, SpatialReference.create("WGS84"), null)) {
                     System.out.println("WITHIN!!!!!!");
@@ -471,7 +615,7 @@ public class CreateModel {
 
         }
     }
-    
+
     private static Point convertToLatLong(float easting, float northing) throws FactoryException, MismatchedDimensionException, TransformException {
 //        CRSAuthorityFactory crsFac = ReferencingFactoryFinder.getCRSAuthorityFactory("EPSG", null);
 //
@@ -488,7 +632,7 @@ public class CreateModel {
         IrishRef irish = new IrishRef(easting, northing);
         LatLng latLng = irish.toLatLng();
         latLng.toWGS84();
-        
+
         Point p = new Point(latLng.getLongitude(), latLng.getLatitude());
         return p;
     }
