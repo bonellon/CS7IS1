@@ -1,0 +1,58 @@
+
+
+//Highest number of burglary cases in which division and which station?
+PREFIX owl: <http://www.w3.org/2002/07/owl#> 
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+PREFIX ns0: <http://lab.Jena.Kdeg.ie/CrimeOntology#> 
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> 
+select (?x AS ?County) (?b AS ?NumberOfCasesReported) (?d AS ?Division) (?a AS ?Station) where {
+?x a ns0:County.
+?x ns0:hasStations ?a.
+?a ns0:hasBurglary ?b.
+?a ns0:hasDivisions ?d. 
+FILTER(?b!=0)
+}
+ORDER BY DESC(xsd:integer(?b)) LIMIT 1
+
+//Highest number of roberry cases in which division, county and which station?
+PREFIX owl: <http://www.w3.org/2002/07/owl#> 
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+PREFIX ns0: <http://lab.Jena.Kdeg.ie/CrimeOntology#> 
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> 
+select (?x AS ?County) (?b AS ?NumberOfCasesReported) (?d AS ?Division) (?a AS ?Station) where {
+?x a ns0:County.
+?x ns0:hasStations ?a.
+?a ns0:hasRobbery ?b.
+?a ns0:hasDivisions ?d. 
+FILTER(?b!=0)
+}
+ORDER BY DESC(xsd:integer(?b)) LIMIT 1
+
+
+//Highest number of Attempt to murder cases in which county, division and which station?
+PREFIX owl: <http://www.w3.org/2002/07/owl#> 
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+PREFIX ns0: <http://lab.Jena.Kdeg.ie/CrimeOntology#> 
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> 
+select (?x AS ?County) (?b AS ?NumberOfCasesReported) (?d AS ?Division) (?a AS ?Station)where {
+?x a ns0:County.
+?x ns0:hasStations ?a.
+?a ns0:hasMurder ?b.
+?a ns0:hasDivisions ?d. 
+FILTER(?b!=0)
+}
+ORDER BY DESC(xsd:integer(?b)) LIMIT 1
+
+//Highest number of Dangerous and Negligent reports in which county, division and which station?
+PREFIX owl: <http://www.w3.org/2002/07/owl#> 
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+PREFIX ns0: <http://lab.Jena.Kdeg.ie/CrimeOntology#> 
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> 
+select (?x AS ?County) (?b AS ?NumberOfCasesReported) (?d AS ?Division) (?a AS ?Station)where {
+?x a ns0:County.
+?x ns0:hasStations ?a.
+?a ns0:hasDangerous ?b.
+?a ns0:hasDivisions ?d. 
+FILTER(?b!=0)
+}
+ORDER BY DESC(xsd:integer(?b)) LIMIT 1
