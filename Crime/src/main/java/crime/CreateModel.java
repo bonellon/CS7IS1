@@ -233,6 +233,12 @@ public class CreateModel {
         hasCrime.setDomain(Station);
         hasCrime.setRange(Crime);
 
+        OntProperty totalCrime = ontology.createObjectProperty(baseNs + "totalCrime");
+        totalCrime.setLabel("totalCrime", null);
+        totalCrime.setComment("Crime counts per Station", null);
+        totalCrime.setDomain(Station);
+        totalCrime.setRange(Crime);
+
         Station.addProperty(hasX, "hasX");
         Station.addProperty(hasY, "hasY");
         Station.addProperty(hasCrime, "hasCrime");
@@ -261,8 +267,6 @@ public class CreateModel {
 //        isStationIn.setComment("Station's division", null);
 //        isStationIn.setDomain(Station);
 //        isStationIn.setRange(Division);
-        
-        
         ObjectProperty hasMurder = ontology.createObjectProperty(baseNs + "hasMurder");
         Station.addProperty(hasMurder, "hasMurder");
         hasMurder.setLabel("hasMurder", null);
@@ -460,24 +464,76 @@ public class CreateModel {
                 ind.addProperty(inDivision, station.division.Name);
             }
             if (station.crime != null) {
+                String crimes = "";
+
                 ind.addProperty(hasMurder, "" + station.crime.MurderCount);
+                if (station.crime.MurderCount != 0) {
+                    crimes = crimes + ", Murder";
+                }
+
                 ind.addProperty(hasRobbery, "" + station.crime.RobberyCount);
+                if (station.crime.RobberyCount != 0) {
+                    crimes = crimes + ", Robbery";
+                }
+
                 ind.addProperty(hasGovernment, "" + station.crime.GovernmentCount);
+                if (station.crime.GovernmentCount != 0) {
+                    crimes = crimes + ", Government";
+                }
+
                 ind.addProperty(hasDangerous, "" + station.crime.DangerousCount);
+                if (station.crime.DangerousCount != 0) {
+                    crimes = crimes + ", DangerousActs";
+                }
+
                 ind.addProperty(hasDrug, "" + station.crime.DrugCount);
+                if (station.crime.DrugCount != 0) {
+                    crimes = crimes + ", Drug";
+                }
+
                 ind.addProperty(hasProperty, "" + station.crime.PropertyCount);
+                if (station.crime.PropertyCount != 0) {
+                    crimes = crimes + ", Property";
+                }
+
                 ind.addProperty(hasPublic, "" + station.crime.PublicCount);
+                if (station.crime.PublicCount != 0) {
+                    crimes = crimes + ", Public";
+                }
+
                 ind.addProperty(hasTheft, "" + station.crime.TheftCount);
+                if (station.crime.TheftCount != 0) {
+                    crimes = crimes + ", Theft";
+                }
+
                 ind.addProperty(hasFraud, "" + station.crime.FraudCount);
+                if (station.crime.FraudCount != 0) {
+                    crimes = crimes + ", Fraud";
+                }
+
                 ind.addProperty(hasWepons, "" + station.crime.WeaponsCount);
+                if (station.crime.WeaponsCount != 0) {
+                    crimes = crimes + ", Weapons";
+                }
+
                 ind.addProperty(hasBurglary, "" + station.crime.BurglaryCount);
+                if (station.crime.BurglaryCount != 0) {
+                    crimes = crimes + ", Burglary";
+                }
+
                 ind.addProperty(hasKidnapping, "" + station.crime.KidnappingCount);
+                if (station.crime.KidnappingCount != 0) {
+                    crimes = crimes + ", Kidnapping";
+                }
+
+                int total = station.crime.MurderCount + station.crime.RobberyCount + station.crime.GovernmentCount + station.crime.DangerousCount
+                        + station.crime.DrugCount + station.crime.PropertyCount + station.crime.PublicCount + station.crime.TheftCount + station.crime.FraudCount
+                        + station.crime.WeaponsCount + station.crime.BurglaryCount + station.crime.KidnappingCount;
+
                 
-                int totalCrime = station.crime.MurderCount + station.crime.RobberyCount + station.crime.GovernmentCount + station.crime.DangerousCount
-                         + station.crime.DrugCount + station.crime.PropertyCount + station.crime.PublicCount + station.crime.TheftCount + station.crime.FraudCount
-                         + station.crime.WeaponsCount + station.crime.BurglaryCount + station.crime.KidnappingCount;
-            
-                ind.addProperty(hasCrime, ""+totalCrime);
+                if(crimes != "")
+                    ind.addProperty(hasCrime, "" + crimes.substring(1));
+                ind.addProperty(totalCrime, ""+total);
             }
 
             for (int i = 0; i < countyList.size(); i++) {
