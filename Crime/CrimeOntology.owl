@@ -166,9 +166,9 @@
 	<rdfs:range rdf:resource="http://lab.Jena.Kdeg.ie/CrimeOntology.owl#Station"/>
 </rdf:Description>
 <!--  -->
-<!-- http://lab.Jena.Kdeg.ie/CrimeOntology.owl#hasWepons -->
+<!-- http://lab.Jena.Kdeg.ie/CrimeOntology.owl#hasWeapons -->
 
-<rdf:Description rdf:about="http://lab.Jena.Kdeg.ie/CrimeOntology.owl#hasWepons">
+<rdf:Description rdf:about="http://lab.Jena.Kdeg.ie/CrimeOntology.owl#hasWeapons">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
 	<rdfs:domain rdf:resource="http://lab.Jena.Kdeg.ie/CrimeOntology.owl#Crime"/>
 	<rdfs:range rdf:resource="http://lab.Jena.Kdeg.ie/CrimeOntology.owl#Station"/>
@@ -391,7 +391,7 @@
 
 <rdf:Description rdf:nodeID="genid2">
 	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
-	<rdf:first rdf:resource="http://lab.Jena.Kdeg.ie/CrimeOntology.owl#Wepons_and_Explosives_Offences"/>
+	<rdf:first rdf:resource="http://lab.Jena.Kdeg.ie/CrimeOntology.owl#Weapons_and_Explosives_Offences"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
 
@@ -496,7 +496,7 @@
 	<hasPublic>hasPublic</hasPublic>
 	<hasRobbery>hasRobbery</hasRobbery>
 	<hasTheft>hasTheft</hasTheft>
-	<hasWepons>hasWepons</hasWepons>
+	<hasWeapons>hasWeapons</hasWeapons>
 	<has_X>hasX</has_X>
 	<has_Y>hasY</has_Y>
 	<rdfs:comment>Station information</rdfs:comment>
@@ -512,13 +512,13 @@
 	<rdfs:label>Theft</rdfs:label>
 </rdf:Description>
 <!--  -->
-<!-- http://lab.Jena.Kdeg.ie/CrimeOntology.owl#Wepons_and_Explosives_Offences -->
+<!-- http://lab.Jena.Kdeg.ie/CrimeOntology.owl#Weapons_and_Explosives_Offences -->
 
-<rdf:Description rdf:about="http://lab.Jena.Kdeg.ie/CrimeOntology.owl#Wepons_and_Explosives_Offences">
+<rdf:Description rdf:about="http://lab.Jena.Kdeg.ie/CrimeOntology.owl#Weapons_and_Explosives_Offences">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<rdfs:subClassOf rdf:resource="http://lab.Jena.Kdeg.ie/CrimeOntology.owl#Crime"/>
-	<rdfs:comment>Wepon crime statistics</rdfs:comment>
-	<rdfs:label>Wepons</rdfs:label>
+	<rdfs:comment>Weapon crime statistics</rdfs:comment>
+	<rdfs:label>Weapons</rdfs:label>
 </rdf:Description>
 <!--  -->
 <!--  -->
@@ -5464,7 +5464,7 @@
 	<hasPublic>34</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>49</hasTheft>
-	<hasWepons>5</hasWepons>
+	<hasWeapons>5</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">112219</has_X>
 	<has_Y>126928.0</has_Y>
 	<totalCrime>183</totalCrime>
@@ -5487,7 +5487,7 @@
 	<hasPublic>16</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>53</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">244196</has_X>
 	<has_Y>184819.0</has_Y>
 	<totalCrime>185</totalCrime>
@@ -5510,7 +5510,7 @@
 	<hasPublic>6</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>12</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">146337</has_X>
 	<has_Y>146092.0</has_Y>
 	<totalCrime>56</totalCrime>
@@ -5533,7 +5533,7 @@
 	<hasPublic>1</hasPublic>
 	<hasRobbery>1</hasRobbery>
 	<hasTheft>5</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">212252</has_X>
 	<has_Y>91029.0</has_Y>
 	<totalCrime>23</totalCrime>
@@ -5556,7 +5556,7 @@
 	<hasPublic>3</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>2</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">178054</has_X>
 	<has_Y>238416.0</has_Y>
 	<totalCrime>32</totalCrime>
@@ -5579,7 +5579,7 @@
 	<hasPublic>2</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>3</hasTheft>
-	<hasWepons>1</hasWepons>
+	<hasWeapons>1</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">171966</has_X>
 	<has_Y>415356.0</has_Y>
 	<totalCrime>19</totalCrime>
@@ -5602,7 +5602,7 @@
 	<hasPublic>9</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>10</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">181554</has_X>
 	<has_Y>424284.0</has_Y>
 	<totalCrime>60</totalCrime>
@@ -5625,7 +5625,7 @@
 	<hasPublic>0</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>1</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">159189</has_X>
 	<has_Y>379044.0</has_Y>
 	<totalCrime>10</totalCrime>
@@ -5648,7 +5648,7 @@
 	<hasPublic>12</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>7</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">93255</has_X>
 	<has_Y>224962.0</has_Y>
 	<totalCrime>51</totalCrime>
@@ -5671,7 +5671,7 @@
 	<hasPublic>19</hasPublic>
 	<hasRobbery>1</hasRobbery>
 	<hasTheft>14</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">176900</has_X>
 	<has_Y>411614.0</has_Y>
 	<totalCrime>66</totalCrime>
@@ -5694,7 +5694,7 @@
 	<hasPublic>0</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>7</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">50174</has_X>
 	<has_Y>66489.0</has_Y>
 	<totalCrime>28</totalCrime>
@@ -5717,7 +5717,7 @@
 	<hasPublic>2</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>1</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">205627</has_X>
 	<has_Y>430898.0</has_Y>
 	<totalCrime>13</totalCrime>
@@ -5740,7 +5740,7 @@
 	<hasPublic>11</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>8</hasTheft>
-	<hasWepons>1</hasWepons>
+	<hasWeapons>1</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">193541</has_X>
 	<has_Y>432201.0</has_Y>
 	<totalCrime>38</totalCrime>
@@ -5763,7 +5763,7 @@
 	<hasPublic>7</hasPublic>
 	<hasRobbery>1</hasRobbery>
 	<hasTheft>15</hasTheft>
-	<hasWepons>1</hasWepons>
+	<hasWeapons>1</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">96228</has_X>
 	<has_Y>252310.0</has_Y>
 	<totalCrime>50</totalCrime>
@@ -5786,7 +5786,7 @@
 	<hasPublic>2</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>6</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">227969</has_X>
 	<has_Y>88510.0</has_Y>
 	<totalCrime>21</totalCrime>
@@ -5809,7 +5809,7 @@
 	<hasPublic>6</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>5</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">112890</has_X>
 	<has_Y>222439.0</has_Y>
 	<totalCrime>22</totalCrime>
@@ -5832,7 +5832,7 @@
 	<hasPublic>980</hasPublic>
 	<hasRobbery>21</hasRobbery>
 	<hasTheft>1060</hasTheft>
-	<hasWepons>23</hasWepons>
+	<hasWeapons>23</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">168040</has_X>
 	<has_Y>71558.0</has_Y>
 	<totalCrime>3055</totalCrime>
@@ -5855,7 +5855,7 @@
 	<hasPublic>0</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>1</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">59567</has_X>
 	<has_Y>101995.0</has_Y>
 	<totalCrime>9</totalCrime>
@@ -5878,7 +5878,7 @@
 	<hasPublic>52</hasPublic>
 	<hasRobbery>5</hasRobbery>
 	<hasTheft>121</hasTheft>
-	<hasWepons>2</hasWepons>
+	<hasWeapons>2</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">137877</has_X>
 	<has_Y>225014.0</has_Y>
 	<totalCrime>378</totalCrime>
@@ -5901,7 +5901,7 @@
 	<hasPublic>2</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>2</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">173689</has_X>
 	<has_Y>390810.0</has_Y>
 	<totalCrime>21</totalCrime>
@@ -5924,7 +5924,7 @@
 	<hasPublic>22</hasPublic>
 	<hasRobbery>5</hasRobbery>
 	<hasTheft>104</hasTheft>
-	<hasWepons>2</hasWepons>
+	<hasWeapons>2</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">296047</has_X>
 	<has_Y>290467.0</has_Y>
 	<totalCrime>313</totalCrime>
@@ -5947,7 +5947,7 @@
 	<hasPublic>15</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>6</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">78762</has_X>
 	<has_Y>120534.0</has_Y>
 	<totalCrime>55</totalCrime>
@@ -5970,7 +5970,7 @@
 	<hasPublic>0</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>7</hasTheft>
-	<hasWepons>1</hasWepons>
+	<hasWeapons>1</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">208349</has_X>
 	<has_Y>117754.0</has_Y>
 	<totalCrime>28</totalCrime>
@@ -5993,7 +5993,7 @@
 	<hasPublic>6</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>7</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">218736</has_X>
 	<has_Y>77633.0</has_Y>
 	<totalCrime>42</totalCrime>
@@ -6016,7 +6016,7 @@
 	<hasPublic>27</hasPublic>
 	<hasRobbery>2</hasRobbery>
 	<hasTheft>88</hasTheft>
-	<hasWepons>2</hasWepons>
+	<hasWeapons>2</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">158606</has_X>
 	<has_Y>161975.0</has_Y>
 	<totalCrime>251</totalCrime>
@@ -6039,7 +6039,7 @@
 	<hasPublic>0</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>15</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">146101</has_X>
 	<has_Y>212066.0</has_Y>
 	<totalCrime>33</totalCrime>
@@ -6062,7 +6062,7 @@
 	<hasPublic>150</hasPublic>
 	<hasRobbery>8</hasRobbery>
 	<hasTheft>244</hasTheft>
-	<hasWepons>10</hasWepons>
+	<hasWeapons>10</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">324524</has_X>
 	<has_Y>173255.0</has_Y>
 	<totalCrime>799</totalCrime>
@@ -6085,7 +6085,7 @@
 	<hasPublic>2</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>27</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">266084</has_X>
 	<has_Y>182647.0</has_Y>
 	<totalCrime>62</totalCrime>
@@ -6108,7 +6108,7 @@
 	<hasPublic>12</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>12</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">227394</has_X>
 	<has_Y>297403.0</has_Y>
 	<totalCrime>47</totalCrime>
@@ -6131,7 +6131,7 @@
 	<hasPublic>83</hasPublic>
 	<hasRobbery>8</hasRobbery>
 	<hasTheft>311</hasTheft>
-	<hasWepons>2</hasWepons>
+	<hasWeapons>2</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">306394</has_X>
 	<has_Y>252439.0</has_Y>
 	<totalCrime>739</totalCrime>
@@ -6154,7 +6154,7 @@
 	<hasPublic>8</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>96</hasTheft>
-	<hasWepons>2</hasWepons>
+	<hasWeapons>2</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">327080</has_X>
 	<has_Y>197557.02</has_Y>
 	<totalCrime>228</totalCrime>
@@ -6177,7 +6177,7 @@
 	<hasPublic>10</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>38</hasTheft>
-	<hasWepons>3</hasWepons>
+	<hasWeapons>3</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">134243</has_X>
 	<has_Y>150327.69</has_Y>
 	<totalCrime>96</totalCrime>
@@ -6200,7 +6200,7 @@
 	<hasPublic>4</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>11</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">112536</has_X>
 	<has_Y>135006.0</has_Y>
 	<totalCrime>26</totalCrime>
@@ -6223,7 +6223,7 @@
 	<hasPublic>10</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>33</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">150065</has_X>
 	<has_Y>227951.0</has_Y>
 	<totalCrime>112</totalCrime>
@@ -6246,7 +6246,7 @@
 	<hasPublic>1</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>9</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">183329</has_X>
 	<has_Y>257652.0</has_Y>
 	<totalCrime>20</totalCrime>
@@ -6269,7 +6269,7 @@
 	<hasPublic>229</hasPublic>
 	<hasRobbery>6</hasRobbery>
 	<hasTheft>454</hasTheft>
-	<hasWepons>27</hasWepons>
+	<hasWeapons>27</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">203723</has_X>
 	<has_Y>241436.0</has_Y>
 	<totalCrime>1325</totalCrime>
@@ -6292,7 +6292,7 @@
 	<hasPublic>67</hasPublic>
 	<hasRobbery>15</hasRobbery>
 	<hasTheft>153</hasTheft>
-	<hasWepons>10</hasWepons>
+	<hasWeapons>10</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">267993</has_X>
 	<has_Y>193718.0</has_Y>
 	<totalCrime>638</totalCrime>
@@ -6315,7 +6315,7 @@
 	<hasPublic>4</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>15</hasTheft>
-	<hasWepons>1</hasWepons>
+	<hasWeapons>1</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">312754</has_X>
 	<has_Y>179619.0</has_Y>
 	<totalCrime>48</totalCrime>
@@ -6338,7 +6338,7 @@
 	<hasPublic>3</hasPublic>
 	<hasRobbery>1</hasRobbery>
 	<hasTheft>12</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">320421</has_X>
 	<has_Y>180111.0</has_Y>
 	<totalCrime>49</totalCrime>
@@ -6361,7 +6361,7 @@
 	<hasPublic>17</hasPublic>
 	<hasRobbery>1</hasRobbery>
 	<hasTheft>51</hasTheft>
-	<hasWepons>3</hasWepons>
+	<hasWeapons>3</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">271783</has_X>
 	<has_Y>264284.0</has_Y>
 	<totalCrime>159</totalCrime>
@@ -6384,7 +6384,7 @@
 	<hasPublic>1</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>8</hasTheft>
-	<hasWepons>1</hasWepons>
+	<hasWeapons>1</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">119653</has_X>
 	<has_Y>77660.0</has_Y>
 	<totalCrime>16</totalCrime>
@@ -6407,7 +6407,7 @@
 	<hasPublic>0</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>6</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">35414</has_X>
 	<has_Y>104242.0</has_Y>
 	<totalCrime>14</totalCrime>
@@ -6430,7 +6430,7 @@
 	<hasPublic>41</hasPublic>
 	<hasRobbery>1</hasRobbery>
 	<hasTheft>45</hasTheft>
-	<hasWepons>2</hasWepons>
+	<hasWeapons>2</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">267755</has_X>
 	<has_Y>296683.0</has_Y>
 	<totalCrime>188</totalCrime>
@@ -6453,7 +6453,7 @@
 	<hasPublic>79</hasPublic>
 	<hasRobbery>11</hasRobbery>
 	<hasTheft>445</hasTheft>
-	<hasWepons>19</hasWepons>
+	<hasWeapons>19</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">319756</has_X>
 	<has_Y>264224.0</has_Y>
 	<totalCrime>1276</totalCrime>
@@ -6476,7 +6476,7 @@
 	<hasPublic>5</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>10</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">125604</has_X>
 	<has_Y>284167.0</has_Y>
 	<totalCrime>34</totalCrime>
@@ -6499,7 +6499,7 @@
 	<hasPublic>32</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>53</hasTheft>
-	<hasWepons>2</hasWepons>
+	<hasWeapons>2</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">161621</has_X>
 	<has_Y>294647.0</has_Y>
 	<totalCrime>189</totalCrime>
@@ -6522,7 +6522,7 @@
 	<hasPublic>185</hasPublic>
 	<hasRobbery>2</hasRobbery>
 	<hasTheft>157</hasTheft>
-	<hasWepons>8</hasWepons>
+	<hasWeapons>8</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">124157</has_X>
 	<has_Y>318813.0</has_Y>
 	<totalCrime>697</totalCrime>
@@ -6545,7 +6545,7 @@
 	<hasPublic>9</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>20</hasTheft>
-	<hasWepons>2</hasWepons>
+	<hasWeapons>2</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">238828</has_X>
 	<has_Y>298122.0</has_Y>
 	<totalCrime>103</totalCrime>
@@ -6568,7 +6568,7 @@
 	<hasPublic>12</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>6</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">213346</has_X>
 	<has_Y>311725.0</has_Y>
 	<totalCrime>41</totalCrime>
@@ -6591,7 +6591,7 @@
 	<hasPublic>185</hasPublic>
 	<hasRobbery>4</hasRobbery>
 	<hasTheft>164</hasTheft>
-	<hasWepons>6</hasWepons>
+	<hasWeapons>6</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">185149</has_X>
 	<has_Y>230904.0</has_Y>
 	<totalCrime>679</totalCrime>
@@ -6614,7 +6614,7 @@
 	<hasPublic>90</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>155</hasTheft>
-	<hasWepons>1</hasWepons>
+	<hasWeapons>1</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">159406</has_X>
 	<has_Y>70777.0</has_Y>
 	<totalCrime>492</totalCrime>
@@ -6637,7 +6637,7 @@
 	<hasPublic>3</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>11</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">136748</has_X>
 	<has_Y>269284.0</has_Y>
 	<totalCrime>22</totalCrime>
@@ -6660,7 +6660,7 @@
 	<hasPublic>0</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>10</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">134499</has_X>
 	<has_Y>54090.0</has_Y>
 	<totalCrime>30</totalCrime>
@@ -6683,7 +6683,7 @@
 	<hasPublic>4</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>15</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">141415</has_X>
 	<has_Y>135935.0</has_Y>
 	<totalCrime>45</totalCrime>
@@ -6706,7 +6706,7 @@
 	<hasPublic>0</hasPublic>
 	<hasRobbery>1</hasRobbery>
 	<hasTheft>3</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">198005</has_X>
 	<has_Y>196372.0</has_Y>
 	<totalCrime>7</totalCrime>
@@ -6729,7 +6729,7 @@
 	<hasPublic>2</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>6</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">231163</has_X>
 	<has_Y>148351.0</has_Y>
 	<totalCrime>28</totalCrime>
@@ -6752,7 +6752,7 @@
 	<hasPublic>6</hasPublic>
 	<hasRobbery>1</hasRobbery>
 	<hasTheft>13</hasTheft>
-	<hasWepons>1</hasWepons>
+	<hasWeapons>1</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">160694</has_X>
 	<has_Y>61403.0</has_Y>
 	<totalCrime>82</totalCrime>
@@ -6775,7 +6775,7 @@
 	<hasPublic>6</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>16</hasTheft>
-	<hasWepons>1</hasWepons>
+	<hasWeapons>1</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">158095</has_X>
 	<has_Y>276963.0</has_Y>
 	<totalCrime>42</totalCrime>
@@ -6798,7 +6798,7 @@
 	<hasPublic>19</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>19</hasTheft>
-	<hasWepons>2</hasWepons>
+	<hasWeapons>2</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">118916</has_X>
 	<has_Y>264544.0</has_Y>
 	<totalCrime>100</totalCrime>
@@ -6821,7 +6821,7 @@
 	<hasPublic>2</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>11</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">191938</has_X>
 	<has_Y>369953.0</has_Y>
 	<totalCrime>30</totalCrime>
@@ -6844,7 +6844,7 @@
 	<hasPublic>8</hasPublic>
 	<hasRobbery>1</hasRobbery>
 	<hasTheft>22</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">268536</has_X>
 	<has_Y>254113.0</has_Y>
 	<totalCrime>72</totalCrime>
@@ -6867,7 +6867,7 @@
 	<hasPublic>1</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>14</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">282972</has_X>
 	<has_Y>166461.0</has_Y>
 	<totalCrime>53</totalCrime>
@@ -6890,7 +6890,7 @@
 	<hasPublic>16</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>15</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">271646</has_X>
 	<has_Y>320536.0</has_Y>
 	<totalCrime>71</totalCrime>
@@ -6913,7 +6913,7 @@
 	<hasPublic>101</hasPublic>
 	<hasRobbery>3</hasRobbery>
 	<hasTheft>64</hasTheft>
-	<hasWepons>1</hasWepons>
+	<hasWeapons>1</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">214130</has_X>
 	<has_Y>394664.0</has_Y>
 	<totalCrime>324</totalCrime>
@@ -6936,7 +6936,7 @@
 	<hasPublic>31</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>15</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">86652</has_X>
 	<has_Y>141250.0</has_Y>
 	<totalCrime>93</totalCrime>
@@ -6959,7 +6959,7 @@
 	<hasPublic>16</hasPublic>
 	<hasRobbery>1</hasRobbery>
 	<hasTheft>20</hasTheft>
-	<hasWepons>2</hasWepons>
+	<hasWeapons>2</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">227500</has_X>
 	<has_Y>318956.0</has_Y>
 	<totalCrime>102</totalCrime>
@@ -6982,7 +6982,7 @@
 	<hasPublic>3</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>3</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">199147</has_X>
 	<has_Y>64169.0</has_Y>
 	<totalCrime>18</totalCrime>
@@ -7005,7 +7005,7 @@
 	<hasPublic>0</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>3</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">80393</has_X>
 	<has_Y>310039.0</has_Y>
 	<totalCrime>16</totalCrime>
@@ -7028,7 +7028,7 @@
 	<hasPublic>5</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>11</hasTheft>
-	<hasWepons>2</hasWepons>
+	<hasWeapons>2</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">279276</has_X>
 	<has_Y>114714.0</has_Y>
 	<totalCrime>56</totalCrime>
@@ -7051,7 +7051,7 @@
 	<hasPublic>16</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>12</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">98743</has_X>
 	<has_Y>35003.0</has_Y>
 	<totalCrime>52</totalCrime>
@@ -7074,7 +7074,7 @@
 	<hasPublic>0</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>7</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">115844</has_X>
 	<has_Y>103595.0</has_Y>
 	<totalCrime>13</totalCrime>
@@ -7097,7 +7097,7 @@
 	<hasPublic>9</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>4</hasTheft>
-	<hasWepons>1</hasWepons>
+	<hasWeapons>1</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">86995</has_X>
 	<has_Y>135074.0</has_Y>
 	<totalCrime>42</totalCrime>
@@ -7120,7 +7120,7 @@
 	<hasPublic>168</hasPublic>
 	<hasRobbery>67</hasRobbery>
 	<hasTheft>563</hasTheft>
-	<hasWepons>36</hasWepons>
+	<hasWeapons>36</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">309409</has_X>
 	<has_Y>233956.0</has_Y>
 	<totalCrime>1825</totalCrime>
@@ -7143,7 +7143,7 @@
 	<hasPublic>5</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>8</hasTheft>
-	<hasWepons>1</hasWepons>
+	<hasWeapons>1</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">178268</has_X>
 	<has_Y>252460.0</has_Y>
 	<totalCrime>23</totalCrime>
@@ -7166,7 +7166,7 @@
 	<hasPublic>2</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>2</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">254315</has_X>
 	<has_Y>135462.0</has_Y>
 	<totalCrime>21</totalCrime>
@@ -7189,7 +7189,7 @@
 	<hasPublic>30</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>33</hasTheft>
-	<hasWepons>1</hasWepons>
+	<hasWeapons>1</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">149440</has_X>
 	<has_Y>279630.0</has_Y>
 	<totalCrime>131</totalCrime>
@@ -7212,7 +7212,7 @@
 	<hasPublic>15</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>3</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">75635</has_X>
 	<has_Y>127925.01</has_Y>
 	<totalCrime>38</totalCrime>
@@ -7235,7 +7235,7 @@
 	<hasPublic>40</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>36</hasTheft>
-	<hasWepons>1</hasWepons>
+	<hasWeapons>1</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">252106</has_X>
 	<has_Y>290682.0</has_Y>
 	<totalCrime>163</totalCrime>
@@ -7258,7 +7258,7 @@
 	<hasPublic>2</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>14</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">176519</has_X>
 	<has_Y>124355.0</has_Y>
 	<totalCrime>46</totalCrime>
@@ -7281,7 +7281,7 @@
 	<hasPublic>5</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>20</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">264370</has_X>
 	<has_Y>188409.02</has_Y>
 	<totalCrime>69</totalCrime>
@@ -7304,7 +7304,7 @@
 	<hasPublic>3</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>9</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">219322</has_X>
 	<has_Y>112821.0</has_Y>
 	<totalCrime>26</totalCrime>
@@ -7327,7 +7327,7 @@
 	<hasPublic>24</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>24</hasTheft>
-	<hasWepons>3</hasWepons>
+	<hasWeapons>3</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">215897</has_X>
 	<has_Y>256827.0</has_Y>
 	<totalCrime>143</totalCrime>
@@ -7350,7 +7350,7 @@
 	<hasPublic>1</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>4</hasTheft>
-	<hasWepons>1</hasWepons>
+	<hasWeapons>1</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">221174</has_X>
 	<has_Y>249031.0</has_Y>
 	<totalCrime>16</totalCrime>
@@ -7373,7 +7373,7 @@
 	<hasPublic>13</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>10</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">166332</has_X>
 	<has_Y>315483.0</has_Y>
 	<totalCrime>75</totalCrime>
@@ -7396,7 +7396,7 @@
 	<hasPublic>126</hasPublic>
 	<hasRobbery>75</hasRobbery>
 	<hasTheft>553</hasTheft>
-	<hasWepons>28</hasWepons>
+	<hasWeapons>28</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">315553</has_X>
 	<has_Y>239644.0</has_Y>
 	<totalCrime>1578</totalCrime>
@@ -7419,7 +7419,7 @@
 	<hasPublic>3</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>5</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">230848</has_X>
 	<has_Y>259684.0</has_Y>
 	<totalCrime>30</totalCrime>
@@ -7442,7 +7442,7 @@
 	<hasPublic>3</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>27</hasTheft>
-	<hasWepons>1</hasWepons>
+	<hasWeapons>1</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">162853</has_X>
 	<has_Y>149652.0</has_Y>
 	<totalCrime>101</totalCrime>
@@ -7465,7 +7465,7 @@
 	<hasPublic>3</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>5</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">193238</has_X>
 	<has_Y>89752.0</has_Y>
 	<totalCrime>29</totalCrime>
@@ -7488,7 +7488,7 @@
 	<hasPublic>2</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>6</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">193377</has_X>
 	<has_Y>113119.0</has_Y>
 	<totalCrime>15</totalCrime>
@@ -7511,7 +7511,7 @@
 	<hasPublic>31</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>24</hasTheft>
-	<hasWepons>5</hasWepons>
+	<hasWeapons>5</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">186778</has_X>
 	<has_Y>361165.0</has_Y>
 	<totalCrime>157</totalCrime>
@@ -7534,7 +7534,7 @@
 	<hasPublic>1</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>25</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">123241</has_X>
 	<has_Y>207871.0</has_Y>
 	<totalCrime>43</totalCrime>
@@ -7557,7 +7557,7 @@
 	<hasPublic>2</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>14</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">104724</has_X>
 	<has_Y>26470.0</has_Y>
 	<totalCrime>28</totalCrime>
@@ -7580,7 +7580,7 @@
 	<hasPublic>6</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>51</hasTheft>
-	<hasWepons>4</hasWepons>
+	<hasWeapons>4</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">286795</has_X>
 	<has_Y>188319.02</has_Y>
 	<totalCrime>155</totalCrime>
@@ -7603,7 +7603,7 @@
 	<hasPublic>4</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>11</hasTheft>
-	<hasWepons>1</hasWepons>
+	<hasWeapons>1</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">200990</has_X>
 	<has_Y>215534.0</has_Y>
 	<totalCrime>38</totalCrime>
@@ -7626,7 +7626,7 @@
 	<hasPublic>85</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>80</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">148948</has_X>
 	<has_Y>54943.0</has_Y>
 	<totalCrime>382</totalCrime>
@@ -7649,7 +7649,7 @@
 	<hasPublic>0</hasPublic>
 	<hasRobbery>1</hasRobbery>
 	<hasTheft>6</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">85880</has_X>
 	<has_Y>323065.0</has_Y>
 	<totalCrime>17</totalCrime>
@@ -7672,7 +7672,7 @@
 	<hasPublic>3</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>7</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">195590</has_X>
 	<has_Y>133041.0</has_Y>
 	<totalCrime>23</totalCrime>
@@ -7695,7 +7695,7 @@
 	<hasPublic>69</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>32</hasTheft>
-	<hasWepons>6</hasWepons>
+	<hasWeapons>6</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">99396</has_X>
 	<has_Y>48475.0</has_Y>
 	<totalCrime>210</totalCrime>
@@ -7718,7 +7718,7 @@
 	<hasPublic>1</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>10</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">152084</has_X>
 	<has_Y>248054.0</has_Y>
 	<totalCrime>30</totalCrime>
@@ -7741,7 +7741,7 @@
 	<hasPublic>0</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>1</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">108078</has_X>
 	<has_Y>90547.0</has_Y>
 	<totalCrime>4</totalCrime>
@@ -7764,7 +7764,7 @@
 	<hasPublic>1</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>2</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">115366</has_X>
 	<has_Y>67279.0</has_Y>
 	<totalCrime>14</totalCrime>
@@ -7787,7 +7787,7 @@
 	<hasPublic>17</hasPublic>
 	<hasRobbery>1</hasRobbery>
 	<hasTheft>16</hasTheft>
-	<hasWepons>1</hasWepons>
+	<hasWeapons>1</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">70539</has_X>
 	<has_Y>332132.0</has_Y>
 	<totalCrime>95</totalCrime>
@@ -7810,7 +7810,7 @@
 	<hasPublic>23</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>44</hasTheft>
-	<hasWepons>4</hasWepons>
+	<hasWeapons>4</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">236512</has_X>
 	<has_Y>317033.0</has_Y>
 	<totalCrime>181</totalCrime>
@@ -7833,7 +7833,7 @@
 	<hasPublic>6</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>13</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">255404</has_X>
 	<has_Y>149049.0</has_Y>
 	<totalCrime>41</totalCrime>
@@ -7856,7 +7856,7 @@
 	<hasPublic>55</hasPublic>
 	<hasRobbery>1</hasRobbery>
 	<hasTheft>105</hasTheft>
-	<hasWepons>5</hasWepons>
+	<hasWeapons>5</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">205977</has_X>
 	<has_Y>205022.0</has_Y>
 	<totalCrime>381</totalCrime>
@@ -7879,7 +7879,7 @@
 	<hasPublic>83</hasPublic>
 	<hasRobbery>5</hasRobbery>
 	<hasTheft>337</hasTheft>
-	<hasWepons>3</hasWepons>
+	<hasWeapons>3</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">164612</has_X>
 	<has_Y>69895.0</has_Y>
 	<totalCrime>686</totalCrime>
@@ -7902,7 +7902,7 @@
 	<hasPublic>0</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>1</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">208111</has_X>
 	<has_Y>338081.0</has_Y>
 	<totalCrime>10</totalCrime>
@@ -7925,7 +7925,7 @@
 	<hasPublic>77</hasPublic>
 	<hasRobbery>2</hasRobbery>
 	<hasTheft>213</hasTheft>
-	<hasWepons>1</hasWepons>
+	<hasWeapons>1</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">172205</has_X>
 	<has_Y>71367.0</has_Y>
 	<totalCrime>540</totalCrime>
@@ -7948,7 +7948,7 @@
 	<hasPublic>101</hasPublic>
 	<hasRobbery>8</hasRobbery>
 	<hasTheft>692</hasTheft>
-	<hasWepons>2</hasWepons>
+	<hasWeapons>2</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">321556</has_X>
 	<has_Y>229240.0</has_Y>
 	<totalCrime>1571</totalCrime>
@@ -7971,7 +7971,7 @@
 	<hasPublic>18</hasPublic>
 	<hasRobbery>2</hasRobbery>
 	<hasTheft>82</hasTheft>
-	<hasWepons>2</hasWepons>
+	<hasWeapons>2</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">307145</has_X>
 	<has_Y>302828.0</has_Y>
 	<totalCrime>190</totalCrime>
@@ -7994,7 +7994,7 @@
 	<hasPublic>3</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>41</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">312320</has_X>
 	<has_Y>133894.0</has_Y>
 	<totalCrime>123</totalCrime>
@@ -8017,7 +8017,7 @@
 	<hasPublic>276</hasPublic>
 	<hasRobbery>95</hasRobbery>
 	<hasTheft>1871</hasTheft>
-	<hasWepons>54</hasWepons>
+	<hasWeapons>54</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">307764</has_X>
 	<has_Y>238947.0</has_Y>
 	<totalCrime>4659</totalCrime>
@@ -8040,7 +8040,7 @@
 	<hasPublic>19</hasPublic>
 	<hasRobbery>2</hasRobbery>
 	<hasTheft>99</hasTheft>
-	<hasWepons>6</hasWepons>
+	<hasWeapons>6</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">161004</has_X>
 	<has_Y>75630.0</has_Y>
 	<totalCrime>282</totalCrime>
@@ -8063,7 +8063,7 @@
 	<hasPublic>31</hasPublic>
 	<hasRobbery>2</hasRobbery>
 	<hasTheft>133</hasTheft>
-	<hasWepons>1</hasWepons>
+	<hasWeapons>1</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">298103</has_X>
 	<has_Y>214283.0</has_Y>
 	<totalCrime>354</totalCrime>
@@ -8086,7 +8086,7 @@
 	<hasPublic>5</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>10</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">126840</has_X>
 	<has_Y>101277.0</has_Y>
 	<totalCrime>35</totalCrime>
@@ -8109,7 +8109,7 @@
 	<hasPublic>0</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>11</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">132750</has_X>
 	<has_Y>318312.0</has_Y>
 	<totalCrime>20</totalCrime>
@@ -8132,7 +8132,7 @@
 	<hasPublic>11</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>15</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">272594</has_X>
 	<has_Y>150554.0</has_Y>
 	<totalCrime>61</totalCrime>
@@ -8155,7 +8155,7 @@
 	<hasPublic>5</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>16</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">225006</has_X>
 	<has_Y>187638.0</has_Y>
 	<totalCrime>46</totalCrime>
@@ -8178,7 +8178,7 @@
 	<hasPublic>3</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>14</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">191521</has_X>
 	<has_Y>194016.0</has_Y>
 	<totalCrime>42</totalCrime>
@@ -8201,7 +8201,7 @@
 	<hasPublic>14</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>11</hasTheft>
-	<hasWepons>1</hasWepons>
+	<hasWeapons>1</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">203063</has_X>
 	<has_Y>166674.0</has_Y>
 	<totalCrime>62</totalCrime>
@@ -8224,7 +8224,7 @@
 	<hasPublic>90</hasPublic>
 	<hasRobbery>3</hasRobbery>
 	<hasTheft>126</hasTheft>
-	<hasWepons>1</hasWepons>
+	<hasWeapons>1</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">127991</has_X>
 	<has_Y>223676.0</has_Y>
 	<totalCrime>562</totalCrime>
@@ -8247,7 +8247,7 @@
 	<hasPublic>20</hasPublic>
 	<hasRobbery>1</hasRobbery>
 	<hasTheft>43</hasTheft>
-	<hasWepons>2</hasWepons>
+	<hasWeapons>2</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">180337</has_X>
 	<has_Y>302706.0</has_Y>
 	<totalCrime>143</totalCrime>
@@ -8270,7 +8270,7 @@
 	<hasPublic>289</hasPublic>
 	<hasRobbery>17</hasRobbery>
 	<hasTheft>680</hasTheft>
-	<hasWepons>39</hasWepons>
+	<hasWeapons>39</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">326982</has_X>
 	<has_Y>218126.0</has_Y>
 	<totalCrime>2220</totalCrime>
@@ -8293,7 +8293,7 @@
 	<hasPublic>481</hasPublic>
 	<hasRobbery>14</hasRobbery>
 	<hasTheft>453</hasTheft>
-	<hasWepons>20</hasWepons>
+	<hasWeapons>20</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">167215</has_X>
 	<has_Y>72081.0</has_Y>
 	<totalCrime>1815</totalCrime>
@@ -8316,7 +8316,7 @@
 	<hasPublic>315</hasPublic>
 	<hasRobbery>51</hasRobbery>
 	<hasTheft>757</hasTheft>
-	<hasWepons>57</hasWepons>
+	<hasWeapons>57</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">314987</has_X>
 	<has_Y>234346.0</has_Y>
 	<totalCrime>5713</totalCrime>
@@ -8339,7 +8339,7 @@
 	<hasPublic>12</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>17</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">162884</has_X>
 	<has_Y>136304.0</has_Y>
 	<totalCrime>63</totalCrime>
@@ -8362,7 +8362,7 @@
 	<hasPublic>7</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>13</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">155807</has_X>
 	<has_Y>130335.0</has_Y>
 	<totalCrime>45</totalCrime>
@@ -8385,7 +8385,7 @@
 	<hasPublic>6</hasPublic>
 	<hasRobbery>1</hasRobbery>
 	<hasTheft>63</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">290559</has_X>
 	<has_Y>156971.0</has_Y>
 	<totalCrime>164</totalCrime>
@@ -8408,7 +8408,7 @@
 	<hasPublic>139</hasPublic>
 	<hasRobbery>5</hasRobbery>
 	<hasTheft>58</hasTheft>
-	<hasWepons>5</hasWepons>
+	<hasWeapons>5</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">235086</has_X>
 	<has_Y>431698.0</has_Y>
 	<totalCrime>404</totalCrime>
@@ -8431,7 +8431,7 @@
 	<hasPublic>106</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>44</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">181940</has_X>
 	<has_Y>358711.0</has_Y>
 	<totalCrime>260</totalCrime>
@@ -8454,7 +8454,7 @@
 	<hasPublic>15</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>33</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">238292</has_X>
 	<has_Y>423197.0</has_Y>
 	<totalCrime>99</totalCrime>
@@ -8477,7 +8477,7 @@
 	<hasPublic>29</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>20</hasTheft>
-	<hasWepons>2</hasWepons>
+	<hasWeapons>2</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">154182</has_X>
 	<has_Y>108777.0</has_Y>
 	<totalCrime>112</totalCrime>
@@ -8500,7 +8500,7 @@
 	<hasPublic>100</hasPublic>
 	<hasRobbery>12</hasRobbery>
 	<hasTheft>515</hasTheft>
-	<hasWepons>7</hasWepons>
+	<hasWeapons>7</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">323458</has_X>
 	<has_Y>224950.0</has_Y>
 	<totalCrime>1405</totalCrime>
@@ -8523,7 +8523,7 @@
 	<hasPublic>71</hasPublic>
 	<hasRobbery>30</hasRobbery>
 	<hasTheft>499</hasTheft>
-	<hasWepons>5</hasWepons>
+	<hasWeapons>5</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">312709</has_X>
 	<has_Y>236285.0</has_Y>
 	<totalCrime>1086</totalCrime>
@@ -8546,7 +8546,7 @@
 	<hasPublic>15</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>36</hasTheft>
-	<hasWepons>2</hasWepons>
+	<hasWeapons>2</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">47419</has_X>
 	<has_Y>79475.0</has_Y>
 	<totalCrime>137</totalCrime>
@@ -8569,7 +8569,7 @@
 	<hasPublic>0</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>23</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">168230</has_X>
 	<has_Y>149230.0</has_Y>
 	<totalCrime>59</totalCrime>
@@ -8592,7 +8592,7 @@
 	<hasPublic>29</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>43</hasTheft>
-	<hasWepons>2</hasWepons>
+	<hasWeapons>2</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">205478</has_X>
 	<has_Y>124887.0</has_Y>
 	<totalCrime>186</totalCrime>
@@ -8615,7 +8615,7 @@
 	<hasPublic>16</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>57</hasTheft>
-	<hasWepons>1</hasWepons>
+	<hasWeapons>1</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">241366</has_X>
 	<has_Y>143576.0</has_Y>
 	<totalCrime>142</totalCrime>
@@ -8638,7 +8638,7 @@
 	<hasPublic>4</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>7</hasTheft>
-	<hasWepons>1</hasWepons>
+	<hasWeapons>1</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">272408</has_X>
 	<has_Y>115601.0</has_Y>
 	<totalCrime>48</totalCrime>
@@ -8661,7 +8661,7 @@
 	<hasPublic>3</hasPublic>
 	<hasRobbery>1</hasRobbery>
 	<hasTheft>13</hasTheft>
-	<hasWepons>4</hasWepons>
+	<hasWeapons>4</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">177122</has_X>
 	<has_Y>151501.0</has_Y>
 	<totalCrime>51</totalCrime>
@@ -8684,7 +8684,7 @@
 	<hasPublic>3</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>13</hasTheft>
-	<hasWepons>2</hasWepons>
+	<hasWeapons>2</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">188876</has_X>
 	<has_Y>147953.0</has_Y>
 	<totalCrime>41</totalCrime>
@@ -8707,7 +8707,7 @@
 	<hasPublic>5</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>21</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">210611</has_X>
 	<has_Y>99293.0</has_Y>
 	<totalCrime>84</totalCrime>
@@ -8730,7 +8730,7 @@
 	<hasPublic>6</hasPublic>
 	<hasRobbery>1</hasRobbery>
 	<hasTheft>89</hasTheft>
-	<hasWepons>5</hasWepons>
+	<hasWeapons>5</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">270878</has_X>
 	<has_Y>232525.0</has_Y>
 	<totalCrime>180</totalCrime>
@@ -8753,7 +8753,7 @@
 	<hasPublic>34</hasPublic>
 	<hasRobbery>1</hasRobbery>
 	<hasTheft>39</hasTheft>
-	<hasWepons>1</hasWepons>
+	<hasWeapons>1</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">318804</has_X>
 	<has_Y>311739.0</has_Y>
 	<totalCrime>140</totalCrime>
@@ -8776,7 +8776,7 @@
 	<hasPublic>305</hasPublic>
 	<hasRobbery>8</hasRobbery>
 	<hasTheft>471</hasTheft>
-	<hasWepons>9</hasWepons>
+	<hasWeapons>9</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">272198</has_X>
 	<has_Y>177119.0</has_Y>
 	<totalCrime>1573</totalCrime>
@@ -8799,7 +8799,7 @@
 	<hasPublic>11</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>7</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">78502</has_X>
 	<has_Y>231891.0</has_Y>
 	<totalCrime>29</totalCrime>
@@ -8822,7 +8822,7 @@
 	<hasPublic>29</hasPublic>
 	<hasRobbery>1</hasRobbery>
 	<hasTheft>24</hasTheft>
-	<hasWepons>3</hasWepons>
+	<hasWeapons>3</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">247140</has_X>
 	<has_Y>445420.0</has_Y>
 	<totalCrime>155</totalCrime>
@@ -8845,7 +8845,7 @@
 	<hasPublic>5</hasPublic>
 	<hasRobbery>2</hasRobbery>
 	<hasTheft>19</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">301985</has_X>
 	<has_Y>163180.0</has_Y>
 	<totalCrime>52</totalCrime>
@@ -8868,7 +8868,7 @@
 	<hasPublic>9</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>7</hasTheft>
-	<hasWepons>2</hasWepons>
+	<hasWeapons>2</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">212888</has_X>
 	<has_Y>436462.0</has_Y>
 	<totalCrime>50</totalCrime>
@@ -8891,7 +8891,7 @@
 	<hasPublic>224</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>106</hasTheft>
-	<hasWepons>4</hasWepons>
+	<hasWeapons>4</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">194129</has_X>
 	<has_Y>299437.0</has_Y>
 	<totalCrime>525</totalCrime>
@@ -8914,7 +8914,7 @@
 	<hasPublic>70</hasPublic>
 	<hasRobbery>2</hasRobbery>
 	<hasTheft>83</hasTheft>
-	<hasWepons>4</hasWepons>
+	<hasWeapons>4</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">240263</has_X>
 	<has_Y>121953.0</has_Y>
 	<totalCrime>316</totalCrime>
@@ -8937,7 +8937,7 @@
 	<hasPublic>3</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>16</hasTheft>
-	<hasWepons>4</hasWepons>
+	<hasWeapons>4</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">286534</has_X>
 	<has_Y>110303.0</has_Y>
 	<totalCrime>56</totalCrime>
@@ -8960,7 +8960,7 @@
 	<hasPublic>4</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>26</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">284542</has_X>
 	<has_Y>124096.0</has_Y>
 	<totalCrime>58</totalCrime>
@@ -8983,7 +8983,7 @@
 	<hasPublic>100</hasPublic>
 	<hasRobbery>1</hasRobbery>
 	<hasTheft>84</hasTheft>
-	<hasWepons>2</hasWepons>
+	<hasWeapons>2</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">284115</has_X>
 	<has_Y>303725.0</has_Y>
 	<totalCrime>419</totalCrime>
@@ -9006,7 +9006,7 @@
 	<hasPublic>55</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>120</hasTheft>
-	<hasWepons>1</hasWepons>
+	<hasWeapons>1</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">173048</has_X>
 	<has_Y>62517.0</has_Y>
 	<totalCrime>367</totalCrime>
@@ -9029,7 +9029,7 @@
 	<hasPublic>1</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>11</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">223231</has_X>
 	<has_Y>302970.0</has_Y>
 	<totalCrime>26</totalCrime>
@@ -9052,7 +9052,7 @@
 	<hasPublic>8</hasPublic>
 	<hasRobbery>2</hasRobbery>
 	<hasTheft>9</hasTheft>
-	<hasWepons>1</hasWepons>
+	<hasWeapons>1</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">236778</has_X>
 	<has_Y>411663.0</has_Y>
 	<totalCrime>57</totalCrime>
@@ -9075,7 +9075,7 @@
 	<hasPublic>10</hasPublic>
 	<hasRobbery>1</hasRobbery>
 	<hasTheft>32</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">182032</has_X>
 	<has_Y>73007.0</has_Y>
 	<totalCrime>104</totalCrime>
@@ -9098,7 +9098,7 @@
 	<hasPublic>32</hasPublic>
 	<hasRobbery>2</hasRobbery>
 	<hasTheft>89</hasTheft>
-	<hasWepons>1</hasWepons>
+	<hasWeapons>1</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">207497</has_X>
 	<has_Y>140510.0</has_Y>
 	<totalCrime>263</totalCrime>
@@ -9121,7 +9121,7 @@
 	<hasPublic>220</hasPublic>
 	<hasRobbery>6</hasRobbery>
 	<hasTheft>254</hasTheft>
-	<hasWepons>4</hasWepons>
+	<hasWeapons>4</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">114657</has_X>
 	<has_Y>290095.0</has_Y>
 	<totalCrime>817</totalCrime>
@@ -9144,7 +9144,7 @@
 	<hasPublic>9</hasPublic>
 	<hasRobbery>2</hasRobbery>
 	<hasTheft>148</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">305884</has_X>
 	<has_Y>295618.0</has_Y>
 	<totalCrime>276</totalCrime>
@@ -9167,7 +9167,7 @@
 	<hasPublic>161</hasPublic>
 	<hasRobbery>2</hasRobbery>
 	<hasTheft>50</hasTheft>
-	<hasWepons>4</hasWepons>
+	<hasWeapons>4</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">282766</has_X>
 	<has_Y>319488.0</has_Y>
 	<totalCrime>430</totalCrime>
@@ -9190,7 +9190,7 @@
 	<hasPublic>6</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>56</hasTheft>
-	<hasWepons>2</hasWepons>
+	<hasWeapons>2</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">305412</has_X>
 	<has_Y>126984.0</has_Y>
 	<totalCrime>131</totalCrime>
@@ -9213,7 +9213,7 @@
 	<hasPublic>20</hasPublic>
 	<hasRobbery>1</hasRobbery>
 	<hasTheft>71</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">253366</has_X>
 	<has_Y>172283.0</has_Y>
 	<totalCrime>194</totalCrime>
@@ -9236,7 +9236,7 @@
 	<hasPublic>35</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>81</hasTheft>
-	<hasWepons>3</hasWepons>
+	<hasWeapons>3</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">166361</has_X>
 	<has_Y>162551.0</has_Y>
 	<totalCrime>240</totalCrime>
@@ -9259,7 +9259,7 @@
 	<hasPublic>6</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>37</hasTheft>
-	<hasWepons>1</hasWepons>
+	<hasWeapons>1</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">277476</has_X>
 	<has_Y>184847.0</has_Y>
 	<totalCrime>124</totalCrime>
@@ -9282,7 +9282,7 @@
 	<hasPublic>16</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>24</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">226079</has_X>
 	<has_Y>395057.0</has_Y>
 	<totalCrime>87</totalCrime>
@@ -9305,7 +9305,7 @@
 	<hasPublic>3</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>10</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">62067</has_X>
 	<has_Y>113254.0</has_Y>
 	<totalCrime>34</totalCrime>
@@ -9328,7 +9328,7 @@
 	<hasPublic>27</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>31</hasTheft>
-	<hasWepons>5</hasWepons>
+	<hasWeapons>5</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">100103</has_X>
 	<has_Y>109691.0</has_Y>
 	<totalCrime>148</totalCrime>
@@ -9351,7 +9351,7 @@
 	<hasPublic>7</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>1</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">83700</has_X>
 	<has_Y>103354.0</has_Y>
 	<totalCrime>26</totalCrime>
@@ -9374,7 +9374,7 @@
 	<hasPublic>2</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>25</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">246529</has_X>
 	<has_Y>270072.0</has_Y>
 	<totalCrime>57</totalCrime>
@@ -9397,7 +9397,7 @@
 	<hasPublic>37</hasPublic>
 	<hasRobbery>2</hasRobbery>
 	<hasTheft>57</hasTheft>
-	<hasWepons>3</hasWepons>
+	<hasWeapons>3</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">168128</has_X>
 	<has_Y>279762.0</has_Y>
 	<totalCrime>315</totalCrime>
@@ -9420,7 +9420,7 @@
 	<hasPublic>3</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>9</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">67530</has_X>
 	<has_Y>45783.0</has_Y>
 	<totalCrime>43</totalCrime>
@@ -9443,7 +9443,7 @@
 	<hasPublic>2</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>17</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">168033</has_X>
 	<has_Y>102149.0</has_Y>
 	<totalCrime>58</totalCrime>
@@ -9466,7 +9466,7 @@
 	<hasPublic>192</hasPublic>
 	<hasRobbery>10</hasRobbery>
 	<hasTheft>327</hasTheft>
-	<hasWepons>10</hasWepons>
+	<hasWeapons>10</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">241968</has_X>
 	<has_Y>305076.0</has_Y>
 	<totalCrime>1128</totalCrime>
@@ -9521,7 +9521,7 @@
 	<hasPublic>32</hasPublic>
 	<hasRobbery>6</hasRobbery>
 	<hasTheft>252</hasTheft>
-	<hasWepons>4</hasWepons>
+	<hasWeapons>4</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">297174</has_X>
 	<has_Y>233606.0</has_Y>
 	<totalCrime>646</totalCrime>
@@ -9544,7 +9544,7 @@
 	<hasPublic>13</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>48</hasTheft>
-	<hasWepons>1</hasWepons>
+	<hasWeapons>1</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">147966</has_X>
 	<has_Y>301773.0</has_Y>
 	<totalCrime>117</totalCrime>
@@ -9567,7 +9567,7 @@
 	<hasPublic>28</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>107</hasTheft>
-	<hasWepons>3</hasWepons>
+	<hasWeapons>3</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">153544</has_X>
 	<has_Y>122887.0</has_Y>
 	<totalCrime>258</totalCrime>
@@ -9590,7 +9590,7 @@
 	<hasPublic>2</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>0</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">88391</has_X>
 	<has_Y>209129.0</has_Y>
 	<totalCrime>15</totalCrime>
@@ -9613,7 +9613,7 @@
 	<hasPublic>26</hasPublic>
 	<hasRobbery>2</hasRobbery>
 	<hasTheft>169</hasTheft>
-	<hasWepons>4</hasWepons>
+	<hasWeapons>4</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">287676</has_X>
 	<has_Y>227817.0</has_Y>
 	<totalCrime>397</totalCrime>
@@ -9636,7 +9636,7 @@
 	<hasPublic>1</hasPublic>
 	<hasRobbery>1</hasRobbery>
 	<hasTheft>106</hasTheft>
-	<hasWepons>5</hasWepons>
+	<hasWeapons>5</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">225751</has_X>
 	<has_Y>232841.0</has_Y>
 	<totalCrime>196</totalCrime>
@@ -9683,7 +9683,7 @@
 	<hasPublic>39</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>46</hasTheft>
-	<hasWepons>1</hasWepons>
+	<hasWeapons>1</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">135024</has_X>
 	<has_Y>275315.22</has_Y>
 	<totalCrime>165</totalCrime>
@@ -9706,7 +9706,7 @@
 	<hasPublic>38</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>24</hasTheft>
-	<hasWepons>1</hasWepons>
+	<hasWeapons>1</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">66684</has_X>
 	<has_Y>250540.0</has_Y>
 	<totalCrime>104</totalCrime>
@@ -9729,7 +9729,7 @@
 	<hasPublic>2</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>2</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">72250</has_X>
 	<has_Y>239851.0</has_Y>
 	<totalCrime>8</totalCrime>
@@ -9752,7 +9752,7 @@
 	<hasPublic>2</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>10</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">208230</has_X>
 	<has_Y>219360.0</has_Y>
 	<totalCrime>49</totalCrime>
@@ -9775,7 +9775,7 @@
 	<hasPublic>1</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>7</hasTheft>
-	<hasWepons>1</hasWepons>
+	<hasWeapons>1</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">200368</has_X>
 	<has_Y>113860.0</has_Y>
 	<totalCrime>28</totalCrime>
@@ -9798,7 +9798,7 @@
 	<hasPublic>0</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>0</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">172579</has_X>
 	<has_Y>398859.0</has_Y>
 	<totalCrime>3</totalCrime>
@@ -9821,7 +9821,7 @@
 	<hasPublic>3</hasPublic>
 	<hasRobbery>1</hasRobbery>
 	<hasTheft>29</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">315864</has_X>
 	<has_Y>283734.0</has_Y>
 	<totalCrime>79</totalCrime>
@@ -9844,7 +9844,7 @@
 	<hasPublic>75</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>59</hasTheft>
-	<hasWepons>1</hasWepons>
+	<hasWeapons>1</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">138491</has_X>
 	<has_Y>41691.0</has_Y>
 	<totalCrime>296</totalCrime>
@@ -9867,7 +9867,7 @@
 	<hasPublic>5</hasPublic>
 	<hasRobbery>1</hasRobbery>
 	<hasTheft>9</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">197742</has_X>
 	<has_Y>235330.0</has_Y>
 	<totalCrime>36</totalCrime>
@@ -9890,7 +9890,7 @@
 	<hasPublic>0</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>8</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">231761</has_X>
 	<has_Y>210974.0</has_Y>
 	<totalCrime>29</totalCrime>
@@ -9913,7 +9913,7 @@
 	<hasPublic>0</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>13</hasTheft>
-	<hasWepons>1</hasWepons>
+	<hasWeapons>1</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">261062</has_X>
 	<has_Y>223560.0</has_Y>
 	<totalCrime>40</totalCrime>
@@ -9936,7 +9936,7 @@
 	<hasPublic>192</hasPublic>
 	<hasRobbery>43</hasRobbery>
 	<hasTheft>960</hasTheft>
-	<hasWepons>50</hasWepons>
+	<hasWeapons>50</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">307001</has_X>
 	<has_Y>231495.0</has_Y>
 	<totalCrime>2618</totalCrime>
@@ -9959,7 +9959,7 @@
 	<hasPublic>13</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>34</hasTheft>
-	<hasWepons>2</hasWepons>
+	<hasWeapons>2</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">250449</has_X>
 	<has_Y>325661.0</has_Y>
 	<totalCrime>100</totalCrime>
@@ -9982,7 +9982,7 @@
 	<hasPublic>25</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>3</hasTheft>
-	<hasWepons>1</hasWepons>
+	<hasWeapons>1</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">237379</has_X>
 	<has_Y>446385.0</has_Y>
 	<totalCrime>54</totalCrime>
@@ -10005,7 +10005,7 @@
 	<hasPublic>202</hasPublic>
 	<hasRobbery>6</hasRobbery>
 	<hasTheft>327</hasTheft>
-	<hasWepons>25</hasWepons>
+	<hasWeapons>25</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">220495</has_X>
 	<has_Y>122492.0</has_Y>
 	<totalCrime>1173</totalCrime>
@@ -10028,7 +10028,7 @@
 	<hasPublic>2</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>25</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">287355</has_X>
 	<has_Y>133940.0</has_Y>
 	<totalCrime>67</totalCrime>
@@ -10051,7 +10051,7 @@
 	<hasPublic>96</hasPublic>
 	<hasRobbery>29</hasRobbery>
 	<hasTheft>642</hasTheft>
-	<hasWepons>11</hasWepons>
+	<hasWeapons>11</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">318536</has_X>
 	<has_Y>236267.0</has_Y>
 	<totalCrime>1464</totalCrime>
@@ -10074,7 +10074,7 @@
 	<hasPublic>0</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>9</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">197379</has_X>
 	<has_Y>187871.0</has_Y>
 	<totalCrime>19</totalCrime>
@@ -10097,7 +10097,7 @@
 	<hasPublic>3</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>7</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">191542</has_X>
 	<has_Y>67785.0</has_Y>
 	<totalCrime>24</totalCrime>
@@ -10120,7 +10120,7 @@
 	<hasPublic>4</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>12</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">145605</has_X>
 	<has_Y>73233.0</has_Y>
 	<totalCrime>52</totalCrime>
@@ -10143,7 +10143,7 @@
 	<hasPublic>105</hasPublic>
 	<hasRobbery>1</hasRobbery>
 	<hasTheft>91</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">179125</has_X>
 	<has_Y>66205.0</has_Y>
 	<totalCrime>357</totalCrime>
@@ -10166,7 +10166,7 @@
 	<hasPublic>1</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>10</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">299931</has_X>
 	<has_Y>281968.0</has_Y>
 	<totalCrime>34</totalCrime>
@@ -10189,7 +10189,7 @@
 	<hasPublic>12</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>20</hasTheft>
-	<hasWepons>1</hasWepons>
+	<hasWeapons>1</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">168198</has_X>
 	<has_Y>326384.0</has_Y>
 	<totalCrime>117</totalCrime>
@@ -10212,7 +10212,7 @@
 	<hasPublic>2</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>8</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">114758</has_X>
 	<has_Y>255362.0</has_Y>
 	<totalCrime>24</totalCrime>
@@ -10235,7 +10235,7 @@
 	<hasPublic>9</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>10</hasTheft>
-	<hasWepons>1</hasWepons>
+	<hasWeapons>1</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">221305</has_X>
 	<has_Y>401336.0</has_Y>
 	<totalCrime>62</totalCrime>
@@ -10258,7 +10258,7 @@
 	<hasPublic>0</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>3</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">160644</has_X>
 	<has_Y>324983.0</has_Y>
 	<totalCrime>22</totalCrime>
@@ -10281,7 +10281,7 @@
 	<hasPublic>159</hasPublic>
 	<hasRobbery>66</hasRobbery>
 	<hasTheft>862</hasTheft>
-	<hasWepons>50</hasWepons>
+	<hasWeapons>50</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">319729</has_X>
 	<has_Y>239280.0</has_Y>
 	<totalCrime>2472</totalCrime>
@@ -10304,7 +10304,7 @@
 	<hasPublic>15</hasPublic>
 	<hasRobbery>1</hasRobbery>
 	<hasTheft>51</hasTheft>
-	<hasWepons>2</hasWepons>
+	<hasWeapons>2</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">260357</has_X>
 	<has_Y>314337.0</has_Y>
 	<totalCrime>154</totalCrime>
@@ -10428,7 +10428,7 @@
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>11</hasTheft>
 	<hasTheft>13</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">128220</has_X>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">142691</has_X>
 	<has_Y>189019.2</has_Y>
@@ -10454,7 +10454,7 @@
 	<hasPublic>20</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>121</hasTheft>
-	<hasWepons>2</hasWepons>
+	<hasWeapons>2</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">319821</has_X>
 	<has_Y>156210.0</has_Y>
 	<totalCrime>383</totalCrime>
@@ -10477,7 +10477,7 @@
 	<hasPublic>5</hasPublic>
 	<hasRobbery>1</hasRobbery>
 	<hasTheft>20</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">151036</has_X>
 	<has_Y>220114.02</has_Y>
 	<totalCrime>66</totalCrime>
@@ -10500,7 +10500,7 @@
 	<hasPublic>0</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>0</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">175961</has_X>
 	<has_Y>260596.0</has_Y>
 	<totalCrime>6</totalCrime>
@@ -10523,7 +10523,7 @@
 	<hasPublic>6</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>15</hasTheft>
-	<hasWepons>1</hasWepons>
+	<hasWeapons>1</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">144846</has_X>
 	<has_Y>67624.0</has_Y>
 	<totalCrime>104</totalCrime>
@@ -10546,7 +10546,7 @@
 	<hasPublic>16</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>40</hasTheft>
-	<hasWepons>2</hasWepons>
+	<hasWeapons>2</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">151259</has_X>
 	<has_Y>141377.0</has_Y>
 	<totalCrime>113</totalCrime>
@@ -10569,7 +10569,7 @@
 	<hasPublic>4</hasPublic>
 	<hasRobbery>1</hasRobbery>
 	<hasTheft>32</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">179049</has_X>
 	<has_Y>61280.0</has_Y>
 	<totalCrime>78</totalCrime>
@@ -10592,7 +10592,7 @@
 	<hasPublic>12</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>9</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">113519</has_X>
 	<has_Y>317547.0</has_Y>
 	<totalCrime>49</totalCrime>
@@ -10615,7 +10615,7 @@
 	<hasPublic>110</hasPublic>
 	<hasRobbery>40</hasRobbery>
 	<hasTheft>454</hasTheft>
-	<hasWepons>7</hasWepons>
+	<hasWeapons>7</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">312337</has_X>
 	<has_Y>231220.0</has_Y>
 	<totalCrime>1406</totalCrime>
@@ -10638,7 +10638,7 @@
 	<hasPublic>0</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>7</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">139630</has_X>
 	<has_Y>187860.0</has_Y>
 	<totalCrime>18</totalCrime>
@@ -10744,7 +10744,7 @@
 	<hasPublic>0</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>21</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">247157</has_X>
 	<has_Y>227166.0</has_Y>
 	<totalCrime>56</totalCrime>
@@ -10767,7 +10767,7 @@
 	<hasPublic>12</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>31</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">260269</has_X>
 	<has_Y>263101.0</has_Y>
 	<totalCrime>167</totalCrime>
@@ -10790,7 +10790,7 @@
 	<hasPublic>68</hasPublic>
 	<hasRobbery>2</hasRobbery>
 	<hasTheft>27</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">44605</has_X>
 	<has_Y>100974.0</has_Y>
 	<totalCrime>164</totalCrime>
@@ -10813,7 +10813,7 @@
 	<hasPublic>1</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>11</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">187091</has_X>
 	<has_Y>171770.0</has_Y>
 	<totalCrime>22</totalCrime>
@@ -10880,7 +10880,7 @@
 	<hasPublic>33</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>33</hasTheft>
-	<hasWepons>1</hasWepons>
+	<hasWeapons>1</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">192880</has_X>
 	<has_Y>378259.0</has_Y>
 	<totalCrime>167</totalCrime>
@@ -10903,7 +10903,7 @@
 	<hasPublic>17</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>22</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">160037</has_X>
 	<has_Y>107212.0</has_Y>
 	<totalCrime>60</totalCrime>
@@ -10926,7 +10926,7 @@
 	<hasPublic>168</hasPublic>
 	<hasRobbery>19</hasRobbery>
 	<hasTheft>760</hasTheft>
-	<hasWepons>15</hasWepons>
+	<hasWeapons>15</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">317602</has_X>
 	<has_Y>231588.0</has_Y>
 	<totalCrime>1614</totalCrime>
@@ -10949,7 +10949,7 @@
 	<hasPublic>63</hasPublic>
 	<hasRobbery>6</hasRobbery>
 	<hasTheft>218</hasTheft>
-	<hasWepons>5</hasWepons>
+	<hasWeapons>5</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">170369</has_X>
 	<has_Y>69237.0</has_Y>
 	<totalCrime>643</totalCrime>
@@ -10972,7 +10972,7 @@
 	<hasPublic>0</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>1</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">199053</has_X>
 	<has_Y>326825.0</has_Y>
 	<totalCrime>3</totalCrime>
@@ -10995,7 +10995,7 @@
 	<hasPublic>0</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>8</hasTheft>
-	<hasWepons>1</hasWepons>
+	<hasWeapons>1</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">112583</has_X>
 	<has_Y>45865.0</has_Y>
 	<totalCrime>37</totalCrime>
@@ -11018,7 +11018,7 @@
 	<hasPublic>0</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>0</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">120137</has_X>
 	<has_Y>44481.0</has_Y>
 	<totalCrime>6</totalCrime>
@@ -11041,7 +11041,7 @@
 	<hasPublic>266</hasPublic>
 	<hasRobbery>36</hasRobbery>
 	<hasTheft>790</hasTheft>
-	<hasWepons>17</hasWepons>
+	<hasWeapons>17</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">308547</has_X>
 	<has_Y>275168.0</has_Y>
 	<totalCrime>2466</totalCrime>
@@ -11064,7 +11064,7 @@
 	<hasPublic>5</hasPublic>
 	<hasRobbery>1</hasRobbery>
 	<hasTheft>46</hasTheft>
-	<hasWepons>1</hasWepons>
+	<hasWeapons>1</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">307291</has_X>
 	<has_Y>317522.12</has_Y>
 	<totalCrime>122</totalCrime>
@@ -11087,7 +11087,7 @@
 	<hasPublic>4</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>27</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">137937</has_X>
 	<has_Y>121074.0</has_Y>
 	<totalCrime>74</totalCrime>
@@ -11110,7 +11110,7 @@
 	<hasPublic>11</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>18</hasTheft>
-	<hasWepons>1</hasWepons>
+	<hasWeapons>1</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">215464</has_X>
 	<has_Y>285808.0</has_Y>
 	<totalCrime>64</totalCrime>
@@ -11133,7 +11133,7 @@
 	<hasPublic>3</hasPublic>
 	<hasRobbery>1</hasRobbery>
 	<hasTheft>17</hasTheft>
-	<hasWepons>3</hasWepons>
+	<hasWeapons>3</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">197430</has_X>
 	<has_Y>310806.0</has_Y>
 	<totalCrime>61</totalCrime>
@@ -11156,7 +11156,7 @@
 	<hasPublic>69</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>173</hasTheft>
-	<hasWepons>14</hasWepons>
+	<hasWeapons>14</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">316668</has_X>
 	<has_Y>243608.0</has_Y>
 	<totalCrime>327</totalCrime>
@@ -11179,7 +11179,7 @@
 	<hasPublic>13</hasPublic>
 	<hasRobbery>4</hasRobbery>
 	<hasTheft>67</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">304644</has_X>
 	<has_Y>268266.0</has_Y>
 	<totalCrime>208</totalCrime>
@@ -11202,7 +11202,7 @@
 	<hasPublic>10</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>2</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">201676</has_X>
 	<has_Y>437311.0</has_Y>
 	<totalCrime>30</totalCrime>
@@ -11225,7 +11225,7 @@
 	<hasPublic>206</hasPublic>
 	<hasRobbery>18</hasRobbery>
 	<hasTheft>751</hasTheft>
-	<hasWepons>19</hasWepons>
+	<hasWeapons>19</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">324528</has_X>
 	<has_Y>228221.0</has_Y>
 	<totalCrime>2189</totalCrime>
@@ -11248,7 +11248,7 @@
 	<hasPublic>23</hasPublic>
 	<hasRobbery>10</hasRobbery>
 	<hasTheft>176</hasTheft>
-	<hasWepons>4</hasWepons>
+	<hasWeapons>4</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">301292</has_X>
 	<has_Y>242275.0</has_Y>
 	<totalCrime>388</totalCrime>
@@ -11271,7 +11271,7 @@
 	<hasPublic>5</hasPublic>
 	<hasRobbery>1</hasRobbery>
 	<hasTheft>22</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">273189</has_X>
 	<has_Y>108224.0</has_Y>
 	<totalCrime>78</totalCrime>
@@ -11294,7 +11294,7 @@
 	<hasPublic>266</hasPublic>
 	<hasRobbery>36</hasRobbery>
 	<hasTheft>981</hasTheft>
-	<hasWepons>43</hasWepons>
+	<hasWeapons>43</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">304337</has_X>
 	<has_Y>306745.0</has_Y>
 	<totalCrime>2587</totalCrime>
@@ -11317,7 +11317,7 @@
 	<hasPublic>185</hasPublic>
 	<hasRobbery>28</hasRobbery>
 	<hasTheft>1499</hasTheft>
-	<hasWepons>16</hasWepons>
+	<hasWeapons>16</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">317246</has_X>
 	<has_Y>227995.0</has_Y>
 	<totalCrime>3246</totalCrime>
@@ -11340,7 +11340,7 @@
 	<hasPublic>184</hasPublic>
 	<hasRobbery>3</hasRobbery>
 	<hasTheft>219</hasTheft>
-	<hasWepons>11</hasWepons>
+	<hasWeapons>11</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">225790</has_X>
 	<has_Y>92872.0</has_Y>
 	<totalCrime>756</totalCrime>
@@ -11363,7 +11363,7 @@
 	<hasPublic>7</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>7</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">287139</has_X>
 	<has_Y>201660.0</has_Y>
 	<totalCrime>42</totalCrime>
@@ -11386,7 +11386,7 @@
 	<hasPublic>22</hasPublic>
 	<hasRobbery>1</hasRobbery>
 	<hasTheft>35</hasTheft>
-	<hasWepons>1</hasWepons>
+	<hasWeapons>1</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">305758</has_X>
 	<has_Y>287738.0</has_Y>
 	<totalCrime>154</totalCrime>
@@ -11409,7 +11409,7 @@
 	<hasPublic>13</hasPublic>
 	<hasRobbery>1</hasRobbery>
 	<hasTheft>24</hasTheft>
-	<hasWepons>1</hasWepons>
+	<hasWeapons>1</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">123336</has_X>
 	<has_Y>52791.01</has_Y>
 	<totalCrime>102</totalCrime>
@@ -11432,7 +11432,7 @@
 	<hasPublic>11</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>24</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">151036</has_X>
 	<has_Y>263315.0</has_Y>
 	<totalCrime>66</totalCrime>
@@ -11455,7 +11455,7 @@
 	<hasPublic>6</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>48</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">268990</has_X>
 	<has_Y>100038.01</has_Y>
 	<totalCrime>100</totalCrime>
@@ -11478,7 +11478,7 @@
 	<hasPublic>22</hasPublic>
 	<hasRobbery>1</hasRobbery>
 	<hasTheft>87</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">296955</has_X>
 	<has_Y>252168.0</has_Y>
 	<totalCrime>224</totalCrime>
@@ -11501,7 +11501,7 @@
 	<hasPublic>7</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>24</hasTheft>
-	<hasWepons>2</hasWepons>
+	<hasWeapons>2</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">240741</has_X>
 	<has_Y>177168.0</has_Y>
 	<totalCrime>69</totalCrime>
@@ -11524,7 +11524,7 @@
 	<hasPublic>1</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>4</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">94504</has_X>
 	<has_Y>41927.0</has_Y>
 	<totalCrime>21</totalCrime>
@@ -11547,7 +11547,7 @@
 	<hasPublic>28</hasPublic>
 	<hasRobbery>1</hasRobbery>
 	<hasTheft>87</hasTheft>
-	<hasWepons>9</hasWepons>
+	<hasWeapons>9</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">262613</has_X>
 	<has_Y>232228.0</has_Y>
 	<totalCrime>300</totalCrime>
@@ -11570,7 +11570,7 @@
 	<hasPublic>24</hasPublic>
 	<hasRobbery>2</hasRobbery>
 	<hasTheft>41</hasTheft>
-	<hasWepons>9</hasWepons>
+	<hasWeapons>9</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">226076</has_X>
 	<has_Y>271817.0</has_Y>
 	<totalCrime>228</totalCrime>
@@ -11593,7 +11593,7 @@
 	<hasPublic>2</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>9</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">187380</has_X>
 	<has_Y>288484.0</has_Y>
 	<totalCrime>22</totalCrime>
@@ -11616,7 +11616,7 @@
 	<hasPublic>5</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>5</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">175977</has_X>
 	<has_Y>134865.0</has_Y>
 	<totalCrime>25</totalCrime>
@@ -11639,7 +11639,7 @@
 	<hasPublic>11</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>25</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">267849</has_X>
 	<has_Y>343905.0</has_Y>
 	<totalCrime>66</totalCrime>
@@ -11662,7 +11662,7 @@
 	<hasPublic>5</hasPublic>
 	<hasRobbery>1</hasRobbery>
 	<hasTheft>27</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">277589</has_X>
 	<has_Y>241162.02</has_Y>
 	<totalCrime>69</totalCrime>
@@ -11685,7 +11685,7 @@
 	<hasPublic>373</hasPublic>
 	<hasRobbery>12</hasRobbery>
 	<hasTheft>523</hasTheft>
-	<hasWepons>30</hasWepons>
+	<hasWeapons>30</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">133945</has_X>
 	<has_Y>177743.83</has_Y>
 	<totalCrime>2014</totalCrime>
@@ -11708,7 +11708,7 @@
 	<hasPublic>93</hasPublic>
 	<hasRobbery>2</hasRobbery>
 	<hasTheft>232</hasTheft>
-	<hasWepons>5</hasWepons>
+	<hasWeapons>5</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">297114</has_X>
 	<has_Y>139729.0</has_Y>
 	<totalCrime>879</totalCrime>
@@ -11731,7 +11731,7 @@
 	<hasPublic>12</hasPublic>
 	<hasRobbery>1</hasRobbery>
 	<hasTheft>9</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">129034</has_X>
 	<has_Y>329979.0</has_Y>
 	<totalCrime>76</totalCrime>
@@ -11754,7 +11754,7 @@
 	<hasPublic>5</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>56</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">322397</has_X>
 	<has_Y>217190.0</has_Y>
 	<totalCrime>127</totalCrime>
@@ -11777,7 +11777,7 @@
 	<hasPublic>61</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>48</hasTheft>
-	<hasWepons>1</hasWepons>
+	<hasWeapons>1</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">113414</has_X>
 	<has_Y>188139.0</has_Y>
 	<totalCrime>210</totalCrime>
@@ -11800,7 +11800,7 @@
 	<hasPublic>0</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>10</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">191203</has_X>
 	<has_Y>216532.0</has_Y>
 	<totalCrime>27</totalCrime>
@@ -11823,7 +11823,7 @@
 	<hasPublic>4</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>6</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">94027</has_X>
 	<has_Y>103252.0</has_Y>
 	<totalCrime>28</totalCrime>
@@ -11846,7 +11846,7 @@
 	<hasPublic>6</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>34</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">211550</has_X>
 	<has_Y>224476.0</has_Y>
 	<totalCrime>91</totalCrime>
@@ -11869,7 +11869,7 @@
 	<hasPublic>131</hasPublic>
 	<hasRobbery>2</hasRobbery>
 	<hasTheft>73</hasTheft>
-	<hasWepons>3</hasWepons>
+	<hasWeapons>3</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">181278</has_X>
 	<has_Y>98497.0</has_Y>
 	<totalCrime>419</totalCrime>
@@ -11892,7 +11892,7 @@
 	<hasPublic>6</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>31</hasTheft>
-	<hasWepons>1</hasWepons>
+	<hasWeapons>1</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">301857</has_X>
 	<has_Y>149873.0</has_Y>
 	<totalCrime>105</totalCrime>
@@ -11915,7 +11915,7 @@
 	<hasPublic>28</hasPublic>
 	<hasRobbery>1</hasRobbery>
 	<hasTheft>61</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">261416</has_X>
 	<has_Y>113191.0</has_Y>
 	<totalCrime>214</totalCrime>
@@ -11938,7 +11938,7 @@
 	<hasPublic>12</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>19</hasTheft>
-	<hasWepons>1</hasWepons>
+	<hasWeapons>1</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">220818</has_X>
 	<has_Y>134991.0</has_Y>
 	<totalCrime>103</totalCrime>
@@ -11961,7 +11961,7 @@
 	<hasPublic>249</hasPublic>
 	<hasRobbery>72</hasRobbery>
 	<hasTheft>934</hasTheft>
-	<hasWepons>59</hasWepons>
+	<hasWeapons>59</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">312702</has_X>
 	<has_Y>239028.0</has_Y>
 	<totalCrime>2586</totalCrime>
@@ -11984,7 +11984,7 @@
 	<hasPublic>226</hasPublic>
 	<hasRobbery>61</hasRobbery>
 	<hasTheft>936</hasTheft>
-	<hasWepons>32</hasWepons>
+	<hasWeapons>32</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">316208</has_X>
 	<has_Y>235563.0</has_Y>
 	<totalCrime>2452</totalCrime>
@@ -12007,7 +12007,7 @@
 	<hasPublic>6</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>13</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">127334</has_X>
 	<has_Y>304337.0</has_Y>
 	<totalCrime>49</totalCrime>
@@ -12030,7 +12030,7 @@
 	<hasPublic>8</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>43</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">125284</has_X>
 	<has_Y>151469.0</has_Y>
 	<totalCrime>113</totalCrime>
@@ -12053,7 +12053,7 @@
 	<hasPublic>15</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>15</hasTheft>
-	<hasWepons>2</hasWepons>
+	<hasWeapons>2</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">173367</has_X>
 	<has_Y>291150.0</has_Y>
 	<totalCrime>80</totalCrime>
@@ -12076,7 +12076,7 @@
 	<hasPublic>4</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>12</hasTheft>
-	<hasWepons>1</hasWepons>
+	<hasWeapons>1</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">240959</has_X>
 	<has_Y>164725.0</has_Y>
 	<totalCrime>40</totalCrime>
@@ -12099,7 +12099,7 @@
 	<hasPublic>1027</hasPublic>
 	<hasRobbery>19</hasRobbery>
 	<hasTheft>1257</hasTheft>
-	<hasWepons>29</hasWepons>
+	<hasWeapons>29</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">129444</has_X>
 	<has_Y>225049.64</has_Y>
 	<totalCrime>4151</totalCrime>
@@ -12175,7 +12175,7 @@
 	<hasPublic>6</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>27</hasTheft>
-	<hasWepons>1</hasWepons>
+	<hasWeapons>1</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">307122</has_X>
 	<has_Y>258655.0</has_Y>
 	<totalCrime>80</totalCrime>
@@ -12198,7 +12198,7 @@
 	<hasPublic>33</hasPublic>
 	<hasRobbery>4</hasRobbery>
 	<hasTheft>116</hasTheft>
-	<hasWepons>1</hasWepons>
+	<hasWeapons>1</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">172745</has_X>
 	<has_Y>74038.0</has_Y>
 	<totalCrime>325</totalCrime>
@@ -12221,7 +12221,7 @@
 	<hasPublic>3</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>11</hasTheft>
-	<hasWepons>1</hasWepons>
+	<hasWeapons>1</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">148745</has_X>
 	<has_Y>94962.0</has_Y>
 	<totalCrime>45</totalCrime>
@@ -12244,7 +12244,7 @@
 	<hasPublic>3</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>15</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">209112</has_X>
 	<has_Y>246838.0</has_Y>
 	<totalCrime>42</totalCrime>
@@ -12267,7 +12267,7 @@
 	<hasPublic>0</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>4</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">90600</has_X>
 	<has_Y>333737.0</has_Y>
 	<totalCrime>12</totalCrime>
@@ -12290,7 +12290,7 @@
 	<hasPublic>6</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>9</hasTheft>
-	<hasWepons>2</hasWepons>
+	<hasWeapons>2</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">162969</has_X>
 	<has_Y>262081.0</has_Y>
 	<totalCrime>30</totalCrime>
@@ -12313,7 +12313,7 @@
 	<hasPublic>3</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>6</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">67187</has_X>
 	<has_Y>91175.0</has_Y>
 	<totalCrime>24</totalCrime>
@@ -12336,7 +12336,7 @@
 	<hasPublic>3</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>16</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">92959</has_X>
 	<has_Y>56431.01</has_Y>
 	<totalCrime>39</totalCrime>
@@ -12359,7 +12359,7 @@
 	<hasPublic>0</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>10</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">266278</has_X>
 	<has_Y>122867.0</has_Y>
 	<totalCrime>47</totalCrime>
@@ -12382,7 +12382,7 @@
 	<hasPublic>3</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>9</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">112955</has_X>
 	<has_Y>147205.0</has_Y>
 	<totalCrime>55</totalCrime>
@@ -12405,7 +12405,7 @@
 	<hasPublic>2</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>5</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">296565</has_X>
 	<has_Y>125474.0</has_Y>
 	<totalCrime>35</totalCrime>
@@ -12428,7 +12428,7 @@
 	<hasPublic>5</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>2</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">74046</has_X>
 	<has_Y>299957.0</has_Y>
 	<totalCrime>16</totalCrime>
@@ -12451,7 +12451,7 @@
 	<hasPublic>1</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>6</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">201089</has_X>
 	<has_Y>138327.0</has_Y>
 	<totalCrime>19</totalCrime>
@@ -12474,7 +12474,7 @@
 	<hasPublic>5</hasPublic>
 	<hasRobbery>1</hasRobbery>
 	<hasTheft>19</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">268138</has_X>
 	<has_Y>153632.0</has_Y>
 	<totalCrime>63</totalCrime>
@@ -12497,7 +12497,7 @@
 	<hasPublic>103</hasPublic>
 	<hasRobbery>1</hasRobbery>
 	<hasTheft>222</hasTheft>
-	<hasWepons>7</hasWepons>
+	<hasWeapons>7</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">315223</has_X>
 	<has_Y>159527.0</has_Y>
 	<totalCrime>753</totalCrime>
@@ -12520,7 +12520,7 @@
 	<hasPublic>47</hasPublic>
 	<hasRobbery>1</hasRobbery>
 	<hasTheft>42</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">145203</has_X>
 	<has_Y>202147.0</has_Y>
 	<totalCrime>219</totalCrime>
@@ -12543,7 +12543,7 @@
 	<hasPublic>11</hasPublic>
 	<hasRobbery>1</hasRobbery>
 	<hasTheft>34</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">270829</has_X>
 	<has_Y>143924.0</has_Y>
 	<totalCrime>85</totalCrime>
@@ -12566,7 +12566,7 @@
 	<hasPublic>25</hasPublic>
 	<hasRobbery>1</hasRobbery>
 	<hasTheft>27</hasTheft>
-	<hasWepons>1</hasWepons>
+	<hasWeapons>1</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">233393</has_X>
 	<has_Y>281099.0</has_Y>
 	<totalCrime>167</totalCrime>
@@ -12589,7 +12589,7 @@
 	<hasPublic>1</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>22</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">166222</has_X>
 	<has_Y>349540.0</has_Y>
 	<totalCrime>71</totalCrime>
@@ -12612,7 +12612,7 @@
 	<hasPublic>36</hasPublic>
 	<hasRobbery>2</hasRobbery>
 	<hasTheft>380</hasTheft>
-	<hasWepons>9</hasWepons>
+	<hasWeapons>9</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">329636</has_X>
 	<has_Y>212550.0</has_Y>
 	<totalCrime>797</totalCrime>
@@ -12635,7 +12635,7 @@
 	<hasPublic>190</hasPublic>
 	<hasRobbery>11</hasRobbery>
 	<hasTheft>204</hasTheft>
-	<hasWepons>14</hasWepons>
+	<hasWeapons>14</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">165871</has_X>
 	<has_Y>72420.0</has_Y>
 	<totalCrime>1037</totalCrime>
@@ -12658,7 +12658,7 @@
 	<hasPublic>1</hasPublic>
 	<hasRobbery>1</hasRobbery>
 	<hasTheft>12</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">166216</has_X>
 	<has_Y>304969.0</has_Y>
 	<totalCrime>33</totalCrime>
@@ -12681,7 +12681,7 @@
 	<hasPublic>1</hasPublic>
 	<hasRobbery>1</hasRobbery>
 	<hasTheft>17</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">296755</has_X>
 	<has_Y>310159.0</has_Y>
 	<totalCrime>49</totalCrime>
@@ -12704,7 +12704,7 @@
 	<hasPublic>5</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>4</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">297234</has_X>
 	<has_Y>180208.0</has_Y>
 	<totalCrime>28</totalCrime>
@@ -12727,7 +12727,7 @@
 	<hasPublic>10</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>22</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">127114</has_X>
 	<has_Y>247234.0</has_Y>
 	<totalCrime>97</totalCrime>
@@ -12750,7 +12750,7 @@
 	<hasPublic>925</hasPublic>
 	<hasRobbery>44</hasRobbery>
 	<hasTheft>1542</hasTheft>
-	<hasWepons>49</hasWepons>
+	<hasWeapons>49</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">157313</has_X>
 	<has_Y>156864.0</has_Y>
 	<totalCrime>4476</totalCrime>
@@ -12773,7 +12773,7 @@
 	<hasPublic>2</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>7</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">208653</has_X>
 	<has_Y>154560.0</has_Y>
 	<totalCrime>36</totalCrime>
@@ -12796,7 +12796,7 @@
 	<hasPublic>3</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>16</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">170664</has_X>
 	<has_Y>136018.0</has_Y>
 	<totalCrime>44</totalCrime>
@@ -12819,7 +12819,7 @@
 	<hasPublic>48</hasPublic>
 	<hasRobbery>16</hasRobbery>
 	<hasTheft>306</hasTheft>
-	<hasWepons>5</hasWepons>
+	<hasWeapons>5</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">328526</has_X>
 	<has_Y>239171.0</has_Y>
 	<totalCrime>717</totalCrime>
@@ -12842,7 +12842,7 @@
 	<hasPublic>4</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>4</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">104606</has_X>
 	<has_Y>222058.0</has_Y>
 	<totalCrime>28</totalCrime>
@@ -12865,7 +12865,7 @@
 	<hasPublic>3</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>11</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">154798</has_X>
 	<has_Y>57039.0</has_Y>
 	<totalCrime>44</totalCrime>
@@ -12888,7 +12888,7 @@
 	<hasPublic>117</hasPublic>
 	<hasRobbery>11</hasRobbery>
 	<hasTheft>579</hasTheft>
-	<hasWepons>6</hasWepons>
+	<hasWeapons>6</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">318394</has_X>
 	<has_Y>233446.0</has_Y>
 	<totalCrime>1202</totalCrime>
@@ -12911,7 +12911,7 @@
 	<hasPublic>51</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>31</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">137620</has_X>
 	<has_Y>103010.0</has_Y>
 	<totalCrime>188</totalCrime>
@@ -12934,7 +12934,7 @@
 	<hasPublic>2</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>13</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">191056</has_X>
 	<has_Y>311275.0</has_Y>
 	<totalCrime>29</totalCrime>
@@ -12957,7 +12957,7 @@
 	<hasPublic>3</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>4</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">105080</has_X>
 	<has_Y>56687.0</has_Y>
 	<totalCrime>22</totalCrime>
@@ -12980,7 +12980,7 @@
 	<hasPublic>4</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>4</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">63428</has_X>
 	<has_Y>304895.0</has_Y>
 	<totalCrime>13</totalCrime>
@@ -13003,7 +13003,7 @@
 	<hasPublic>45</hasPublic>
 	<hasRobbery>1</hasRobbery>
 	<hasTheft>119</hasTheft>
-	<hasWepons>7</hasWepons>
+	<hasWeapons>7</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">273892</has_X>
 	<has_Y>275980.0</has_Y>
 	<totalCrime>367</totalCrime>
@@ -13026,7 +13026,7 @@
 	<hasPublic>0</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>14</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">212284</has_X>
 	<has_Y>263566.0</has_Y>
 	<totalCrime>37</totalCrime>
@@ -13049,7 +13049,7 @@
 	<hasPublic>48</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>21</hasTheft>
-	<hasWepons>4</hasWepons>
+	<hasWeapons>4</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">91133</has_X>
 	<has_Y>70711.0</has_Y>
 	<totalCrime>133</totalCrime>
@@ -13105,7 +13105,7 @@
 	<hasPublic>7</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>12</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">221329</has_X>
 	<has_Y>432265.0</has_Y>
 	<totalCrime>47</totalCrime>
@@ -13128,7 +13128,7 @@
 	<hasPublic>474</hasPublic>
 	<hasRobbery>89</hasRobbery>
 	<hasTheft>1039</hasTheft>
-	<hasWepons>41</hasWepons>
+	<hasWeapons>41</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">315268</has_X>
 	<has_Y>233451.0</has_Y>
 	<totalCrime>2880</totalCrime>
@@ -13151,7 +13151,7 @@
 	<hasPublic>9</hasPublic>
 	<hasRobbery>2</hasRobbery>
 	<hasTheft>38</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">233387</has_X>
 	<has_Y>235463.0</has_Y>
 	<totalCrime>93</totalCrime>
@@ -13174,7 +13174,7 @@
 	<hasPublic>1</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>7</hasTheft>
-	<hasWepons>1</hasWepons>
+	<hasWeapons>1</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">152309</has_X>
 	<has_Y>46948.0</has_Y>
 	<totalCrime>26</totalCrime>
@@ -13197,7 +13197,7 @@
 	<hasPublic>16</hasPublic>
 	<hasRobbery>11</hasRobbery>
 	<hasTheft>105</hasTheft>
-	<hasWepons>1</hasWepons>
+	<hasWeapons>1</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">288341</has_X>
 	<has_Y>240096.0</has_Y>
 	<totalCrime>278</totalCrime>
@@ -13220,7 +13220,7 @@
 	<hasPublic>39</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>3</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">173289</has_X>
 	<has_Y>231284.0</has_Y>
 	<totalCrime>56</totalCrime>
@@ -13243,7 +13243,7 @@
 	<hasPublic>16</hasPublic>
 	<hasRobbery>1</hasRobbery>
 	<hasTheft>64</hasTheft>
-	<hasWepons>2</hasWepons>
+	<hasWeapons>2</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">283951</has_X>
 	<has_Y>209436.0</has_Y>
 	<totalCrime>221</totalCrime>
@@ -13266,7 +13266,7 @@
 	<hasPublic>72</hasPublic>
 	<hasRobbery>4</hasRobbery>
 	<hasTheft>173</hasTheft>
-	<hasWepons>10</hasWepons>
+	<hasWeapons>10</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">273149</has_X>
 	<has_Y>212253.0</has_Y>
 	<totalCrime>523</totalCrime>
@@ -13311,7 +13311,7 @@
 	<hasPublic>1</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>22</hasTheft>
-	<hasWepons>1</hasWepons>
+	<hasWeapons>1</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">170705</has_X>
 	<has_Y>110446.0</has_Y>
 	<totalCrime>61</totalCrime>
@@ -13334,7 +13334,7 @@
 	<hasPublic>3</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>2</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">125248</has_X>
 	<has_Y>158690.0</has_Y>
 	<totalCrime>10</totalCrime>
@@ -13357,7 +13357,7 @@
 	<hasPublic>33</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>20</hasTheft>
-	<hasWepons>2</hasWepons>
+	<hasWeapons>2</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">88819</has_X>
 	<has_Y>160254.02</has_Y>
 	<totalCrime>130</totalCrime>
@@ -13380,7 +13380,7 @@
 	<hasPublic>3</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>7</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">144570</has_X>
 	<has_Y>291862.0</has_Y>
 	<totalCrime>28</totalCrime>
@@ -13403,7 +13403,7 @@
 	<hasPublic>680</hasPublic>
 	<hasRobbery>7</hasRobbery>
 	<hasTheft>702</hasTheft>
-	<hasWepons>16</hasWepons>
+	<hasWeapons>16</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">250149</has_X>
 	<has_Y>155908.0</has_Y>
 	<totalCrime>2416</totalCrime>
@@ -13458,7 +13458,7 @@
 	<hasPublic>6</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>10</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">245534</has_X>
 	<has_Y>102988.0</has_Y>
 	<totalCrime>45</totalCrime>
@@ -13481,7 +13481,7 @@
 	<hasPublic>8</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>5</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">120423</has_X>
 	<has_Y>330148.0</has_Y>
 	<totalCrime>42</totalCrime>
@@ -13504,7 +13504,7 @@
 	<hasPublic>20</hasPublic>
 	<hasRobbery>1</hasRobbery>
 	<hasTheft>51</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">170129</has_X>
 	<has_Y>172905.0</has_Y>
 	<totalCrime>190</totalCrime>
@@ -13527,7 +13527,7 @@
 	<hasPublic>488</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>281</hasTheft>
-	<hasWepons>11</hasWepons>
+	<hasWeapons>11</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">96326</has_X>
 	<has_Y>91071.0</has_Y>
 	<totalCrime>1322</totalCrime>
@@ -13550,7 +13550,7 @@
 	<hasPublic>11</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>26</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">200396</has_X>
 	<has_Y>76345.0</has_Y>
 	<totalCrime>87</totalCrime>
@@ -13573,7 +13573,7 @@
 	<hasPublic>8</hasPublic>
 	<hasRobbery>1</hasRobbery>
 	<hasTheft>17</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">222234</has_X>
 	<has_Y>146362.0</has_Y>
 	<totalCrime>72</totalCrime>
@@ -13596,7 +13596,7 @@
 	<hasPublic>2</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>10</hasTheft>
-	<hasWepons>2</hasWepons>
+	<hasWeapons>2</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">231128</has_X>
 	<has_Y>307041.0</has_Y>
 	<totalCrime>45</totalCrime>
@@ -13619,7 +13619,7 @@
 	<hasPublic>4</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>9</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">180373</has_X>
 	<has_Y>212831.02</has_Y>
 	<totalCrime>34</totalCrime>
@@ -13642,7 +13642,7 @@
 	<hasPublic>39</hasPublic>
 	<hasRobbery>1</hasRobbery>
 	<hasTheft>37</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">77604</has_X>
 	<has_Y>96405.0</has_Y>
 	<totalCrime>173</totalCrime>
@@ -13665,7 +13665,7 @@
 	<hasPublic>6</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>8</hasTheft>
-	<hasWepons>1</hasWepons>
+	<hasWeapons>1</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">257122</has_X>
 	<has_Y>251959.0</has_Y>
 	<totalCrime>43</totalCrime>
@@ -13688,7 +13688,7 @@
 	<hasPublic>3</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>10</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">256323</has_X>
 	<has_Y>118372.0</has_Y>
 	<totalCrime>31</totalCrime>
@@ -13711,7 +13711,7 @@
 	<hasPublic>10</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>13</hasTheft>
-	<hasWepons>1</hasWepons>
+	<hasWeapons>1</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">214212</has_X>
 	<has_Y>420253.0</has_Y>
 	<totalCrime>55</totalCrime>
@@ -13734,7 +13734,7 @@
 	<hasPublic>5</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>18</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">239610</has_X>
 	<has_Y>106150.0</has_Y>
 	<totalCrime>58</totalCrime>
@@ -13757,7 +13757,7 @@
 	<hasPublic>3</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>3</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">125619</has_X>
 	<has_Y>259757.0</has_Y>
 	<totalCrime>20</totalCrime>
@@ -13780,7 +13780,7 @@
 	<hasPublic>269</hasPublic>
 	<hasRobbery>53</hasRobbery>
 	<hasTheft>732</hasTheft>
-	<hasWepons>43</hasWepons>
+	<hasWeapons>43</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">312994</has_X>
 	<has_Y>233718.0</has_Y>
 	<totalCrime>2223</totalCrime>
@@ -13803,7 +13803,7 @@
 	<hasPublic>25</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>63</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">160858</has_X>
 	<has_Y>127534.0</has_Y>
 	<totalCrime>197</totalCrime>
@@ -13826,7 +13826,7 @@
 	<hasPublic>1</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>13</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">251615</has_X>
 	<has_Y>110718.0</has_Y>
 	<totalCrime>37</totalCrime>
@@ -13849,7 +13849,7 @@
 	<hasPublic>1</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>5</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">245640</has_X>
 	<has_Y>134549.0</has_Y>
 	<totalCrime>15</totalCrime>
@@ -13872,7 +13872,7 @@
 	<hasPublic>10</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>35</hasTheft>
-	<hasWepons>2</hasWepons>
+	<hasWeapons>2</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">296930</has_X>
 	<has_Y>103875.0</has_Y>
 	<totalCrime>128</totalCrime>
@@ -13895,7 +13895,7 @@
 	<hasPublic>3</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>30</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">244930</has_X>
 	<has_Y>290091.0</has_Y>
 	<totalCrime>107</totalCrime>
@@ -13918,7 +13918,7 @@
 	<hasPublic>3</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>6</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">169834</has_X>
 	<has_Y>220046.0</has_Y>
 	<totalCrime>27</totalCrime>
@@ -13941,7 +13941,7 @@
 	<hasPublic>49</hasPublic>
 	<hasRobbery>2</hasRobbery>
 	<hasTheft>52</hasTheft>
-	<hasWepons>10</hasWepons>
+	<hasWeapons>10</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">99791</has_X>
 	<has_Y>155414.0</has_Y>
 	<totalCrime>267</totalCrime>
@@ -13964,7 +13964,7 @@
 	<hasPublic>3</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>6</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">228676</has_X>
 	<has_Y>123360.0</has_Y>
 	<totalCrime>18</totalCrime>
@@ -13987,7 +13987,7 @@
 	<hasPublic>9</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>20</hasTheft>
-	<hasWepons>1</hasWepons>
+	<hasWeapons>1</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">133851</has_X>
 	<has_Y>288962.0</has_Y>
 	<totalCrime>61</totalCrime>
@@ -14010,7 +14010,7 @@
 	<hasPublic>3</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>8</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">181932</has_X>
 	<has_Y>220804.0</has_Y>
 	<totalCrime>18</totalCrime>
@@ -14033,7 +14033,7 @@
 	<hasPublic>3</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>10</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">182977</has_X>
 	<has_Y>102690.0</has_Y>
 	<totalCrime>30</totalCrime>
@@ -14056,7 +14056,7 @@
 	<hasPublic>10</hasPublic>
 	<hasRobbery>1</hasRobbery>
 	<hasTheft>12</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">278477</has_X>
 	<has_Y>295638.0</has_Y>
 	<totalCrime>62</totalCrime>
@@ -14079,7 +14079,7 @@
 	<hasPublic>5</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>18</hasTheft>
-	<hasWepons>1</hasWepons>
+	<hasWeapons>1</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">181432</has_X>
 	<has_Y>355287.0</has_Y>
 	<totalCrime>59</totalCrime>
@@ -14102,7 +14102,7 @@
 	<hasPublic>27</hasPublic>
 	<hasRobbery>2</hasRobbery>
 	<hasTheft>50</hasTheft>
-	<hasWepons>1</hasWepons>
+	<hasWeapons>1</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">259649</has_X>
 	<has_Y>245446.0</has_Y>
 	<totalCrime>179</totalCrime>
@@ -14125,7 +14125,7 @@
 	<hasPublic>0</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>13</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">218662</has_X>
 	<has_Y>205318.0</has_Y>
 	<totalCrime>28</totalCrime>
@@ -14148,7 +14148,7 @@
 	<hasPublic>152</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>60</hasTheft>
-	<hasWepons>1</hasWepons>
+	<hasWeapons>1</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">163724</has_X>
 	<has_Y>50501.0</has_Y>
 	<totalCrime>379</totalCrime>
@@ -14171,7 +14171,7 @@
 	<hasPublic>3</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>10</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">137162</has_X>
 	<has_Y>210375.0</has_Y>
 	<totalCrime>25</totalCrime>
@@ -14194,7 +14194,7 @@
 	<hasPublic>4</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>15</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">139499</has_X>
 	<has_Y>283243.0</has_Y>
 	<totalCrime>41</totalCrime>
@@ -14217,7 +14217,7 @@
 	<hasPublic>13</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>3</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">105611</has_X>
 	<has_Y>120746.0</has_Y>
 	<totalCrime>51</totalCrime>
@@ -14240,7 +14240,7 @@
 	<hasPublic>12</hasPublic>
 	<hasRobbery>2</hasRobbery>
 	<hasTheft>16</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">201022</has_X>
 	<has_Y>269010.0</has_Y>
 	<totalCrime>69</totalCrime>
@@ -14294,7 +14294,7 @@
 	<hasPublic>42</hasPublic>
 	<hasRobbery>3</hasRobbery>
 	<hasTheft>286</hasTheft>
-	<hasWepons>2</hasWepons>
+	<hasWeapons>2</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">316055</has_X>
 	<has_Y>272468.0</has_Y>
 	<totalCrime>647</totalCrime>
@@ -14317,7 +14317,7 @@
 	<hasPublic>14</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>34</hasTheft>
-	<hasWepons>1</hasWepons>
+	<hasWeapons>1</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">138040</has_X>
 	<has_Y>234471.0</has_Y>
 	<totalCrime>153</totalCrime>
@@ -14340,7 +14340,7 @@
 	<hasPublic>5</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>19</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">232780</has_X>
 	<has_Y>101998.0</has_Y>
 	<totalCrime>47</totalCrime>
@@ -14363,7 +14363,7 @@
 	<hasPublic>2</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>2</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">89689</has_X>
 	<has_Y>228360.0</has_Y>
 	<totalCrime>20</totalCrime>
@@ -14386,7 +14386,7 @@
 	<hasPublic>43</hasPublic>
 	<hasRobbery>5</hasRobbery>
 	<hasTheft>156</hasTheft>
-	<hasWepons>3</hasWepons>
+	<hasWeapons>3</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">300015</has_X>
 	<has_Y>236268.0</has_Y>
 	<totalCrime>475</totalCrime>
@@ -14409,7 +14409,7 @@
 	<hasPublic>8</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>4</hasTheft>
-	<hasWepons>1</hasWepons>
+	<hasWeapons>1</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">70971</has_X>
 	<has_Y>257774.0</has_Y>
 	<totalCrime>40</totalCrime>
@@ -14432,7 +14432,7 @@
 	<hasPublic>408</hasPublic>
 	<hasRobbery>7</hasRobbery>
 	<hasTheft>411</hasTheft>
-	<hasWepons>16</hasWepons>
+	<hasWeapons>16</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">216935</has_X>
 	<has_Y>411935.0</has_Y>
 	<totalCrime>1708</totalCrime>
@@ -14455,7 +14455,7 @@
 	<hasPublic>7</hasPublic>
 	<hasRobbery>1</hasRobbery>
 	<hasTheft>10</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">233447</has_X>
 	<has_Y>398460.0</has_Y>
 	<totalCrime>77</totalCrime>
@@ -14514,7 +14514,7 @@
 	<hasPublic>2</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>9</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">144996</has_X>
 	<has_Y>112237.0</has_Y>
 	<totalCrime>24</totalCrime>
@@ -14537,7 +14537,7 @@
 	<hasPublic>8</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>22</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">113521</has_X>
 	<has_Y>198292.0</has_Y>
 	<totalCrime>65</totalCrime>
@@ -14560,7 +14560,7 @@
 	<hasPublic>5</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>15</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">204465</has_X>
 	<has_Y>98258.0</has_Y>
 	<totalCrime>56</totalCrime>
@@ -14583,7 +14583,7 @@
 	<hasPublic>3</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>10</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">122090</has_X>
 	<has_Y>166693.0</has_Y>
 	<totalCrime>39</totalCrime>
@@ -14606,7 +14606,7 @@
 	<hasPublic>213</hasPublic>
 	<hasRobbery>1</hasRobbery>
 	<hasTheft>63</hasTheft>
-	<hasWepons>2</hasWepons>
+	<hasWeapons>2</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">99155</has_X>
 	<has_Y>133839.0</has_Y>
 	<totalCrime>506</totalCrime>
@@ -14629,7 +14629,7 @@
 	<hasPublic>8</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>27</hasTheft>
-	<hasWepons>2</hasWepons>
+	<hasWeapons>2</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">217994</has_X>
 	<has_Y>154377.0</has_Y>
 	<totalCrime>70</totalCrime>
@@ -14652,7 +14652,7 @@
 	<hasPublic>3</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>3</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">90024</has_X>
 	<has_Y>129241.0</has_Y>
 	<totalCrime>32</totalCrime>
@@ -14675,7 +14675,7 @@
 	<hasPublic>112</hasPublic>
 	<hasRobbery>9</hasRobbery>
 	<hasTheft>258</hasTheft>
-	<hasWepons>14</hasWepons>
+	<hasWeapons>14</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">213158</has_X>
 	<has_Y>275874.0</has_Y>
 	<totalCrime>868</totalCrime>
@@ -14698,7 +14698,7 @@
 	<hasPublic>5</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>33</hasTheft>
-	<hasWepons>1</hasWepons>
+	<hasWeapons>1</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">271333</has_X>
 	<has_Y>245457.0</has_Y>
 	<totalCrime>69</totalCrime>
@@ -14721,7 +14721,7 @@
 	<hasPublic>1</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>5</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">191871</has_X>
 	<has_Y>204759.0</has_Y>
 	<totalCrime>12</totalCrime>
@@ -14744,7 +14744,7 @@
 	<hasPublic>89</hasPublic>
 	<hasRobbery>1</hasRobbery>
 	<hasTheft>75</hasTheft>
-	<hasWepons>4</hasWepons>
+	<hasWeapons>4</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">161958</has_X>
 	<has_Y>216447.0</has_Y>
 	<totalCrime>353</totalCrime>
@@ -14767,7 +14767,7 @@
 	<hasPublic>3</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>5</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">80849</has_X>
 	<has_Y>280944.0</has_Y>
 	<totalCrime>25</totalCrime>
@@ -14790,7 +14790,7 @@
 	<hasPublic>6</hasPublic>
 	<hasRobbery>1</hasRobbery>
 	<hasTheft>23</hasTheft>
-	<hasWepons>1</hasWepons>
+	<hasWeapons>1</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">296036</has_X>
 	<has_Y>301321.0</has_Y>
 	<totalCrime>82</totalCrime>
@@ -14833,7 +14833,7 @@
 	<hasPublic>125</hasPublic>
 	<hasRobbery>18</hasRobbery>
 	<hasTheft>634</hasTheft>
-	<hasWepons>16</hasWepons>
+	<hasWeapons>16</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">303209</has_X>
 	<has_Y>235075.0</has_Y>
 	<totalCrime>1565</totalCrime>
@@ -14856,7 +14856,7 @@
 	<hasPublic>29</hasPublic>
 	<hasRobbery>3</hasRobbery>
 	<hasTheft>354</hasTheft>
-	<hasWepons>5</hasWepons>
+	<hasWeapons>5</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">321594</has_X>
 	<has_Y>254148.0</has_Y>
 	<totalCrime>679</totalCrime>
@@ -14879,7 +14879,7 @@
 	<hasPublic>36</hasPublic>
 	<hasRobbery>2</hasRobbery>
 	<hasTheft>50</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">133705</has_X>
 	<has_Y>73058.0</has_Y>
 	<totalCrime>229</totalCrime>
@@ -14902,7 +14902,7 @@
 	<hasPublic>7</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>6</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">121369</has_X>
 	<has_Y>232631.0</has_Y>
 	<totalCrime>31</totalCrime>
@@ -14925,7 +14925,7 @@
 	<hasPublic>41</hasPublic>
 	<hasRobbery>6</hasRobbery>
 	<hasTheft>346</hasTheft>
-	<hasWepons>6</hasWepons>
+	<hasWeapons>6</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">322823</has_X>
 	<has_Y>246132.0</has_Y>
 	<totalCrime>830</totalCrime>
@@ -14948,7 +14948,7 @@
 	<hasPublic>206</hasPublic>
 	<hasRobbery>1</hasRobbery>
 	<hasTheft>182</hasTheft>
-	<hasWepons>8</hasWepons>
+	<hasWeapons>8</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">155824</has_X>
 	<has_Y>98686.0</has_Y>
 	<totalCrime>778</totalCrime>
@@ -14971,7 +14971,7 @@
 	<hasPublic>15</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>32</hasTheft>
-	<hasWepons>1</hasWepons>
+	<hasWeapons>1</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">188428</has_X>
 	<has_Y>339522.0</has_Y>
 	<totalCrime>103</totalCrime>
@@ -14994,7 +14994,7 @@
 	<hasPublic>93</hasPublic>
 	<hasRobbery>8</hasRobbery>
 	<hasTheft>133</hasTheft>
-	<hasWepons>5</hasWepons>
+	<hasWeapons>5</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">170530</has_X>
 	<has_Y>73086.0</has_Y>
 	<totalCrime>571</totalCrime>
@@ -15017,7 +15017,7 @@
 	<hasPublic>68</hasPublic>
 	<hasRobbery>9</hasRobbery>
 	<hasTheft>313</hasTheft>
-	<hasWepons>2</hasWepons>
+	<hasWeapons>2</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">293699</has_X>
 	<has_Y>237635.0</has_Y>
 	<totalCrime>664</totalCrime>
@@ -15076,7 +15076,7 @@
 	<hasPublic>220</hasPublic>
 	<hasRobbery>10</hasRobbery>
 	<hasTheft>489</hasTheft>
-	<hasWepons>30</hasWepons>
+	<hasWeapons>30</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">156431</has_X>
 	<has_Y>158215.0</has_Y>
 	<totalCrime>1875</totalCrime>
@@ -15122,7 +15122,7 @@
 	<hasPublic>162</hasPublic>
 	<hasRobbery>2</hasRobbery>
 	<hasTheft>160</hasTheft>
-	<hasWepons>5</hasWepons>
+	<hasWeapons>5</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">188110</has_X>
 	<has_Y>73791.0</has_Y>
 	<totalCrime>620</totalCrime>
@@ -15145,7 +15145,7 @@
 	<hasPublic>15</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>18</hasTheft>
-	<hasWepons>1</hasWepons>
+	<hasWeapons>1</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">219322</has_X>
 	<has_Y>426672.0</has_Y>
 	<totalCrime>81</totalCrime>
@@ -15168,7 +15168,7 @@
 	<hasPublic>2</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>4</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">141682</has_X>
 	<has_Y>121501.0</has_Y>
 	<totalCrime>27</totalCrime>
@@ -15191,7 +15191,7 @@
 	<hasPublic>10</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>16</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">127242</has_X>
 	<has_Y>90264.0</has_Y>
 	<totalCrime>70</totalCrime>
@@ -15214,7 +15214,7 @@
 	<hasPublic>0</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>11</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">140650</has_X>
 	<has_Y>262772.0</has_Y>
 	<totalCrime>22</totalCrime>
@@ -15237,7 +15237,7 @@
 	<hasPublic>13</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>11</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">105707</has_X>
 	<has_Y>179384.0</has_Y>
 	<totalCrime>73</totalCrime>
@@ -15260,7 +15260,7 @@
 	<hasPublic>34</hasPublic>
 	<hasRobbery>1</hasRobbery>
 	<hasTheft>67</hasTheft>
-	<hasWepons>4</hasWepons>
+	<hasWeapons>4</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">181576</has_X>
 	<has_Y>112413.0</has_Y>
 	<totalCrime>336</totalCrime>
@@ -15283,7 +15283,7 @@
 	<hasPublic>9</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>28</hasTheft>
-	<hasWepons>3</hasWepons>
+	<hasWeapons>3</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">217710</has_X>
 	<has_Y>238405.0</has_Y>
 	<totalCrime>90</totalCrime>
@@ -15306,7 +15306,7 @@
 	<hasPublic>18</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>27</hasTheft>
-	<hasWepons>1</hasWepons>
+	<hasWeapons>1</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">208717</has_X>
 	<has_Y>296825.0</has_Y>
 	<totalCrime>127</totalCrime>
@@ -15329,7 +15329,7 @@
 	<hasPublic>166</hasPublic>
 	<hasRobbery>1</hasRobbery>
 	<hasTheft>183</hasTheft>
-	<hasWepons>7</hasWepons>
+	<hasWeapons>7</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">267347</has_X>
 	<has_Y>334101.0</has_Y>
 	<totalCrime>726</totalCrime>
@@ -15352,7 +15352,7 @@
 	<hasPublic>10</hasPublic>
 	<hasRobbery>5</hasRobbery>
 	<hasTheft>99</hasTheft>
-	<hasWepons>3</hasWepons>
+	<hasWeapons>3</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">263312</has_X>
 	<has_Y>210127.0</has_Y>
 	<totalCrime>217</totalCrime>
@@ -15375,7 +15375,7 @@
 	<hasPublic>5</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>10</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">203184</has_X>
 	<has_Y>181119.0</has_Y>
 	<totalCrime>26</totalCrime>
@@ -15398,7 +15398,7 @@
 	<hasPublic>0</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>5</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">153304</has_X>
 	<has_Y>236181.0</has_Y>
 	<totalCrime>25</totalCrime>
@@ -15421,7 +15421,7 @@
 	<hasPublic>8</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>12</hasTheft>
-	<hasWepons>1</hasWepons>
+	<hasWeapons>1</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">251115</has_X>
 	<has_Y>115801.27</has_Y>
 	<totalCrime>44</totalCrime>
@@ -15444,7 +15444,7 @@
 	<hasPublic>11</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>20</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">166839</has_X>
 	<has_Y>246883.0</has_Y>
 	<totalCrime>69</totalCrime>
@@ -15467,7 +15467,7 @@
 	<hasPublic>1</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>3</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">187416</has_X>
 	<has_Y>377543.0</has_Y>
 	<totalCrime>18</totalCrime>
@@ -15490,7 +15490,7 @@
 	<hasPublic>232</hasPublic>
 	<hasRobbery>49</hasRobbery>
 	<hasTheft>856</hasTheft>
-	<hasWepons>27</hasWepons>
+	<hasWeapons>27</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">315438</has_X>
 	<has_Y>235850.0</has_Y>
 	<totalCrime>2133</totalCrime>
@@ -15513,7 +15513,7 @@
 	<hasPublic>36</hasPublic>
 	<hasRobbery>1</hasRobbery>
 	<hasTheft>140</hasTheft>
-	<hasWepons>14</hasWepons>
+	<hasWeapons>14</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">244565</has_X>
 	<has_Y>207755.0</has_Y>
 	<totalCrime>462</totalCrime>
@@ -15536,7 +15536,7 @@
 	<hasPublic>15</hasPublic>
 	<hasRobbery>1</hasRobbery>
 	<hasTheft>49</hasTheft>
-	<hasWepons>1</hasWepons>
+	<hasWeapons>1</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">235093</has_X>
 	<has_Y>194251.0</has_Y>
 	<totalCrime>219</totalCrime>
@@ -15559,7 +15559,7 @@
 	<hasPublic>14</hasPublic>
 	<hasRobbery>1</hasRobbery>
 	<hasTheft>7</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">261918</has_X>
 	<has_Y>438712.0</has_Y>
 	<totalCrime>65</totalCrime>
@@ -15582,7 +15582,7 @@
 	<hasPublic>4</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>8</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">162410</has_X>
 	<has_Y>248756.0</has_Y>
 	<totalCrime>21</totalCrime>
@@ -15605,7 +15605,7 @@
 	<hasPublic>0</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>4</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">219362</has_X>
 	<has_Y>164795.0</has_Y>
 	<totalCrime>8</totalCrime>
@@ -15628,7 +15628,7 @@
 	<hasPublic>5</hasPublic>
 	<hasRobbery>1</hasRobbery>
 	<hasTheft>19</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">246764</has_X>
 	<has_Y>424827.0</has_Y>
 	<totalCrime>65</totalCrime>
@@ -15651,7 +15651,7 @@
 	<hasPublic>20</hasPublic>
 	<hasRobbery>2</hasRobbery>
 	<hasTheft>41</hasTheft>
-	<hasWepons>1</hasWepons>
+	<hasWeapons>1</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">270533</has_X>
 	<has_Y>161598.0</has_Y>
 	<totalCrime>151</totalCrime>
@@ -15674,7 +15674,7 @@
 	<hasPublic>8</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>30</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">269665</has_X>
 	<has_Y>285126.0</has_Y>
 	<totalCrime>61</totalCrime>
@@ -15697,7 +15697,7 @@
 	<hasPublic>6</hasPublic>
 	<hasRobbery>1</hasRobbery>
 	<hasTheft>10</hasTheft>
-	<hasWepons>1</hasWepons>
+	<hasWeapons>1</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">233619</has_X>
 	<has_Y>139931.0</has_Y>
 	<totalCrime>49</totalCrime>
@@ -15720,7 +15720,7 @@
 	<hasPublic>0</hasPublic>
 	<hasRobbery>1</hasRobbery>
 	<hasTheft>6</hasTheft>
-	<hasWepons>2</hasWepons>
+	<hasWeapons>2</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">256441</has_X>
 	<has_Y>124140.0</has_Y>
 	<totalCrime>28</totalCrime>
@@ -15743,7 +15743,7 @@
 	<hasPublic>317</hasPublic>
 	<hasRobbery>14</hasRobbery>
 	<hasTheft>438</hasTheft>
-	<hasWepons>15</hasWepons>
+	<hasWeapons>15</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">243426</has_X>
 	<has_Y>253036.0</has_Y>
 	<totalCrime>1741</totalCrime>
@@ -15766,7 +15766,7 @@
 	<hasPublic>2</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>12</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">240257</has_X>
 	<has_Y>263975.0</has_Y>
 	<totalCrime>35</totalCrime>
@@ -15789,7 +15789,7 @@
 	<hasPublic>6</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>13</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">173032</has_X>
 	<has_Y>155418.0</has_Y>
 	<totalCrime>63</totalCrime>
@@ -15812,7 +15812,7 @@
 	<hasPublic>1</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>5</hasTheft>
-	<hasWepons>1</hasWepons>
+	<hasWeapons>1</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">282654</has_X>
 	<has_Y>160255.02</has_Y>
 	<totalCrime>25</totalCrime>
@@ -15835,7 +15835,7 @@
 	<hasPublic>29</hasPublic>
 	<hasRobbery>1</hasRobbery>
 	<hasTheft>17</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">171352</has_X>
 	<has_Y>376582.0</has_Y>
 	<totalCrime>91</totalCrime>
@@ -15858,7 +15858,7 @@
 	<hasPublic>8</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>5</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">181975</has_X>
 	<has_Y>394222.0</has_Y>
 	<totalCrime>24</totalCrime>
@@ -15881,7 +15881,7 @@
 	<hasPublic>108</hasPublic>
 	<hasRobbery>8</hasRobbery>
 	<hasTheft>571</hasTheft>
-	<hasWepons>5</hasWepons>
+	<hasWeapons>5</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">289174</has_X>
 	<has_Y>218612.0</has_Y>
 	<totalCrime>1523</totalCrime>
@@ -15904,7 +15904,7 @@
 	<hasPublic>283</hasPublic>
 	<hasRobbery>20</hasRobbery>
 	<hasTheft>638</hasTheft>
-	<hasWepons>19</hasWepons>
+	<hasWeapons>19</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">286636</has_X>
 	<has_Y>267972.0</has_Y>
 	<totalCrime>1860</totalCrime>
@@ -15927,7 +15927,7 @@
 	<hasPublic>112</hasPublic>
 	<hasRobbery>3</hasRobbery>
 	<hasTheft>180</hasTheft>
-	<hasWepons>9</hasWepons>
+	<hasWeapons>9</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">186608</has_X>
 	<has_Y>179243.0</has_Y>
 	<totalCrime>645</totalCrime>
@@ -15950,7 +15950,7 @@
 	<hasPublic>112</hasPublic>
 	<hasRobbery>5</hasRobbery>
 	<hasTheft>112</hasTheft>
-	<hasWepons>5</hasWepons>
+	<hasWeapons>5</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">271484</has_X>
 	<has_Y>126693.0</has_Y>
 	<totalCrime>530</totalCrime>
@@ -15973,7 +15973,7 @@
 	<hasPublic>105</hasPublic>
 	<hasRobbery>15</hasRobbery>
 	<hasTheft>384</hasTheft>
-	<hasWepons>19</hasWepons>
+	<hasWeapons>19</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">280576</has_X>
 	<has_Y>215199.0</has_Y>
 	<totalCrime>1187</totalCrime>
@@ -15996,7 +15996,7 @@
 	<hasPublic>104</hasPublic>
 	<hasRobbery>1</hasRobbery>
 	<hasTheft>100</hasTheft>
-	<hasWepons>2</hasWepons>
+	<hasWeapons>2</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">127825</has_X>
 	<has_Y>134070.0</has_Y>
 	<totalCrime>477</totalCrime>
@@ -16019,7 +16019,7 @@
 	<hasPublic>13</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>21</hasTheft>
-	<hasWepons>1</hasWepons>
+	<hasWeapons>1</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">131905</has_X>
 	<has_Y>107393.0</has_Y>
 	<totalCrime>67</totalCrime>
@@ -16042,7 +16042,7 @@
 	<hasPublic>11</hasPublic>
 	<hasRobbery>1</hasRobbery>
 	<hasTheft>19</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">139354</has_X>
 	<has_Y>168352.0</has_Y>
 	<totalCrime>71</totalCrime>
@@ -16065,7 +16065,7 @@
 	<hasPublic>6</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>15</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">98357</has_X>
 	<has_Y>294512.0</has_Y>
 	<totalCrime>38</totalCrime>
@@ -16088,7 +16088,7 @@
 	<hasPublic>8</hasPublic>
 	<hasRobbery>1</hasRobbery>
 	<hasTheft>61</hasTheft>
-	<hasWepons>1</hasWepons>
+	<hasWeapons>1</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">172589</has_X>
 	<has_Y>162209.56</has_Y>
 	<totalCrime>123</totalCrime>
@@ -16111,7 +16111,7 @@
 	<hasPublic>5</hasPublic>
 	<hasRobbery>1</hasRobbery>
 	<hasTheft>17</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">231549</has_X>
 	<has_Y>416790.0</has_Y>
 	<totalCrime>87</totalCrime>
@@ -16134,7 +16134,7 @@
 	<hasPublic>19</hasPublic>
 	<hasRobbery>1</hasRobbery>
 	<hasTheft>41</hasTheft>
-	<hasWepons>6</hasWepons>
+	<hasWeapons>6</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">326690</has_X>
 	<has_Y>206784.0</has_Y>
 	<totalCrime>185</totalCrime>
@@ -16157,7 +16157,7 @@
 	<hasPublic>14</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>35</hasTheft>
-	<hasWepons>1</hasWepons>
+	<hasWeapons>1</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">282592</has_X>
 	<has_Y>286429.0</has_Y>
 	<totalCrime>114</totalCrime>
@@ -16180,7 +16180,7 @@
 	<hasPublic>7</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>24</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">255311</has_X>
 	<has_Y>280274.0</has_Y>
 	<totalCrime>73</totalCrime>
@@ -16203,7 +16203,7 @@
 	<hasPublic>5</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>32</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">314154</has_X>
 	<has_Y>316668.0</has_Y>
 	<totalCrime>68</totalCrime>
@@ -16226,7 +16226,7 @@
 	<hasPublic>0</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>6</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">182426</has_X>
 	<has_Y>142055.0</has_Y>
 	<totalCrime>10</totalCrime>
@@ -16249,7 +16249,7 @@
 	<hasPublic>5</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>11</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">112003</has_X>
 	<has_Y>242708.0</has_Y>
 	<totalCrime>35</totalCrime>
@@ -16272,7 +16272,7 @@
 	<hasPublic>2</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>20</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">309287</has_X>
 	<has_Y>140275.0</has_Y>
 	<totalCrime>80</totalCrime>
@@ -16295,7 +16295,7 @@
 	<hasPublic>2</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>16</hasTheft>
-	<hasWepons>1</hasWepons>
+	<hasWeapons>1</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">300077</has_X>
 	<has_Y>131256.0</has_Y>
 	<totalCrime>58</totalCrime>
@@ -16318,7 +16318,7 @@
 	<hasPublic>7</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>22</hasTheft>
-	<hasWepons>2</hasWepons>
+	<hasWeapons>2</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">177119</has_X>
 	<has_Y>146390.0</has_Y>
 	<totalCrime>65</totalCrime>
@@ -16341,7 +16341,7 @@
 	<hasPublic>2</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>36</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">141389</has_X>
 	<has_Y>154679.0</has_Y>
 	<totalCrime>60</totalCrime>
@@ -16364,7 +16364,7 @@
 	<hasPublic>2</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>2</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">115533</has_X>
 	<has_Y>272850.0</has_Y>
 	<totalCrime>16</totalCrime>
@@ -16387,7 +16387,7 @@
 	<hasPublic>0</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>13</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">270220</has_X>
 	<has_Y>110160.0</has_Y>
 	<totalCrime>31</totalCrime>
@@ -16410,7 +16410,7 @@
 	<hasPublic>13</hasPublic>
 	<hasRobbery>1</hasRobbery>
 	<hasTheft>33</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">177197</has_X>
 	<has_Y>68099.0</has_Y>
 	<totalCrime>135</totalCrime>
@@ -16433,7 +16433,7 @@
 	<hasPublic>8</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>45</hasTheft>
-	<hasWepons>1</hasWepons>
+	<hasWeapons>1</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">151737</has_X>
 	<has_Y>149580.0</has_Y>
 	<totalCrime>97</totalCrime>
@@ -16456,7 +16456,7 @@
 	<hasPublic>2510</hasPublic>
 	<hasRobbery>178</hasRobbery>
 	<hasTheft>5613</hasTheft>
-	<hasWepons>119</hasWepons>
+	<hasWeapons>119</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">316180</has_X>
 	<has_Y>234222.0</has_Y>
 	<totalCrime>10914</totalCrime>
@@ -16479,7 +16479,7 @@
 	<hasPublic>1</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>2</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">210734</has_X>
 	<has_Y>366667.0</has_Y>
 	<totalCrime>12</totalCrime>
@@ -16502,7 +16502,7 @@
 	<hasPublic>11</hasPublic>
 	<hasRobbery>1</hasRobbery>
 	<hasTheft>13</hasTheft>
-	<hasWepons>2</hasWepons>
+	<hasWeapons>2</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">246014</has_X>
 	<has_Y>122189.0</has_Y>
 	<totalCrime>51</totalCrime>
@@ -16525,7 +16525,7 @@
 	<hasPublic>46</hasPublic>
 	<hasRobbery>4</hasRobbery>
 	<hasTheft>196</hasTheft>
-	<hasWepons>9</hasWepons>
+	<hasWeapons>9</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">254379</has_X>
 	<has_Y>212351.0</has_Y>
 	<totalCrime>523</totalCrime>
@@ -16548,7 +16548,7 @@
 	<hasPublic>237</hasPublic>
 	<hasRobbery>14</hasRobbery>
 	<hasTheft>691</hasTheft>
-	<hasWepons>22</hasWepons>
+	<hasWeapons>22</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">246806</has_X>
 	<has_Y>198079.0</has_Y>
 	<totalCrime>1893</totalCrime>
@@ -16571,7 +16571,7 @@
 	<hasPublic>14</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>25</hasTheft>
-	<hasWepons>2</hasWepons>
+	<hasWeapons>2</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">246617</has_X>
 	<has_Y>115121.0</has_Y>
 	<totalCrime>80</totalCrime>
@@ -16594,7 +16594,7 @@
 	<hasPublic>2</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>4</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">37438</has_X>
 	<has_Y>72907.0</has_Y>
 	<totalCrime>16</totalCrime>
@@ -16617,7 +16617,7 @@
 	<hasPublic>0</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>14</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">176239</has_X>
 	<has_Y>181245.0</has_Y>
 	<totalCrime>39</totalCrime>
@@ -16640,7 +16640,7 @@
 	<hasPublic>18</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>41</hasTheft>
-	<hasWepons>1</hasWepons>
+	<hasWeapons>1</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">185281</has_X>
 	<has_Y>204369.0</has_Y>
 	<totalCrime>135</totalCrime>
@@ -16663,7 +16663,7 @@
 	<hasPublic>74</hasPublic>
 	<hasRobbery>21</hasRobbery>
 	<hasTheft>304</hasTheft>
-	<hasWepons>9</hasWepons>
+	<hasWeapons>9</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">321299</has_X>
 	<has_Y>238056.02</has_Y>
 	<totalCrime>838</totalCrime>
@@ -16686,7 +16686,7 @@
 	<hasPublic>11</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>5</hasTheft>
-	<hasWepons>1</hasWepons>
+	<hasWeapons>1</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">222380</has_X>
 	<has_Y>421083.0</has_Y>
 	<totalCrime>42</totalCrime>
@@ -16709,7 +16709,7 @@
 	<hasPublic>16</hasPublic>
 	<hasRobbery>2</hasRobbery>
 	<hasTheft>20</hasTheft>
-	<hasWepons>2</hasWepons>
+	<hasWeapons>2</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">226088</has_X>
 	<has_Y>403040.0</has_Y>
 	<totalCrime>123</totalCrime>
@@ -16732,7 +16732,7 @@
 	<hasPublic>14</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>44</hasTheft>
-	<hasWepons>2</hasWepons>
+	<hasWeapons>2</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">267007</has_X>
 	<has_Y>219519.0</has_Y>
 	<totalCrime>128</totalCrime>
@@ -16755,7 +16755,7 @@
 	<hasPublic>38</hasPublic>
 	<hasRobbery>14</hasRobbery>
 	<hasTheft>282</hasTheft>
-	<hasWepons>7</hasWepons>
+	<hasWeapons>7</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">302452</has_X>
 	<has_Y>226791.0</has_Y>
 	<totalCrime>683</totalCrime>
@@ -16778,7 +16778,7 @@
 	<hasPublic>5</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>13</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">180555</has_X>
 	<has_Y>91552.0</has_Y>
 	<totalCrime>70</totalCrime>
@@ -16801,7 +16801,7 @@
 	<hasPublic>0</hasPublic>
 	<hasRobbery>1</hasRobbery>
 	<hasTheft>31</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">227140</has_X>
 	<has_Y>178459.0</has_Y>
 	<totalCrime>75</totalCrime>
@@ -16824,7 +16824,7 @@
 	<hasPublic>18</hasPublic>
 	<hasRobbery>3</hasRobbery>
 	<hasTheft>92</hasTheft>
-	<hasWepons>2</hasWepons>
+	<hasWeapons>2</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">319306</has_X>
 	<has_Y>188123.0</has_Y>
 	<totalCrime>220</totalCrime>
@@ -16847,7 +16847,7 @@
 	<hasPublic>229</hasPublic>
 	<hasRobbery>30</hasRobbery>
 	<hasTheft>1106</hasTheft>
-	<hasWepons>17</hasWepons>
+	<hasWeapons>17</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">314186</has_X>
 	<has_Y>228794.0</has_Y>
 	<totalCrime>2742</totalCrime>
@@ -16870,7 +16870,7 @@
 	<hasPublic>0</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>12</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">233897</has_X>
 	<has_Y>117376.0</has_Y>
 	<totalCrime>24</totalCrime>
@@ -16893,7 +16893,7 @@
 	<hasPublic>29</hasPublic>
 	<hasRobbery>1</hasRobbery>
 	<hasTheft>32</hasTheft>
-	<hasWepons>3</hasWepons>
+	<hasWeapons>3</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">136312</has_X>
 	<has_Y>141701.0</has_Y>
 	<totalCrime>152</totalCrime>
@@ -16916,7 +16916,7 @@
 	<hasPublic>144</hasPublic>
 	<hasRobbery>15</hasRobbery>
 	<hasTheft>748</hasTheft>
-	<hasWepons>9</hasWepons>
+	<hasWeapons>9</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">315531</has_X>
 	<has_Y>231491.0</has_Y>
 	<totalCrime>1599</totalCrime>
@@ -16939,7 +16939,7 @@
 	<hasPublic>5</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>19</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">116814</has_X>
 	<has_Y>93121.0</has_Y>
 	<totalCrime>60</totalCrime>
@@ -16962,7 +16962,7 @@
 	<hasPublic>6</hasPublic>
 	<hasRobbery>1</hasRobbery>
 	<hasTheft>1</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">229891</has_X>
 	<has_Y>427712.0</has_Y>
 	<totalCrime>33</totalCrime>
@@ -16985,7 +16985,7 @@
 	<hasPublic>1</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>4</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">287882</has_X>
 	<has_Y>181820.0</has_Y>
 	<totalCrime>21</totalCrime>
@@ -17008,7 +17008,7 @@
 	<hasPublic>7</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>12</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">253668</has_X>
 	<has_Y>233706.0</has_Y>
 	<totalCrime>63</totalCrime>
@@ -17031,7 +17031,7 @@
 	<hasPublic>1</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>6</hasTheft>
-	<hasWepons>1</hasWepons>
+	<hasWeapons>1</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">173899</has_X>
 	<has_Y>320125.0</has_Y>
 	<totalCrime>40</totalCrime>
@@ -17054,7 +17054,7 @@
 	<hasPublic>8</hasPublic>
 	<hasRobbery>2</hasRobbery>
 	<hasTheft>34</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">279018</has_X>
 	<has_Y>225057.0</has_Y>
 	<totalCrime>135</totalCrime>
@@ -17077,7 +17077,7 @@
 	<hasPublic>10</hasPublic>
 	<hasRobbery>1</hasRobbery>
 	<hasTheft>27</hasTheft>
-	<hasWepons>1</hasWepons>
+	<hasWeapons>1</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">246475</has_X>
 	<has_Y>240552.0</has_Y>
 	<totalCrime>79</totalCrime>
@@ -17100,7 +17100,7 @@
 	<hasPublic>1</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>3</hasTheft>
-	<hasWepons>1</hasWepons>
+	<hasWeapons>1</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">264824</has_X>
 	<has_Y>319458.0</has_Y>
 	<totalCrime>14</totalCrime>
@@ -17123,7 +17123,7 @@
 	<hasPublic>167</hasPublic>
 	<hasRobbery>48</hasRobbery>
 	<hasTheft>772</hasTheft>
-	<hasWepons>56</hasWepons>
+	<hasWeapons>56</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">306227</has_X>
 	<has_Y>233120.0</has_Y>
 	<totalCrime>2293</totalCrime>
@@ -17146,7 +17146,7 @@
 	<hasPublic>3</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>12</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">205130</has_X>
 	<has_Y>287028.0</has_Y>
 	<totalCrime>41</totalCrime>
@@ -17169,7 +17169,7 @@
 	<hasPublic>0</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>0</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">92932</has_X>
 	<has_Y>238537.0</has_Y>
 	<totalCrime>9</totalCrime>
@@ -17192,7 +17192,7 @@
 	<hasPublic>70</hasPublic>
 	<hasRobbery>2</hasRobbery>
 	<hasTheft>146</hasTheft>
-	<hasWepons>4</hasWepons>
+	<hasWeapons>4</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">187242</has_X>
 	<has_Y>264445.0</has_Y>
 	<totalCrime>417</totalCrime>
@@ -17244,7 +17244,7 @@
 	<hasPublic>44</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>58</hasTheft>
-	<hasWepons>9</hasWepons>
+	<hasWeapons>9</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">213573</has_X>
 	<has_Y>189469.0</has_Y>
 	<totalCrime>248</totalCrime>
@@ -17267,7 +17267,7 @@
 	<hasPublic>4</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>7</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">128542</has_X>
 	<has_Y>36549.0</has_Y>
 	<totalCrime>30</totalCrime>
@@ -17290,7 +17290,7 @@
 	<hasPublic>1</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>9</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">164470</has_X>
 	<has_Y>339757.0</has_Y>
 	<totalCrime>18</totalCrime>
@@ -17313,7 +17313,7 @@
 	<hasPublic>12</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>32</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">313825</has_X>
 	<has_Y>112036.0</has_Y>
 	<totalCrime>158</totalCrime>
@@ -17336,7 +17336,7 @@
 	<hasPublic>8</hasPublic>
 	<hasRobbery>1</hasRobbery>
 	<hasTheft>30</hasTheft>
-	<hasWepons>1</hasWepons>
+	<hasWeapons>1</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">310308</has_X>
 	<has_Y>114283.0</has_Y>
 	<totalCrime>93</totalCrime>
@@ -17359,7 +17359,7 @@
 	<hasPublic>7</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>68</hasTheft>
-	<hasWepons>2</hasWepons>
+	<hasWeapons>2</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">319065</has_X>
 	<has_Y>202820.0</has_Y>
 	<totalCrime>188</totalCrime>
@@ -17382,7 +17382,7 @@
 	<hasPublic>255</hasPublic>
 	<hasRobbery>22</hasRobbery>
 	<hasTheft>1093</hasTheft>
-	<hasWepons>33</hasWepons>
+	<hasWeapons>33</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">158428</has_X>
 	<has_Y>155643.0</has_Y>
 	<totalCrime>2998</totalCrime>
@@ -17405,7 +17405,7 @@
 	<hasPublic>134</hasPublic>
 	<hasRobbery>50</hasRobbery>
 	<hasTheft>1043</hasTheft>
-	<hasWepons>9</hasWepons>
+	<hasWeapons>9</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">316369</has_X>
 	<has_Y>239129.0</has_Y>
 	<totalCrime>2176</totalCrime>
@@ -17428,7 +17428,7 @@
 	<hasPublic>12</hasPublic>
 	<hasRobbery>1</hasRobbery>
 	<hasTheft>35</hasTheft>
-	<hasWepons>1</hasWepons>
+	<hasWeapons>1</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">164068</has_X>
 	<has_Y>184094.0</has_Y>
 	<totalCrime>105</totalCrime>
@@ -17451,7 +17451,7 @@
 	<hasPublic>15</hasPublic>
 	<hasRobbery>1</hasRobbery>
 	<hasTheft>9</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">93084</has_X>
 	<has_Y>31736.0</has_Y>
 	<totalCrime>54</totalCrime>
@@ -17474,7 +17474,7 @@
 	<hasPublic>4</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>10</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">261040</has_X>
 	<has_Y>337231.0</has_Y>
 	<totalCrime>40</totalCrime>
@@ -17497,7 +17497,7 @@
 	<hasPublic>74</hasPublic>
 	<hasRobbery>23</hasRobbery>
 	<hasTheft>399</hasTheft>
-	<hasWepons>7</hasWepons>
+	<hasWeapons>7</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">325516</has_X>
 	<has_Y>221968.0</has_Y>
 	<totalCrime>1166</totalCrime>
@@ -17520,7 +17520,7 @@
 	<hasPublic>77</hasPublic>
 	<hasRobbery>1</hasRobbery>
 	<hasTheft>167</hasTheft>
-	<hasWepons>6</hasWepons>
+	<hasWeapons>6</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">140757</has_X>
 	<has_Y>162182.0</has_Y>
 	<totalCrime>445</totalCrime>
@@ -17543,7 +17543,7 @@
 	<hasPublic>3</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>9</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">272145</has_X>
 	<has_Y>305320.0</has_Y>
 	<totalCrime>38</totalCrime>
@@ -17566,7 +17566,7 @@
 	<hasPublic>0</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>0</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">196862</has_X>
 	<has_Y>159490.0</has_Y>
 	<totalCrime>4</totalCrime>
@@ -17589,7 +17589,7 @@
 	<hasPublic>2</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>18</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">298794</has_X>
 	<has_Y>168019.0</has_Y>
 	<totalCrime>35</totalCrime>
@@ -17612,7 +17612,7 @@
 	<hasPublic>3</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>15</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">204473</has_X>
 	<has_Y>192626.0</has_Y>
 	<totalCrime>48</totalCrime>
@@ -17635,7 +17635,7 @@
 	<hasPublic>3</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>6</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">127908</has_X>
 	<has_Y>252736.0</has_Y>
 	<totalCrime>33</totalCrime>
@@ -17658,7 +17658,7 @@
 	<hasPublic>14</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>41</hasTheft>
-	<hasWepons>1</hasWepons>
+	<hasWeapons>1</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">147506</has_X>
 	<has_Y>165689.0</has_Y>
 	<totalCrime>126</totalCrime>
@@ -17681,7 +17681,7 @@
 	<hasPublic>25</hasPublic>
 	<hasRobbery>5</hasRobbery>
 	<hasTheft>119</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">325432</has_X>
 	<has_Y>260503.0</has_Y>
 	<totalCrime>328</totalCrime>
@@ -17704,7 +17704,7 @@
 	<hasPublic>45</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>42</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">112360</has_X>
 	<has_Y>33578.0</has_Y>
 	<totalCrime>201</totalCrime>
@@ -17727,7 +17727,7 @@
 	<hasPublic>1</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>4</hasTheft>
-	<hasWepons>1</hasWepons>
+	<hasWeapons>1</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">153084</has_X>
 	<has_Y>333095.0</has_Y>
 	<totalCrime>22</totalCrime>
@@ -17750,7 +17750,7 @@
 	<hasPublic>17</hasPublic>
 	<hasRobbery>1</hasRobbery>
 	<hasTheft>49</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">295959</has_X>
 	<has_Y>274295.0</has_Y>
 	<totalCrime>140</totalCrime>
@@ -17773,7 +17773,7 @@
 	<hasPublic>332</hasPublic>
 	<hasRobbery>12</hasRobbery>
 	<hasTheft>318</hasTheft>
-	<hasWepons>27</hasWepons>
+	<hasWeapons>27</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">169344</has_X>
 	<has_Y>335702.0</has_Y>
 	<totalCrime>1502</totalCrime>
@@ -17821,7 +17821,7 @@
 	<hasPublic>3</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>3</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">226257</has_X>
 	<has_Y>290182.0</has_Y>
 	<totalCrime>20</totalCrime>
@@ -17844,7 +17844,7 @@
 	<hasPublic>0</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>2</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">68822</has_X>
 	<has_Y>66838.0</has_Y>
 	<totalCrime>11</totalCrime>
@@ -17867,7 +17867,7 @@
 	<hasPublic>0</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>1</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">85724</has_X>
 	<has_Y>247496.0</has_Y>
 	<totalCrime>4</totalCrime>
@@ -17890,7 +17890,7 @@
 	<hasPublic>2</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>8</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">252395</has_X>
 	<has_Y>143015.0</has_Y>
 	<totalCrime>28</totalCrime>
@@ -17913,7 +17913,7 @@
 	<hasPublic>3265</hasPublic>
 	<hasRobbery>166</hasRobbery>
 	<hasTheft>5999</hasTheft>
-	<hasWepons>108</hasWepons>
+	<hasWeapons>108</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">316435</has_X>
 	<has_Y>234757.0</has_Y>
 	<totalCrime>12114</totalCrime>
@@ -17936,7 +17936,7 @@
 	<hasPublic>24</hasPublic>
 	<hasRobbery>4</hasRobbery>
 	<hasTheft>77</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">256987</has_X>
 	<has_Y>196633.0</has_Y>
 	<totalCrime>354</totalCrime>
@@ -17959,7 +17959,7 @@
 	<hasPublic>4</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>7</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">193205</has_X>
 	<has_Y>281231.0</has_Y>
 	<totalCrime>35</totalCrime>
@@ -17982,7 +17982,7 @@
 	<hasPublic>3</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>12</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">147817</has_X>
 	<has_Y>82265.0</has_Y>
 	<totalCrime>36</totalCrime>
@@ -18005,7 +18005,7 @@
 	<hasPublic>4</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>19</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">284134</has_X>
 	<has_Y>248716.0</has_Y>
 	<totalCrime>73</totalCrime>
@@ -18028,7 +18028,7 @@
 	<hasPublic>128</hasPublic>
 	<hasRobbery>45</hasRobbery>
 	<hasTheft>390</hasTheft>
-	<hasWepons>18</hasWepons>
+	<hasWeapons>18</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">313394</has_X>
 	<has_Y>232428.0</has_Y>
 	<totalCrime>1283</totalCrime>
@@ -18051,7 +18051,7 @@
 	<hasPublic>1</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>6</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">219379</has_X>
 	<has_Y>327498.0</has_Y>
 	<totalCrime>16</totalCrime>
@@ -18074,7 +18074,7 @@
 	<hasPublic>24</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>21</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">137517</has_X>
 	<has_Y>299441.0</has_Y>
 	<totalCrime>87</totalCrime>
@@ -18097,7 +18097,7 @@
 	<hasPublic>210</hasPublic>
 	<hasRobbery>38</hasRobbery>
 	<hasTheft>1018</hasTheft>
-	<hasWepons>20</hasWepons>
+	<hasWeapons>20</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">318215</has_X>
 	<has_Y>246556.0</has_Y>
 	<totalCrime>2577</totalCrime>
@@ -18120,7 +18120,7 @@
 	<hasPublic>15</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>21</hasTheft>
-	<hasWepons>1</hasWepons>
+	<hasWeapons>1</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">291982</has_X>
 	<has_Y>119738.0</has_Y>
 	<totalCrime>103</totalCrime>
@@ -18143,7 +18143,7 @@
 	<hasPublic>511</hasPublic>
 	<hasRobbery>168</hasRobbery>
 	<hasTheft>1605</hasTheft>
-	<hasWepons>101</hasWepons>
+	<hasWeapons>101</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">308900</has_X>
 	<has_Y>227492.0</has_Y>
 	<totalCrime>5304</totalCrime>
@@ -18166,7 +18166,7 @@
 	<hasPublic>3</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>8</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">199549</has_X>
 	<has_Y>93475.0</has_Y>
 	<totalCrime>35</totalCrime>
@@ -18189,7 +18189,7 @@
 	<hasPublic>8</hasPublic>
 	<hasRobbery>2</hasRobbery>
 	<hasTheft>10</hasTheft>
-	<hasWepons>1</hasWepons>
+	<hasWeapons>1</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">106797</has_X>
 	<has_Y>147669.0</has_Y>
 	<totalCrime>35</totalCrime>
@@ -18212,7 +18212,7 @@
 	<hasPublic>1</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>6</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">131616</has_X>
 	<has_Y>65547.0</has_Y>
 	<totalCrime>22</totalCrime>
@@ -18235,7 +18235,7 @@
 	<hasPublic>1</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>2</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">190668</has_X>
 	<has_Y>239214.0</has_Y>
 	<totalCrime>7</totalCrime>
@@ -18257,7 +18257,7 @@
 	<hasPublic>0</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>0</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">194987</has_X>
 	<has_Y>169197.0</has_Y>
 	<totalCrime>0</totalCrime>
@@ -18280,7 +18280,7 @@
 	<hasPublic>50</hasPublic>
 	<hasRobbery>3</hasRobbery>
 	<hasTheft>44</hasTheft>
-	<hasWepons>1</hasWepons>
+	<hasWeapons>1</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">211174</has_X>
 	<has_Y>171709.0</has_Y>
 	<totalCrime>169</totalCrime>
@@ -18303,7 +18303,7 @@
 	<hasPublic>2</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>5</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">218933</has_X>
 	<has_Y>171028.0</has_Y>
 	<totalCrime>17</totalCrime>
@@ -18326,7 +18326,7 @@
 	<hasPublic>61</hasPublic>
 	<hasRobbery>15</hasRobbery>
 	<hasTheft>530</hasTheft>
-	<hasWepons>6</hasWepons>
+	<hasWeapons>6</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">314161</has_X>
 	<has_Y>230177.0</has_Y>
 	<totalCrime>1229</totalCrime>
@@ -18349,7 +18349,7 @@
 	<hasPublic>29</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>39</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">258413</has_X>
 	<has_Y>142256.0</has_Y>
 	<totalCrime>127</totalCrime>
@@ -18372,7 +18372,7 @@
 	<hasPublic>169</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>142</hasTheft>
-	<hasWepons>6</hasWepons>
+	<hasWeapons>6</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">212773</has_X>
 	<has_Y>158257.0</has_Y>
 	<totalCrime>646</totalCrime>
@@ -18395,7 +18395,7 @@
 	<hasPublic>5</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>3</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">147006</has_X>
 	<has_Y>43566.0</has_Y>
 	<totalCrime>26</totalCrime>
@@ -18418,7 +18418,7 @@
 	<hasPublic>3</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>9</hasTheft>
-	<hasWepons>1</hasWepons>
+	<hasWeapons>1</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">303300</has_X>
 	<has_Y>172806.0</has_Y>
 	<totalCrime>44</totalCrime>
@@ -18441,7 +18441,7 @@
 	<hasPublic>130</hasPublic>
 	<hasRobbery>1</hasRobbery>
 	<hasTheft>116</hasTheft>
-	<hasWepons>4</hasWepons>
+	<hasWeapons>4</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">188981</has_X>
 	<has_Y>136034.0</has_Y>
 	<totalCrime>511</totalCrime>
@@ -18508,7 +18508,7 @@
 	<hasPublic>92</hasPublic>
 	<hasRobbery>4</hasRobbery>
 	<hasTheft>141</hasTheft>
-	<hasWepons>9</hasWepons>
+	<hasWeapons>9</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">166559</has_X>
 	<has_Y>69410.0</has_Y>
 	<totalCrime>573</totalCrime>
@@ -18531,7 +18531,7 @@
 	<hasPublic>3</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>9</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">197590</has_X>
 	<has_Y>177601.0</has_Y>
 	<totalCrime>22</totalCrime>
@@ -18554,7 +18554,7 @@
 	<hasPublic>641</hasPublic>
 	<hasRobbery>11</hasRobbery>
 	<hasTheft>508</hasTheft>
-	<hasWepons>27</hasWepons>
+	<hasWeapons>27</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">83396</has_X>
 	<has_Y>114411.0</has_Y>
 	<totalCrime>2071</totalCrime>
@@ -18577,7 +18577,7 @@
 	<hasPublic>123</hasPublic>
 	<hasRobbery>2</hasRobbery>
 	<hasTheft>108</hasTheft>
-	<hasWepons>3</hasWepons>
+	<hasWeapons>3</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">257984</has_X>
 	<has_Y>101354.0</has_Y>
 	<totalCrime>487</totalCrime>
@@ -18600,7 +18600,7 @@
 	<hasPublic>47</hasPublic>
 	<hasRobbery>2</hasRobbery>
 	<hasTheft>117</hasTheft>
-	<hasWepons>6</hasWepons>
+	<hasWeapons>6</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">280291</has_X>
 	<has_Y>256571.0</has_Y>
 	<totalCrime>404</totalCrime>
@@ -18623,7 +18623,7 @@
 	<hasPublic>128</hasPublic>
 	<hasRobbery>1</hasRobbery>
 	<hasTheft>142</hasTheft>
-	<hasWepons>4</hasWepons>
+	<hasWeapons>4</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">143273</has_X>
 	<has_Y>252060.0</has_Y>
 	<totalCrime>575</totalCrime>
@@ -18646,7 +18646,7 @@
 	<hasPublic>26</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>36</hasTheft>
-	<hasWepons>1</hasWepons>
+	<hasWeapons>1</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">151957</has_X>
 	<has_Y>311618.0</has_Y>
 	<totalCrime>192</totalCrime>
@@ -18669,7 +18669,7 @@
 	<hasPublic>7</hasPublic>
 	<hasRobbery>1</hasRobbery>
 	<hasTheft>27</hasTheft>
-	<hasWepons>1</hasWepons>
+	<hasWeapons>1</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">149217</has_X>
 	<has_Y>179615.02</has_Y>
 	<totalCrime>63</totalCrime>
@@ -18692,7 +18692,7 @@
 	<hasPublic>144</hasPublic>
 	<hasRobbery>1</hasRobbery>
 	<hasTheft>358</hasTheft>
-	<hasWepons>2</hasWepons>
+	<hasWeapons>2</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">233744</has_X>
 	<has_Y>225171.0</has_Y>
 	<totalCrime>1069</totalCrime>
@@ -18715,7 +18715,7 @@
 	<hasPublic>15</hasPublic>
 	<hasRobbery>1</hasRobbery>
 	<hasTheft>66</hasTheft>
-	<hasWepons>3</hasWepons>
+	<hasWeapons>3</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">285472</has_X>
 	<has_Y>173250.0</has_Y>
 	<totalCrime>236</totalCrime>
@@ -18738,7 +18738,7 @@
 	<hasPublic>2</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>6</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">183447</has_X>
 	<has_Y>280886.0</has_Y>
 	<totalCrime>16</totalCrime>
@@ -18761,7 +18761,7 @@
 	<hasPublic>14</hasPublic>
 	<hasRobbery>1</hasRobbery>
 	<hasTheft>35</hasTheft>
-	<hasWepons>1</hasWepons>
+	<hasWeapons>1</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">228440</has_X>
 	<has_Y>163480.0</has_Y>
 	<totalCrime>100</totalCrime>
@@ -18784,7 +18784,7 @@
 	<hasPublic>32</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>58</hasTheft>
-	<hasWepons>1</hasWepons>
+	<hasWeapons>1</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">260492</has_X>
 	<has_Y>287592.0</has_Y>
 	<totalCrime>205</totalCrime>
@@ -18807,7 +18807,7 @@
 	<hasPublic>216</hasPublic>
 	<hasRobbery>39</hasRobbery>
 	<hasTheft>485</hasTheft>
-	<hasWepons>23</hasWepons>
+	<hasWeapons>23</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">167393</has_X>
 	<has_Y>72821.0</has_Y>
 	<totalCrime>1495</totalCrime>
@@ -18830,7 +18830,7 @@
 	<hasPublic>583</hasPublic>
 	<hasRobbery>27</hasRobbery>
 	<hasTheft>1242</hasTheft>
-	<hasWepons>43</hasWepons>
+	<hasWeapons>43</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">260568</has_X>
 	<has_Y>112370.58</has_Y>
 	<totalCrime>3879</totalCrime>
@@ -18879,7 +18879,7 @@
 	<hasPublic>5</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>26</hasTheft>
-	<hasWepons>1</hasWepons>
+	<hasWeapons>1</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">176566</has_X>
 	<has_Y>84599.0</has_Y>
 	<totalCrime>71</totalCrime>
@@ -18929,7 +18929,7 @@
 	<hasPublic>211</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>102</hasTheft>
-	<hasWepons>11</hasWepons>
+	<hasWeapons>11</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">99932</has_X>
 	<has_Y>284334.0</has_Y>
 	<totalCrime>563</totalCrime>
@@ -18952,7 +18952,7 @@
 	<hasPublic>238</hasPublic>
 	<hasRobbery>7</hasRobbery>
 	<hasTheft>508</hasTheft>
-	<hasWepons>12</hasWepons>
+	<hasWeapons>12</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">304886</has_X>
 	<has_Y>121500.0</has_Y>
 	<totalCrime>1503</totalCrime>
@@ -19004,7 +19004,7 @@
 	<hasPublic>6</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>10</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">184343</has_X>
 	<has_Y>63831.0</has_Y>
 	<totalCrime>41</totalCrime>
@@ -19027,7 +19027,7 @@
 	<hasPublic>117</hasPublic>
 	<hasRobbery>3</hasRobbery>
 	<hasTheft>173</hasTheft>
-	<hasWepons>5</hasWepons>
+	<hasWeapons>5</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">331516</has_X>
 	<has_Y>194057.0</has_Y>
 	<totalCrime>596</totalCrime>
@@ -19074,7 +19074,7 @@
 	<hasPublic>2</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>15</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">161825</has_X>
 	<has_Y>269848.0</has_Y>
 	<totalCrime>34</totalCrime>
@@ -19097,7 +19097,7 @@
 	<hasPublic>1</hasPublic>
 	<hasRobbery>0</hasRobbery>
 	<hasTheft>6</hasTheft>
-	<hasWepons>0</hasWepons>
+	<hasWeapons>0</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">173214</has_X>
 	<has_Y>199702.0</has_Y>
 	<totalCrime>27</totalCrime>
@@ -19120,7 +19120,7 @@
 	<hasPublic>52</hasPublic>
 	<hasRobbery>1</hasRobbery>
 	<hasTheft>59</hasTheft>
-	<hasWepons>2</hasWepons>
+	<hasWeapons>2</hasWeapons>
 	<has_X rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">210862</has_X>
 	<has_Y>77281.0</has_Y>
 	<totalCrime>291</totalCrime>
@@ -19220,9 +19220,9 @@
 </rdf:Description>
 <!--  -->
 
-<rdf:Description rdf:about="http://lab.Jena.Kdeg.ie/CrimeOntology.owl#hasWepons">
-	<rdfs:label>hasWepons</rdfs:label>
-	<rdfs:comment>Wepon statistics per station</rdfs:comment>
+<rdf:Description rdf:about="http://lab.Jena.Kdeg.ie/CrimeOntology.owl#hasWeapons">
+	<rdfs:label>hasWeapons</rdfs:label>
+	<rdfs:comment>Weapon statistics per station</rdfs:comment>
 </rdf:Description>
 <!--  -->
 

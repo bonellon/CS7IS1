@@ -169,9 +169,9 @@ public class CreateModel {
         Fraud.setLabel("Fraud", null);
         Fraud.setComment("Fraud statistics", null);
 
-        OntClass Wepons = ontology.createClass(baseNs + "Wepons_and_Explosives_Offences");
-        Wepons.setLabel("Wepons", null);
-        Wepons.setComment("Wepon crime statistics", null);
+        OntClass Weapons = ontology.createClass(baseNs + "Weapons_and_Explosives_Offences");
+        Weapons.setLabel("Weapons", null);
+        Weapons.setComment("Weapon crime statistics", null);
 
         OntClass Burglary = ontology.createClass(baseNs + "Burglary_and_related_offences");
         Burglary.setLabel("Burglary", null);
@@ -190,7 +190,7 @@ public class CreateModel {
             Property,
             Public,
             Theft,
-            Wepons,
+            Weapons,
             Burglary,
             Kidnapping
         });
@@ -206,7 +206,7 @@ public class CreateModel {
         Crime.addSubClass(Public);
         Crime.addSubClass(Theft);
         Crime.addSubClass(Fraud);
-        Crime.addSubClass(Wepons);
+        Crime.addSubClass(Weapons);
         Crime.addSubClass(Burglary);
         Crime.addSubClass(Kidnapping);
 
@@ -330,12 +330,12 @@ public class CreateModel {
         hasFraud.setDomain(Crime);
         hasFraud.setRange(Station);
 
-        ObjectProperty hasWepons = ontology.createObjectProperty(baseNs + "hasWepons");
-        Station.addProperty(hasWepons, "hasWepons");
-        hasWepons.setLabel("hasWepons", null);
-        hasWepons.setComment("Wepon statistics per station", null);
-        hasWepons.setDomain(Crime);
-        hasWepons.setRange(Station);
+        ObjectProperty hasWeapons = ontology.createObjectProperty(baseNs + "hasWeapons");
+        Station.addProperty(hasWeapons, "hasWeapons");
+        hasWeapons.setLabel("hasWeapons", null);
+        hasWeapons.setComment("Weapon statistics per station", null);
+        hasWeapons.setDomain(Crime);
+        hasWeapons.setRange(Station);
 
         ObjectProperty hasBurglary = ontology.createObjectProperty(baseNs + "hasBurglary");
         Station.addProperty(hasBurglary, "hasBurglary");
@@ -511,7 +511,7 @@ public class CreateModel {
                     crimes = crimes + ", Fraud";
                 }
 
-                ind.addProperty(hasWepons, "" + station.crime.WeaponsCount);
+                ind.addProperty(hasWeapons, "" + station.crime.WeaponsCount);
                 if (station.crime.WeaponsCount != 0) {
                     crimes = crimes + ", Weapons";
                 }
@@ -551,8 +551,6 @@ public class CreateModel {
                     Logger.getLogger(CreateModel.class.getName()).log(Level.SEVERE, null, ex);
                 }
 
-                System.out.println(point.getX() + " " + point.getY());
-                System.out.println(geometry.calculateArea2D() + "\n");
                 OperatorWithin within = OperatorWithin.local();
                 if (within.execute(point, geometry, SpatialReference.create("WGS84"), null)) {
                     countyIndiList.get(i).addProperty(hasStations, ind);
@@ -603,12 +601,7 @@ public class CreateModel {
 
         while (iter.hasNext()) {
             Triple next = iter.next();
-
-            //System.out.println("Subject:  " + next.getSubject());
-            //System.out.println("Object:  " + next.getObject());
-            //System.out.println("Predicate:  " + next.getPredicate());
-            //System.out.println("\n");
-            //System.out.println(currentSubject + " --- "+ next.getSubject());
+            
             if (!next.getSubject().toString().equals(currentSubject)) {
                 Divisions.add(division);
                 Stations.add(station);
