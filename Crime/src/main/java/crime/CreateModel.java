@@ -469,9 +469,15 @@ public class CreateModel {
                 ind.addProperty(hasPublic, "" + station.crime.PublicCount);
                 ind.addProperty(hasTheft, "" + station.crime.TheftCount);
                 ind.addProperty(hasFraud, "" + station.crime.FraudCount);
-                ind.addProperty(hasWepons, "" + station.crime.WeponsCount);
+                ind.addProperty(hasWepons, "" + station.crime.WeaponsCount);
                 ind.addProperty(hasBurglary, "" + station.crime.BurglaryCount);
                 ind.addProperty(hasKidnapping, "" + station.crime.KidnappingCount);
+                
+                int totalCrime = station.crime.MurderCount + station.crime.RobberyCount + station.crime.GovernmentCount + station.crime.DangerousCount
+                         + station.crime.DrugCount + station.crime.PropertyCount + station.crime.PublicCount + station.crime.TheftCount + station.crime.FraudCount
+                         + station.crime.WeaponsCount + station.crime.BurglaryCount + station.crime.KidnappingCount;
+            
+                ind.addProperty(hasCrime, ""+totalCrime);
             }
 
             for (int i = 0; i < countyList.size(); i++) {
@@ -493,8 +499,6 @@ public class CreateModel {
                 System.out.println(geometry.calculateArea2D() + "\n");
                 OperatorWithin within = OperatorWithin.local();
                 if (within.execute(point, geometry, SpatialReference.create("WGS84"), null)) {
-                    System.out.println("WITHIN!!!!!!");
-                    //ind.addProperty(inCounty, countyIndiList.get(i));
                     countyIndiList.get(i).addProperty(hasStations, ind);
                 }
             }
@@ -615,7 +619,7 @@ public class CreateModel {
                     crime.setTheftCount(counter);
                 } else if (nextPredicate.endsWith("Weapons%20and%20Explosives%20Offences%202015")) {
                     int counter = Integer.parseInt(next.getObject().toString().split("\"")[1]);
-                    crime.setWeponsCount(counter);
+                    crime.setWeaponsCount(counter);
                 }
 
             }

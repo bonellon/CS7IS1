@@ -13,7 +13,7 @@ public class Crime {
 
     String Name;
     int MurderCount, RobberyCount, GovernmentCount, DangerousCount, DrugCount, 
-            PropertyCount, PublicCount, TheftCount, FraudCount, WeponsCount, 
+            PropertyCount, PublicCount, TheftCount, FraudCount, WeaponsCount, 
             BurglaryCount, KidnappingCount;
 
     public Crime() {
@@ -100,12 +100,12 @@ public class Crime {
         this.FraudCount = FraudCount;
     }
 
-    public int getWeponsCount() {
-        return WeponsCount;
+    public int getWeaponsCount() {
+        return WeaponsCount;
     }
 
-    public void setWeponsCount(int WeponsCount) {
-        this.WeponsCount = WeponsCount;
+    public void setWeaponsCount(int WeaponsCount) {
+        this.WeaponsCount = WeaponsCount;
     }
 
     public int getBurglaryCount() {
