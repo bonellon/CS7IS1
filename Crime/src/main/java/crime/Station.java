@@ -12,7 +12,7 @@ package crime;
 public class Station {
 
     String Name;
-    Division division;
+    String County;
     Crime crime;
     float X;
     float Y;
@@ -35,12 +35,12 @@ public class Station {
         Y = y;
     }
 
-    public Division getDivision() {
-        return division;
+    public String getCounty() {
+        return County;
     }
 
-    public void setDivision(Division division) {
-        this.division = division;
+    public void setCounty(String county) {
+        this.County = county;
     }
 
     public String getName() {

@@ -69,11 +69,12 @@ public class CreateModel {
         BasicConfigurator.configure();
         Ontology ont = ontology.createOntology(baseNs);
         ont.addComment("List of all Crimes per Garda Station in Ireland - 2015", null);
-        ont.addProperty(DCTerms.creator, "Nicholas Bonello");
-        ont.addProperty(DCTerms.contributor, "Anirban");
-        ont.addProperty(DCTerms.contributor, "Tomin");
-        ont.addProperty(DCTerms.contributor, "Neeraj");
-        ont.addProperty(DCTerms.contributor, "Lovish");
+        ont.addProperty(DCTerms.abstract_, "");
+        ont.addProperty(DCTerms.creator, "Nicholas");
+        ont.addProperty(DCTerms.creator, "Anirban");
+        ont.addProperty(DCTerms.creator, "Tomin");
+        ont.addProperty(DCTerms.creator, "Neeraj");
+        ont.addProperty(DCTerms.creator, "Lovish");
 
 //County
         OntClass County = ontology.createClass(baseNs + "County");
@@ -92,7 +93,7 @@ public class CreateModel {
         adjacentTo.setLabel("adjacentTo", null);
         adjacentTo.setComment("Adject to list of counties", null);
 
-//Division 
+/*Division 
         OntClass Division = ontology.createClass(baseNs + "Division");
         Division.setLabel("Division", null);
         Division.setComment("Division information", null);
@@ -103,11 +104,7 @@ public class CreateModel {
         divisionName.setLabel("divisionName", null);
         divisionName.setComment("divisionName", null);
 
-        DatatypeProperty inCounty = ontology.createDatatypeProperty(baseNs + "inCounty");
-        inCounty.setDomain(Division);
-        inCounty.setRange(County);
-        inCounty.setLabel("inCounty", null);
-        inCounty.setComment("County location per division", null);
+*/
 //Station
 
         OntClass Station = ontology.createClass(baseNs + "Station");
@@ -126,12 +123,12 @@ public class CreateModel {
         stationName.setLabel("stationName", null);
         stationName.setComment("Station Name", null);
 
-        DatatypeProperty inDivision = ontology.createDatatypeProperty(baseNs + "inDivision");
+/*        DatatypeProperty inDivision = ontology.createDatatypeProperty(baseNs + "inDivision");
         inDivision.setDomain(Station);
         inDivision.setRange(Division);
         inDivision.setLabel("inDivision", null);
         inDivision.setComment("Division information per Station", null);
-
+*/
 //Crime        
         OntClass Murder = ontology.createClass(baseNs + "Attemps_or_threats_to_murder_assaults_harassments_and_related_offences");
         Murder.setLabel("Murder", null);
@@ -215,7 +212,7 @@ public class CreateModel {
         Severity.setLabel("Severity", null);
         Severity.setComment("", null);
 
-        Station.setDisjointWith(Division);
+        //Station.setDisjointWith(Division);
 
         OntProperty hasX = ontology.createObjectProperty(baseNs + "has_X");
         hasX.setLabel("hasX", null);
@@ -242,24 +239,32 @@ public class CreateModel {
         Station.addProperty(hasX, "hasX");
         Station.addProperty(hasY, "hasY");
         Station.addProperty(hasCrime, "hasCrime");
-
+        
         ObjectProperty hasStations = ontology.createObjectProperty(baseNs + "hasStations");
-        Division.addProperty(hasStations, "hasStations");
+        //Division.addProperty(hasStations, "hasStations");
         County.addProperty(hasStations, "hasStations");
-        hasStations.addInverseOf(inDivision);
-        hasStations.setDomain(Division);
         hasStations.setDomain(County);
         hasStations.setRange(Station);
         hasStations.setLabel("hasStations", null);
-        hasStations.setComment("Stations per County/Division", null);
-
+        hasStations.setComment("Stations per County", null);
+        
+        /*
         ObjectProperty hasDivisions = ontology.createObjectProperty(baseNs + "hasDivisions");
         County.addProperty(hasDivisions, "hasDivisions");
         hasDivisions.setLabel("hasDivisions", null);
         hasDivisions.setComment("Divisions per County", null);
         hasDivisions.setDomain(County);
         hasDivisions.setRange(Division);
-        hasDivisions.addInverseOf(inCounty);
+        */
+        
+        DatatypeProperty inCounty = ontology.createDatatypeProperty(baseNs + "inCounty");
+        inCounty.setDomain(Station);
+        inCounty.setRange(County);
+        inCounty.setLabel("inCounty", null);
+        inCounty.setComment("County location per division", null);
+        
+        inCounty.addInverseOf(hasStations);
+        hasStations.addInverseOf(inCounty);
 
 //        ObjectProperty isStationIn = ontology.createObjectProperty(baseNs + "isStationIn");
 //        Station.addProperty(isStationIn, "isStationIn");
@@ -354,11 +359,12 @@ public class CreateModel {
         parser();
 
         Divisions.forEach((division) -> {
-            Individual ind = ontology.createIndividual(baseNs + division.Name, Division);
+            /*Individual ind = ontology.createIndividual(baseNs + division.Name, Division);
 
             division.stations.forEach((action) -> {
                 ind.addProperty(hasStations, action.Name);
             });
+*/
         });
 
         Crimes.forEach((crime) -> {
@@ -461,9 +467,10 @@ public class CreateModel {
             //ind.addProperty(hasY, "" + station.Y);
             ind.addLiteral(hasX, ontology.createTypedLiteral(station.X, XSDDatatype.XSDnonNegativeInteger));
             ind.addLiteral(hasY, ontology.createTypedLiteral(station.Y, XSDDatatype.XSDnonNegativeInteger));
-            if (station.division != null) {
-                String name = station.division.Name.replace('\'', ' ').replace('"', ' ').trim();
-                ind.addProperty(inDivision, name);
+            if (station.County != null) {
+                //String name = station.division.Name.replace('\'', ' ').replace('"', ' ').trim();
+                String name = station.County;
+                ind.addProperty(inCounty, name);
             }
             if (station.crime != null) {
                 String crimes = "";
@@ -627,13 +634,13 @@ public class CreateModel {
                 String object = next.getObject().toString();
                 station.setY(Float.parseFloat(object.split("\"")[1]));
                 division.addStation(station);
-            } else if (nextPredicate.endsWith("#Divisions")) {
+            } /*else if (nextPredicate.endsWith("#Divisions")) {
                 String divisionName = next.getObject().toString().replace(' ', '_');
                 if (!Divisions.contains(divisionName)) {
                     division.setName(divisionName);
                     station.setDivision(division);
                 }
-            } else if (nextPredicate.endsWith("#id")) {
+            } */else if (nextPredicate.endsWith("#id")) {
             } else {
                 if (nextPredicate.endsWith("Attempts%20or%20threats%20to%20murder%2C%20assaults%2C%20harassments%20and%20related%20offences%202015")) {
                     int counter = Integer.parseInt(next.getObject().toString().split("\"")[1]);
