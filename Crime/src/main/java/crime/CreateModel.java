@@ -69,7 +69,8 @@ public class CreateModel {
         BasicConfigurator.configure();
         Ontology ont = ontology.createOntology(baseNs);
         ont.addComment("List of all Crimes per Garda Station in Ireland - 2015", null);
-        ont.addProperty(DCTerms.abstract_, "");
+        ont.addProperty(DCTerms.abstract_, "Irish Crime statistics for 2015 for each station in each County in Ireland");
+        ont.addProperty(DCTerms.title, "Irish Crime Statistics by Station");
         ont.addProperty(DCTerms.creator, "Nicholas");
         ont.addProperty(DCTerms.creator, "Anirban");
         ont.addProperty(DCTerms.creator, "Tomin");
@@ -130,51 +131,51 @@ public class CreateModel {
         inDivision.setComment("Division information per Station", null);
 */
 //Crime        
-        OntClass Murder = ontology.createClass(baseNs + "Attemps_or_threats_to_murder_assaults_harassments_and_related_offences");
+        OntClass Murder = ontology.createClass(baseNs + "Murder");
         Murder.setLabel("Murder", null);
         Murder.setComment("Murder crime statistics", null);
 
-        OntClass Robbery = ontology.createClass(baseNs + "Robbery_extortion_and_hijacking_offences");
+        OntClass Robbery = ontology.createClass(baseNs + "Robbery");
         Robbery.setLabel("Robbery", null);
         Robbery.setComment("Robbery crime statistics", null);
 
-        OntClass Government = ontology.createClass(baseNs + "Offences_against_government_justice_procedures_and_organisations_of_crime");
+        OntClass Government = ontology.createClass(baseNs + "Government");
         Government.setLabel("Government", null);
         Government.setComment("Crimes against government statistics", null);
 
-        OntClass Dangerous = ontology.createClass(baseNs + "Dangerous_or_negligent_acts");
+        OntClass Dangerous = ontology.createClass(baseNs + "Dangerous");
         Dangerous.setLabel("Dangerous", null);
         Dangerous.setComment("Dangerous act statistics", null);
 
-        OntClass Drug = ontology.createClass(baseNs + "Controlled_drug_offences");
+        OntClass Drug = ontology.createClass(baseNs + "Drug");
         Drug.setLabel("Drug", null);
         Drug.setComment("Drug abuse statistics", null);
 
-        OntClass Property = ontology.createClass(baseNs + "Damage_to_property_and_to_the_environment");
+        OntClass Property = ontology.createClass(baseNs + "Damage");
         Property.setLabel("Property", null);
         Property.setComment("Property crime statistics", null);
 
-        OntClass Public = ontology.createClass(baseNs + "Public_order_and_other_social_code_offences");
+        OntClass Public = ontology.createClass(baseNs + "Public");
         Public.setLabel("Public", null);
         Public.setComment("Public offence statistics", null);
 
-        OntClass Theft = ontology.createClass(baseNs + "Theft_and_related_offences");
+        OntClass Theft = ontology.createClass(baseNs + "Theft");
         Theft.setLabel("Theft", null);
         Theft.setComment("Theft crime statistics", null);
 
-        OntClass Fraud = ontology.createClass(baseNs + "Fraud_Deception_and_related_offences");
+        OntClass Fraud = ontology.createClass(baseNs + "Fraud");
         Fraud.setLabel("Fraud", null);
         Fraud.setComment("Fraud statistics", null);
 
-        OntClass Weapons = ontology.createClass(baseNs + "Weapons_and_Explosives_Offences");
+        OntClass Weapons = ontology.createClass(baseNs + "Weapons");
         Weapons.setLabel("Weapons", null);
         Weapons.setComment("Weapon crime statistics", null);
 
-        OntClass Burglary = ontology.createClass(baseNs + "Burglary_and_related_offences");
+        OntClass Burglary = ontology.createClass(baseNs + "Burglary");
         Burglary.setLabel("Burglary", null);
         Burglary.setComment("Burglary statistics", null);
 
-        OntClass Kidnapping = ontology.createClass(baseNs + "Kidnapping_and_related_offences");
+        OntClass Kidnapping = ontology.createClass(baseNs + "Kidnapping");
         Kidnapping.setLabel("Kidnapping", null);
         Kidnapping.setComment("Kidnapping statistics", null);
 
@@ -192,6 +193,7 @@ public class CreateModel {
             Kidnapping
         });
         OntClass Crime = ontology.createUnionClass(baseNs + "Crime", crimeList);
+        Crime.setLabel("Crime", null);
         Crime.setComment("Crime superclass", null);
 
         Crime.addSubClass(Murder);
@@ -207,19 +209,26 @@ public class CreateModel {
         Crime.addSubClass(Burglary);
         Crime.addSubClass(Kidnapping);
 
-//
-        OntClass Severity = ontology.createClass(baseNs + "Severity");
-        Severity.setLabel("Severity", null);
-        Severity.setComment("", null);
-
+        Crime.setDisjointWith(Murder);
+        Crime.setDisjointWith(Robbery);
+        Crime.setDisjointWith(Dangerous);
+        Crime.setDisjointWith(Drug);
+        Crime.setDisjointWith(Property);
+        Crime.setDisjointWith(Public);
+        Crime.setDisjointWith(Theft);
+        Crime.setDisjointWith(Fraud);
+        Crime.setDisjointWith(Weapons);
+        Crime.setDisjointWith(Burglary);
+        Crime.setDisjointWith(Kidnapping);
+        
         //Station.setDisjointWith(Division);
 
-        OntProperty hasX = ontology.createObjectProperty(baseNs + "has_X");
+        DatatypeProperty hasX = ontology.createDatatypeProperty(baseNs + "hasX");
         hasX.setLabel("hasX", null);
         hasX.setComment("X coordinate information per station", null);
         hasX.setDomain(Station);
 
-        OntProperty hasY = ontology.createObjectProperty(baseNs + "has_Y");
+        DatatypeProperty hasY = ontology.createDatatypeProperty(baseNs + "hasY");
         hasY.setLabel("hasY", null);
         hasY.setComment("Y coordinate information per station", null);
         hasY.setDomain(Station);
