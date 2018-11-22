@@ -83,10 +83,10 @@ public class CreateModel {
         County.setComment("County information", null);
 
         DatatypeProperty area = ontology.createDatatypeProperty(baseNs + "area");
-        area.setDomain(County);
-        area.setRange(XSD.xfloat);
         area.setLabel("area", null);
         area.setComment("County Area", null);
+        area.setDomain(County);
+        area.setRange(XSD.xfloat);
 
         SymmetricProperty adjacentTo = ontology.createSymmetricProperty(baseNs + "adjacentTo");
         adjacentTo.setDomain(County);
@@ -222,16 +222,18 @@ public class CreateModel {
         Crime.setDisjointWith(Kidnapping);
         
         //Station.setDisjointWith(Division);
-
+        
         DatatypeProperty hasX = ontology.createDatatypeProperty(baseNs + "hasX");
         hasX.setLabel("hasX", null);
         hasX.setComment("X coordinate information per station", null);
         hasX.setDomain(Station);
+        hasX.setRange(XSD.xfloat);
 
         DatatypeProperty hasY = ontology.createDatatypeProperty(baseNs + "hasY");
         hasY.setLabel("hasY", null);
         hasY.setComment("Y coordinate information per station", null);
         hasY.setDomain(Station);
+        hasY.setRange(XSD.xfloat);
 
         OntProperty hasCrime = ontology.createObjectProperty(baseNs + "hasCrime");
         hasCrime.setLabel("hasCrime", null);
@@ -266,7 +268,7 @@ public class CreateModel {
         hasDivisions.setRange(Division);
         */
         
-        DatatypeProperty inCounty = ontology.createDatatypeProperty(baseNs + "inCounty");
+        ObjectProperty inCounty = ontology.createObjectProperty(baseNs + "inCounty");
         inCounty.setDomain(Station);
         inCounty.setRange(County);
         inCounty.setLabel("inCounty", null);
@@ -422,7 +424,6 @@ public class CreateModel {
             info.add(enLabel);
             info.add(gaLabel);
             info.add(geometry);
-            // TODO: AREA unit correctness, add approximate scale for now. based on dublin
             float scale = 7365.0f;
             info.add((float) geometry.calculateArea2D() * scale);
 
@@ -472,14 +473,14 @@ public class CreateModel {
 
         Stations.forEach((station) -> {
             Individual ind = ontology.createIndividual(baseNs + station.Name, Station);
-            //ind.addProperty(hasX, "" + station.X);
-            //ind.addProperty(hasY, "" + station.Y);
-            ind.addLiteral(hasX, ontology.createTypedLiteral(station.X, XSDDatatype.XSDnonNegativeInteger));
-            ind.addLiteral(hasY, ontology.createTypedLiteral(station.Y, XSDDatatype.XSDnonNegativeInteger));
+            ind.addLiteral(hasX, (float) station.X);
+            ind.addLiteral(hasY, (float) station.Y);
+            //ind.addLiteral(hasX, ontology.createTypedLiteral(station.X, XSDDatatype.XSDfloat));
+            //ind.addLiteral(hasY, ontology.createTypedLiteral(station.Y, XSDDatatype.XSDfloat));
             if (station.County != null) {
                 //String name = station.division.Name.replace('\'', ' ').replace('"', ' ').trim();
                 String name = station.County;
-                ind.addProperty(inCounty, name);
+                ind.addProperty(inCounty, name.replace('"', ' ').trim());
             }
             if (station.crime != null) {
                 String crimes = "";
@@ -635,7 +636,7 @@ public class CreateModel {
             if (nextPredicate.endsWith("row") || nextPredicate.endsWith("%20html%3E")) {
 
             } else if (nextPredicate.endsWith("#Station")) {
-                station.setName(next.getObject().toString().replace(' ', '_'));
+                station.setName(next.getObject().toString().replace(' ', '_').replace('"', ' ').trim());
             } else if (nextPredicate.endsWith("#x")) {
                 String object = next.getObject().toString();
                 station.setX(Float.parseFloat((object.split("\"")[1])));
