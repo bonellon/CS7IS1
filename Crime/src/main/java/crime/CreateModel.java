@@ -458,10 +458,12 @@ public class CreateModel {
         Stations.forEach((station) -> {
             Individual ind = ontology.createIndividual(baseNs + station.Name, Station);
             //ind.addProperty(hasX, "" + station.X);
-            ind.addProperty(hasY, "" + station.Y);
+            //ind.addProperty(hasY, "" + station.Y);
             ind.addLiteral(hasX, ontology.createTypedLiteral(station.X, XSDDatatype.XSDnonNegativeInteger));
+            ind.addLiteral(hasY, ontology.createTypedLiteral(station.Y, XSDDatatype.XSDnonNegativeInteger));
             if (station.division != null) {
-                ind.addProperty(inDivision, station.division.Name);
+                String name = station.division.Name.replace('\'', ' ').replace('"', ' ').trim();
+                ind.addProperty(inDivision, name);
             }
             if (station.crime != null) {
                 String crimes = "";
