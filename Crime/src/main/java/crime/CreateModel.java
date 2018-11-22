@@ -223,17 +223,15 @@ public class CreateModel {
         
         //Station.setDisjointWith(Division);
         
-        DatatypeProperty hasX = ontology.createDatatypeProperty(baseNs + "hasX");
+        ObjectProperty hasX = ontology.createObjectProperty(baseNs + "hasX");
         hasX.setLabel("hasX", null);
         hasX.setComment("X coordinate information per station", null);
         hasX.setDomain(Station);
-        hasX.setRange(XSD.xfloat);
 
-        DatatypeProperty hasY = ontology.createDatatypeProperty(baseNs + "hasY");
+        ObjectProperty hasY = ontology.createObjectProperty(baseNs + "hasY");
         hasY.setLabel("hasY", null);
         hasY.setComment("Y coordinate information per station", null);
         hasY.setDomain(Station);
-        hasY.setRange(XSD.xfloat);
 
         OntProperty hasCrime = ontology.createObjectProperty(baseNs + "hasCrime");
         hasCrime.setLabel("hasCrime", null);
