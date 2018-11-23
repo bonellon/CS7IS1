@@ -14,4 +14,4 @@ Github Repository: https://github.com/bonellon/CS7IS1
 
 3. Running Query UI
 
->> Run Crime\src\main\java\crimeKDEFrontEnd.java
+>> Run Crime\src\main\java\crime\KDEFrontEnd.java
