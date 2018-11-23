@@ -1,4 +1,5 @@
-# CS7IS1
+# CS7IS1 - Group B Assignment
+Github Repository: https://github.com/bonellon/CS7IS1
 
 1. Uplifting Dataset
 
