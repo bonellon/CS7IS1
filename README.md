@@ -3,7 +3,7 @@ Github Repository: https://github.com/bonellon/CS7IS1
 
 1. Uplifting Dataset
 
->> Run Crime\src\main\java\crime\CreateModel.java\crime\CSV2RDFConversion.java
+>> Run Crime\src\main\java\crime\CSV2RDFConversion.java
 
 2. Creating the ontology 
 
@@ -14,4 +14,4 @@ Github Repository: https://github.com/bonellon/CS7IS1
 
 3. Running Query UI
 
->> Run Crime\src\main\java\crime\CreateModel.java\crimeKDEFrontEnd.java
+>> Run Crime\src\main\java\crimeKDEFrontEnd.java
