@@ -89,10 +89,10 @@ public class CreateModel {
         area.setRange(XSD.xfloat);
 
         SymmetricProperty adjacentTo = ontology.createSymmetricProperty(baseNs + "adjacentTo");
-        adjacentTo.setDomain(County);
-        adjacentTo.setRange(County);
         adjacentTo.setLabel("adjacentTo", null);
         adjacentTo.setComment("Adject to list of counties", null);
+        adjacentTo.setDomain(County);
+        adjacentTo.setRange(County);
 
 /*Division 
         OntClass Division = ontology.createClass(baseNs + "Division");
@@ -410,7 +410,6 @@ public class CreateModel {
                 }
             }
 
-            // WKT
             Resource geoResource = countyRDF.listObjectsOfProperty(res, hasGeometry).next().asResource();
             String wkt = countyRDF.listObjectsOfProperty(geoResource, asWKT).next().toString();
             wkt = wkt.substring(0, wkt.indexOf("^^"));
@@ -561,11 +560,11 @@ public class CreateModel {
                 try {
                     point = convertToLatLong(station.X, station.Y);
                 } catch (FactoryException ex) {
-                    Logger.getLogger(CreateModel.class.getName()).log(Level.SEVERE, null, ex);
+                    System.out.println("FactoryException: "+ ex);
                 } catch (MismatchedDimensionException ex) {
-                    Logger.getLogger(CreateModel.class.getName()).log(Level.SEVERE, null, ex);
+                    System.out.println("MismatchedDimensionException: "+ ex);
                 } catch (TransformException ex) {
-                    Logger.getLogger(CreateModel.class.getName()).log(Level.SEVERE, null, ex);
+                    System.out.println("TransformException: "+ ex);
                 }
 
                 OperatorWithin within = OperatorWithin.local();
@@ -596,10 +595,7 @@ public class CreateModel {
         PipedRDFIterator<Triple> iter = new PipedRDFIterator<>();
         final PipedRDFStream<Triple> inputStream = new PipedTriplesStream(iter);
 
-        // PipedRDFStream and PipedRDFIterator need to be on different threads
         ExecutorService executor = Executors.newSingleThreadExecutor();
-
-        // Create a runnable for our parser thread
         Runnable parser = new Runnable() {
 
             @Override
@@ -695,24 +691,13 @@ public class CreateModel {
     }
 
     private static Point convertToLatLong(float easting, float northing) throws FactoryException, MismatchedDimensionException, TransformException {
-//        CRSAuthorityFactory crsFac = ReferencingFactoryFinder.getCRSAuthorityFactory("EPSG", null);
-//
-//        CoordinateReferenceSystem wgs84crs = crsFac.createCoordinateReferenceSystem("EPSG:27700");
-//
-//        CoordinateOperation op = new DefaultCoordinateOperationFactory().createOperation(osgbCrs, wgs84crs);
-//
-//        DirectPosition eastNorth = new GeneralDirectPosition(easting, northing);
-//        DirectPosition latLng = op.getMathTransform().transform(eastNorth, eastNorth);
-//
-//        double latitude = latLng.getOrdinate(0);
-//        double longitude = latLng.getOrdinate(1);
-//        
+        
+        //Need to convert X (Easting), Y (Northing) coordinates into latitude/longitude
         IrishRef irish = new IrishRef(easting, northing);
         LatLng latLng = irish.toLatLng();
         latLng.toWGS84();
 
-        Point p = new Point(latLng.getLongitude(), latLng.getLatitude());
-        return p;
+        return new Point(latLng.getLongitude(), latLng.getLatitude());
     }
 
     public static void writeToFile(String filename)
