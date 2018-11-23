@@ -19,4 +19,4 @@ VOWL Representation: VOWL.png
 
 3. Running Query UI
 
->> Run Crime\src\main\java\crime\crimeKDEFrontEnd.java
+>> Run Crime\src\main\java\crime\KDEFrontEnd.java
